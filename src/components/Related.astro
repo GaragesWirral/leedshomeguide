@@ -1,0 +1,52 @@
+---
+// Related links at the foot of trade, job and guide pages. Built only from pages that exist:
+// live trades (trades.json + listings), guides (src/content/articles) and jobs (src/data/jobs.json).
+import { getCollection } from 'astro:content';
+import { categories, groupOf, jobsFor, jobPath, type Category } from '../lib/data';
+interface Props { trade?: Category; guideId?: string; jobSlug?: string }
+const { trade, guideId, jobSlug } = Astro.props;
+const arts = await getCollection('articles');
+const tradeOfArt = (a: any) => categories.find((c) => c.slug === a.data.related || c.key === a.data.related);
+const cur = trade || (guideId ? tradeOfArt(arts.find((a) => a.id === guideId)) : undefined);
+const group = cur ? groupOf(cur.key) : undefined;
+// Trades: the guide's own trade first (on a guide or job page), then others in the same group.
+let trades: Category[] = [];
+if (cur && (guideId || jobSlug)) trades.push(cur);
+if (group) trades.push(...group.live.filter((c) => c.key !== cur?.key));
+let tradesLabel = group ? `More ${group.name.toLowerCase()} trades` : 'Leeds trades';
+if (guideId || jobSlug) tradesLabel = 'Find a Leeds trade';
+if (trades.length === 0) { trades = categories.filter((c) => c.key !== cur?.key).slice(0, 4); tradesLabel = 'Other Leeds trades'; }
+// Guides: same trade first, then cost guides for other trades in the same group.
+const others = arts.filter((a) => a.id !== guideId);
+const sameTrade = others.filter((a) => cur && tradeOfArt(a)?.key === cur.key);
+const sameGroup = others.filter((a) => !sameTrade.includes(a) && a.data.kicker === 'Costs' && group && group.live.some((c) => c.key === tradeOfArt(a)?.key));
+const guides = [...sameTrade, ...sameGroup].slice(0, 5);
+const jobs = cur ? jobsFor(cur.key).filter((j) => j.slug !== jobSlug) : [];
+const short = (s: string) => s.replace(/\s*\|\s*Leeds Home Guide$/, '');
+---
+<section class="rel" aria-labelledby="rel-h">
+  <div class="wrap">
+    <h2 id="rel-h" class="rel-h">Related</h2>
+    <div class="rel-grid">
+      {jobs.length > 0 && cur && (
+        <div class="rel-col">
+          <h3>{cur.name} jobs</h3>
+          <ul class="rel-list">{jobs.map((j) => <li><a href={jobPath(j)}>{j.name}</a></li>)}</ul>
+        </div>
+      )}
+      {trades.length > 0 && (
+        <div class="rel-col">
+          <h3>{tradesLabel}</h3>
+          <ul class="rel-list">{trades.map((c) => <li><a href={`/trades/${c.slug}/`}>{c.name} in Leeds</a></li>)}</ul>
+          {group && <a class="rel-all" href={`/trades/${group.slug}/`}>See all {group.name.toLowerCase()}</a>}
+        </div>
+      )}
+      <div class="rel-col">
+        <h3>{guides.length ? 'Related guides' : 'Cost guides'}</h3>
+        {guides.length > 0 && <ul class="rel-list">{guides.map((a) => <li><a href={`/guides/${a.id}/`}>{short(a.data.h1)}</a></li>)}</ul>}
+        {guides.length === 0 && <p class="rel-none">More Leeds cost guides are on the way.</p>}
+        <a class="rel-all" href="/guides/">See all guides</a>
+      </div>
+    </div>
+  </div>
+</section>

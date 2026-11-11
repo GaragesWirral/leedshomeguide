@@ -1,0 +1,165 @@
+{
+ "_readme": "One source for every trade on the site. A trade with \"listing\" links to its page (src/data/listings/<listing>.json). A trade without \"listing\" shows as coming soon. To add a trade: add its listing JSON, then put its key in \"listing\" here. Group order and trade order here is the order on the site.",
+ "groups": [
+  {
+   "key": "repairs",
+   "name": "Repairs",
+   "slug": "repairs",
+   "line": "Roofs, leaks, wiring and repairs around the home",
+   "intro": "Trades for repairs around the home: a leaking roof, a dripping pipe, a tripping fuse board or a lock that will not turn.",
+   "trades": [
+    {
+     "name": "Roofers",
+     "listing": "roofers"
+    },
+    {
+     "name": "Plumbers",
+     "listing": "plumbers"
+    },
+    {
+     "name": "Electricians",
+     "listing": "electricians"
+    },
+    {
+     "name": "Boiler and heating engineers"
+    },
+    {
+     "name": "Locksmiths"
+    },
+    {
+     "name": "Plasterers"
+    },
+    {
+     "name": "Handymen"
+    },
+    {
+     "name": "Glaziers"
+    }
+   ]
+  },
+  {
+   "key": "improvements",
+   "name": "Improvements",
+   "slug": "improvements",
+   "line": "Building work, kitchens, bathrooms and decorating",
+   "intro": "Trades for bigger projects that change your home: extensions, loft conversions, new kitchens and bathrooms, and decorating.",
+   "trades": [
+    {
+     "name": "Builders"
+    },
+    {
+     "name": "Loft conversions"
+    },
+    {
+     "name": "Kitchen fitters"
+    },
+    {
+     "name": "Bathroom fitters"
+    },
+    {
+     "name": "Painters and decorators"
+    },
+    {
+     "name": "Joiners and carpenters"
+    },
+    {
+     "name": "Windows and doors"
+    },
+    {
+     "name": "Flooring fitters"
+    }
+   ]
+  },
+  {
+   "key": "outdoor",
+   "name": "Outdoor",
+   "slug": "outdoor",
+   "line": "Gardens, driveways, fencing and trees",
+   "intro": "Trades for the outside of your home: gardens, driveways and patios, fences and trees.",
+   "trades": [
+    {
+     "name": "Landscapers"
+    },
+    {
+     "name": "Gardeners"
+    },
+    {
+     "name": "Driveways and patios"
+    },
+    {
+     "name": "Fencing"
+    },
+    {
+     "name": "Tree surgeons"
+    }
+   ]
+  },
+  {
+   "key": "cleaning",
+   "name": "Cleaning & Services",
+   "slug": "cleaning-services",
+   "line": "Cleaning, removals, waste and pest control",
+   "intro": "Services that keep a home running: cleaning, moving house, clearing waste and dealing with pests.",
+   "trades": [
+    {
+     "name": "Cleaners"
+    },
+    {
+     "name": "Carpet cleaners"
+    },
+    {
+     "name": "Window cleaners"
+    },
+    {
+     "name": "Gutter cleaning"
+    },
+    {
+     "name": "Removals"
+    },
+    {
+     "name": "Skip hire"
+    },
+    {
+     "name": "Rubbish removal"
+    },
+    {
+     "name": "Pest control"
+    }
+   ]
+  },
+  {
+   "key": "specialist",
+   "name": "Specialist",
+   "slug": "specialist",
+   "line": "Asbestos, damp, drainage and other specialist work",
+   "intro": "Specialist trades for jobs that need particular training or equipment, such as asbestos, damp and drainage.",
+   "trades": [
+    {
+     "name": "Asbestos removal",
+     "listing": "asbestos"
+    },
+    {
+     "name": "Damp proofing"
+    },
+    {
+     "name": "Damp and mould"
+    },
+    {
+     "name": "Garage removal"
+    },
+    {
+     "name": "Drainage"
+    },
+    {
+     "name": "Scaffolding"
+    },
+    {
+     "name": "Chimney sweeps"
+    },
+    {
+     "name": "EV charger installers"
+    }
+   ]
+  }
+ ]
+}

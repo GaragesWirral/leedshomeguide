@@ -1,25 +1,31 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { categories, icons, comingSoon, UPDATED } from '../../lib/data';
+import { groups, iconFor, UPDATED } from '../../lib/data';
 ---
-<Base title="Find a trusted trade in Leeds | Leeds Home Guide" description="Hand picked Leeds roofers, plumbers, electricians and asbestos specialists, 3 firms per trade, with our checks shown on each card. Free to use." path="/trades/">
+<Base title="Find a trusted trade in Leeds | Leeds Home Guide" description="Hand picked Leeds roofers, plumbers, electricians and asbestos specialists, 3 firms per trade, grouped into repairs, improvements, outdoor, cleaning and specialist trades. Free to use." path="/trades/">
   <section class="page-head"><div class="wrap">
     <p class="crumbs"><a href="/">Home</a> › Find a trade</p>
     <h1>Find a trade in Leeds</h1>
     <p class="lede">Each list is picked by us on <a href="/how-we-choose/">published criteria</a>. Updated {UPDATED}.</p>
+    <ul class="chips grp-jump">{groups.map((g) => <li><a href={`#${g.slug}`}>{g.name}</a></li>)}</ul>
   </div></section>
   <div class="wrap">
-    <div class="grid two">
-      {categories.map((c) => (
-        <a class="card trade-card" href={`/trades/${c.slug}/`}>
-          <span class="tradeicon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" set:html={icons[c.key]} /></span>
-          <h2 class="card-h">{c.title}</h2>
-          <p>{c.intro}</p>
-          <p class="meta">{c.firms.map((f) => f.name).slice(0, 3).join(', ')}</p>
-        </a>
-      ))}
-    </div>
-    <h2 class="soon-h">Coming soon</h2>
-    <ul class="chips pills">{comingSoon.map((s) => <li><span class="chip pill">{s}</span></li>)}</ul>
+    {groups.map((g) => (
+      <section class="grp-sec" id={g.slug} aria-labelledby={`h-${g.slug}`}>
+        <div class="hg-head grp-head"><h2 id={`h-${g.slug}`}>{g.name}</h2><a class="hg-more" href={`/trades/${g.slug}/`}>See all</a></div>
+        <p class="grp-line">{g.line}</p>
+        {g.live.length > 0 && (
+          <ul class="hg-services grp-services">
+            {g.live.map((c) => (
+              <li><a class={`hg-svc is-${c.key}`} href={`/trades/${c.slug}/`}>
+                <span class="hg-svc-art" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" set:html={iconFor(c.key)} /></span>
+                <span class="hg-svc-body"><span class="hg-svc-name">{c.name}</span><span class="hg-svc-line">{c.firms.map((f) => f.name).slice(0, 3).join(', ')}</span></span>
+              </a></li>
+            ))}
+          </ul>
+        )}
+        {g.soon.length > 0 && <p class="grp-soon"><span>Coming soon:</span> {g.soon.join(', ')}</p>}
+      </section>
+    ))}
   </div>
 </Base>

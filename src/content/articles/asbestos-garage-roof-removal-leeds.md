@@ -56,7 +56,7 @@ There are no published Leeds price lists for garage roofs, so this cost breakdow
 
 The asbestos garage roof replacement cost, for a new roof once the old one is off, is not included in these figures.
 
-**[Preview]** We are collecting written quotes from Leeds firms for single and double garage roofs, with and without a replacement roof. We will add real Leeds price ranges here before the guide goes live.
+These are national figures, not Leeds quotes. To get a Leeds price for your garage, ask two or three firms for a written quote that lists removal, wrapping, transport and disposal separately, and says whether a replacement roof is included.
 
 ## What changes the cost of removing garage roofs
 

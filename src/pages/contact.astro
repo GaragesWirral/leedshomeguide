@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import { CONTACT_EMAIL } from '../site.config';
+import LeadForm from '../components/LeadForm.astro';
 ---
 <Base title="Contact Leeds Home Guide | Corrections and listing requests" description="How to contact Leeds Home Guide about a correction, a listing request or a question about one of our Leeds trade lists or cost guides." path="/contact/">
   <section class="page-head"><div class="wrap narrow"><p class="crumbs"><a href="/">Home</a> › Contact</p><h1>Contact us</h1><p class="lede">For corrections, listing requests and questions about the guide.</p></div></section>
@@ -14,14 +15,6 @@ import { CONTACT_EMAIL } from '../site.config';
     </ul>
     <p>We cannot give advice on a specific job, quote for work or pass on messages to the firms we list. Please contact the firm directly using the details on its card.</p>
     <h2>Contact form</h2>
-    <form class="form-soon" aria-describedby="form-soon-note" onsubmit="return false">
-      <p id="form-soon-note" class="notice"><b>Form coming soon.</b> Until then, please email us at the address above.</p>
-      <fieldset disabled>
-        <label>Your name<input type="text" name="name" autocomplete="name" /></label>
-        <label>Your email<input type="email" name="email" autocomplete="email" /></label>
-        <label>Your message<textarea name="message"></textarea></label>
-        <button class="btn" type="submit" disabled>Form coming soon</button>
-      </fieldset>
-    </form>
+    <LeadForm kind="contact" />
   </article>
 </Base>

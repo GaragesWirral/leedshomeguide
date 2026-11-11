@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import { getCollection, render } from 'astro:content';
 import { categories } from '../../lib/data';
+import Related from '../../components/Related.astro';
 export async function getStaticPaths() {
   const all = await getCollection('articles');
   return all.map((a) => ({ params: { slug: a.id }, props: { a } }));
@@ -44,4 +45,5 @@ const toc = headings.filter((h) => h.depth === 2);
       {rel && (<div class="side-box sticky"><h2>Find a local Leeds trade</h2><p>See our list of {rel.title.toLowerCase().replace('best ', '').replace(' leeds', ' Leeds')}, picked on published criteria.</p><a class="btn" href={`/trades/${rel.slug}/`}>See the list</a></div>)}
     </aside>
   </div>
+  <Related guideId={a.id} />
 </Base>

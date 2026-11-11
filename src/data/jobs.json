@@ -1,0 +1,4 @@
+{
+ "_readme": "Job pages inside a trade, e.g. emergency plumber. Each entry builds /trades/<trade slug>/<slug>/ and is linked from the trade page's related links. Fields: trade (listing key, e.g. plumbers), slug, name, title, description, h1, intro, sections [{h2, p: [..]}], faqs [{q, a}].",
+ "jobs": []
+}

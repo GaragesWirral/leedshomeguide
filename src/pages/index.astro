@@ -1,7 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import Registers from '../components/Registers.astro';
-import { categories, icons, comingSoon } from '../lib/data';
+import { categories, icons, groups } from '../lib/data';
 const site = { '@context': 'https://schema.org', '@type': 'WebSite', name: 'Leeds Home Guide', url: 'https://leedshomeguide.co.uk/', inLanguage: 'en-GB' };
 const tips = [
   ['Get two or three written quotes.', 'A clear quote lists the work, the materials, waste removal and when payment is due. Be wary of anyone who wants most of the money up front.'],
@@ -39,7 +39,6 @@ const short: Record<string, string> = {
 };
 const costs = [
   { title: 'Asbestos garage roof removal', price: 'Disposal from £72.31', note: 'Leeds council disposal charges, plus what a contractor adds', href: '/guides/asbestos-garage-roof-removal-leeds/', icon: 'asbestos' },
-  { title: 'New boiler', price: 'Coming soon', note: 'Typical Leeds prices for a replacement boiler', icon: 'plumbers' },
 ];
 const how = [
   { t: 'Search for your job', d: 'Type the trade you need, or pick one of the popular services above.' },
@@ -82,7 +81,17 @@ const how = [
           </a></li>
         ))}
       </ul>
-      <p class="hg-soon"><span>Coming soon:</span> {comingSoon.join(', ')}</p>
+      <h3 class="grp-cols-h">Browse trades by type</h3>
+      <div class="grp-cols">
+        {groups.map((g) => (
+          <div class="grp-col">
+            <h4><a href={`/trades/${g.slug}/`}>{g.name}</a></h4>
+            {g.live.length > 0 && <ul>{g.live.map((c) => <li><a href={`/trades/${c.slug}/`}>{c.name}</a></li>)}</ul>}
+            {g.soon.length > 0 && <p class="grp-col-soon"><span>Coming soon</span>{g.soon.slice(0, g.live.length ? 3 : 5).join(', ')}{g.soon.length > (g.live.length ? 3 : 5) ? ' and more' : ''}</p>}
+            <a class="hg-more grp-all" href={`/trades/${g.slug}/`}>See all</a>
+          </div>
+        ))}
+      </div>
     </div>
   </section>
 

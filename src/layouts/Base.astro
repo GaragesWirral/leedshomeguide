@@ -1,7 +1,7 @@
 ---
 import '../styles/global.css';
-interface Props { title: string; description: string; path: string; schema?: object[]; ogType?: string }
-const { title, description, path, schema = [], ogType = 'website' } = Astro.props;
+interface Props { title: string; description: string; path: string; schema?: object[]; ogType?: string; noindex?: boolean }
+const { title, description, path, schema = [], ogType = 'website', noindex = false } = Astro.props;
 const PREVIEW = (process.env.PREVIEW ?? '1') === '1';
 const canonical = new URL(path, Astro.site).href;
 const nav = [
@@ -18,7 +18,7 @@ const org = { '@context': 'https://schema.org', '@type': 'Organization', name: '
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{title}</title>
   <meta name="description" content={description} />
-  {PREVIEW ? <meta name="robots" content="noindex, nofollow" /> : <meta name="robots" content="index, follow, max-image-preview:large" />}
+  {PREVIEW ? <meta name="robots" content="noindex, nofollow" /> : noindex ? <meta name="robots" content="noindex, follow" /> : <meta name="robots" content="index, follow, max-image-preview:large" />}
   <link rel="canonical" href={canonical} />
   <meta property="og:type" content={ogType} />
   <meta property="og:title" content={title} />

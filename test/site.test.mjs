@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert';
-import { readFileSync, existsSync } from 'node:fs';
+import { readFileSync, existsSync, readdirSync } from 'node:fs';
 const OUT = process.env.OUT || 'dist';
 const pages = ['index.html', 'trades/roofers/index.html', 'trades/plumbers/index.html', 'trades/electricians/index.html', 'trades/asbestos-removal/index.html', 'guides/asbestos-garage-roof-removal-leeds/index.html', 'guides/selective-licensing-leeds/index.html'];
 test('core pages exist with title, description, viewport, schema', () => {
@@ -138,18 +138,25 @@ test('no page says a firm is HSE licensed without our check, or promises a licen
   }
   assert.match(readFileSync(`${OUT}/how-we-choose/index.html`, 'utf8'), /we show on the card where a firm is on the HSE licence list/);
 });
-test('contact and privacy use the configured email, no personal details, no preview placeholders; form disabled', () => {
+test('contact and privacy use the configured email, no personal details, no preview placeholders; forms post to /api/form', () => {
   const c = readFileSync(`${OUT}/contact/index.html`, 'utf8');
   const pr = readFileSync(`${OUT}/privacy/index.html`, 'utf8');
   const gl = readFileSync(`${OUT}/get-listed/index.html`, 'utf8');
   for (const [n, h] of [['contact', c], ['privacy', pr], ['get-listed', gl]]) {
     assert.match(h, /href="mailto:hello@leedshomeguide\.co\.uk"/, `email on ${n}`);
     assert.ok(!/\[Preview|placeholder\]/i.test(h), `placeholder on ${n}`);
-    assert.ok(!/Joseph|Gough|Bramley|LS13|0113|\+44|07\d{3}/.test(h.replace(/<script[\s\S]*?<\/script>/g, '')), `personal detail on ${n}`);
+    assert.ok(!/Joseph|Gough|Bramley|LS13|0113|\+44|07\d{3}/.test(h.replace(/<script[\s\S]*?<\/script>/g, '').replace(/<datalist[\s\S]*?<\/datalist>/g, '')), `personal detail on ${n}`);
   }
-  assert.match(c, /<fieldset disabled/);
-  assert.match(c, /Form coming soon/);
-  assert.ok(!/<form[^>]+action=/.test(c), 'form posts somewhere');
+  for (const [n, h] of [['contact', c], ['get-listed', gl]]) {
+    assert.match(h, /<form[^>]+action="\/api\/form"[^>]+method="post"/, `form on ${n}`);
+    assert.match(h, /name="company_fax"/, `honeypot on ${n}`);
+    assert.match(h, /name="consent"[^>]*required/, `consent box on ${n}`);
+    assert.match(h, /class="lf-thanks"/, `thank-you state on ${n}`);
+    assert.ok(!/coming soon/i.test(h), `coming soon on ${n}`);
+    assert.ok(!/gmail|josephgough/i.test(h), `personal address in ${n}`);
+  }
+  for (const f of ['business', 'trade', 'name', 'phone', 'email', 'website', 'area', 'message']) assert.match(gl, new RegExp(`name="${f}"`), `listing field ${f}`);
+  assert.match(pr, /FormSubmit/);
   assert.match(pr, /<h2[^>]*>Who we are<\/h2>\s*<p>This website is run by Leeds Home Guide/);
 });
 test('register-checks line says which checks we made, never that every firm passes them', () => {
@@ -185,4 +192,35 @@ test('honesty sweep: no copy says every listed firm was checked, insured or vett
     const h = readFileSync(`${OUT}/${p}`, 'utf8');
     assert.ok(!banned.test(h), `every-firm-checked claim on ${p}: ${(h.match(banned) || [])[0]}`);
   }
+});
+
+test('trades are grouped from one data file, each group with a see-all link that exists', () => {
+  const data = JSON.parse(readFileSync('src/data/trades.json', 'utf8'));
+  assert.deepStrictEqual(data.groups.map((g) => g.name), ['Repairs', 'Improvements', 'Outdoor', 'Cleaning & Services', 'Specialist']);
+  const t = readFileSync(`${OUT}/trades/index.html`, 'utf8');
+  const home = readFileSync(`${OUT}/index.html`, 'utf8');
+  for (const g of data.groups) {
+    assert.ok(existsSync(`${OUT}/trades/${g.slug}/index.html`), `group page ${g.slug}`);
+    for (const h of [t, home]) assert.ok(h.includes(`href="/trades/${g.slug}/"`), `see all for ${g.slug}`);
+    assert.ok(t.includes(`id="${g.slug}"`), `section ${g.slug} on /trades/`);
+  }
+});
+test('every trade and guide page ends with a related links block', () => {
+  const ps = readFileSync(`${OUT}/sitemap.xml`, 'utf8').match(/<loc>[^<]+<\/loc>/g).map((l) => l.replace(/<\/?loc>/g, '').replace('https://leedshomeguide.co.uk/', ''));
+  const targets = ps.filter((p) => /^(trades|guides)\/[^/]+\/$/.test(p) && !/^trades\/(repairs|improvements|outdoor|cleaning-services|specialist)\/$/.test(p));
+  assert.ok(targets.length >= 6);
+  for (const p of targets) assert.match(readFileSync(`${OUT}/${p}index.html`, 'utf8'), /<section class="rel"/, p);
+});
+test('no internal link points at a page that does not exist', () => {
+  const walk = (d) => readdirSync(d, { withFileTypes: true }).flatMap((e) => e.isDirectory() ? walk(`${d}/${e.name}`) : [`${d}/${e.name}`]);
+  const bad = [];
+  for (const f of walk(OUT).filter((f) => f.endsWith('.html'))) {
+    for (const m of readFileSync(f, 'utf8').matchAll(/href="(\/[^"#?]*)/g)) {
+      const u = m[1];
+      if (u.startsWith('/api/')) continue;
+      const ok = existsSync(`${OUT}${u}`) && (!u.endsWith('/') || existsSync(`${OUT}${u}index.html`));
+      if (!ok) bad.push(`${f.replace(OUT, '')} -> ${u}`);
+    }
+  }
+  assert.deepStrictEqual(bad, []);
 });
