@@ -1,0 +1,47 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection, render } from 'astro:content';
+import { categories } from '../../lib/data';
+export async function getStaticPaths() {
+  const all = await getCollection('articles');
+  return all.map((a) => ({ params: { slug: a.id }, props: { a } }));
+}
+const { a } = Astro.props;
+const { Content, headings } = await render(a);
+const d = a.data;
+const path = `/guides/${a.id}/`;
+const url = `https://leedshomeguide.co.uk${path}`;
+const rel = categories.find((c) => c.slug === d.related || c.key === d.related);
+const schema: object[] = [
+  { '@context': 'https://schema.org', '@type': 'Article', headline: d.h1, description: d.description, dateModified: d.updatedISO, datePublished: d.updatedISO, inLanguage: 'en-GB', mainEntityOfPage: url, author: { '@type': 'Organization', name: 'Leeds Home Guide' }, publisher: { '@type': 'Organization', name: 'Leeds Home Guide' } },
+  { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://leedshomeguide.co.uk/' },
+    { '@type': 'ListItem', position: 2, name: 'Guides', item: 'https://leedshomeguide.co.uk/guides/' },
+    { '@type': 'ListItem', position: 3, name: d.h1, item: url } ] },
+];
+if (d.faqs.length) schema.push({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: d.faqs.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) });
+const toc = headings.filter((h) => h.depth === 2);
+---
+<Base title={d.title} description={d.description} path={path} schema={schema} ogType="article">
+  <section class="page-head article-head">
+    <div class="wrap">
+      <p class="crumbs"><a href="/">Home</a> › <a href="/guides/">Guides</a> › {d.category}</p>
+      <h1>{d.h1}</h1>
+      {d.intro && <p class="landlord-intro">{d.intro}</p>}
+      <p class="byline"><span class="by-mark" aria-hidden="true">LH</span><span><b>By Leeds Home Guide</b><span class="meta">Last checked {d.updated} · {d.kicker}</span></span></p>
+    </div>
+  </section>
+  <div class="wrap with-side">
+    <article class="main-col prose">
+      {d.quick && (<table class="cost-table"><thead><tr><th colspan="2">{d.quick.label}</th></tr></thead><tbody><tr><td>Cost</td><td class="big">{d.quick.value}</td></tr><tr><td colspan="2" class="note">{d.quick.note}</td></tr></tbody></table>)}
+      <nav class="toc" aria-label="Contents"><b>On this page</b><ol>{toc.map((h) => <li><a href={`#${h.slug}`}>{h.text}</a></li>)}</ol></nav>
+      <Content />
+      {d.faqs.length > 0 && (<section class="faq"><h2>Questions people ask</h2>{d.faqs.map((f) => <details><summary>{f.q}</summary><p>{f.a}</p></details>)}</section>)}
+      <section class="sources"><h2>Sources</h2><ul>{d.sources.map((s) => <li><a href={s.url} rel="noopener" target="_blank">{s.name}</a></li>)}</ul>
+      <p class="meta">We check each source on the date shown. Rules and charges change, so confirm on the official page before you act.</p></section>
+    </article>
+    <aside class="side-col">
+      {rel && (<div class="side-box sticky"><h2>Find a local Leeds trade</h2><p>See our list of {rel.title.toLowerCase().replace('best ', '').replace(' leeds', ' Leeds')}, picked on published criteria.</p><a class="btn" href={`/trades/${rel.slug}/`}>See the list</a></div>)}
+    </aside>
+  </div>
+</Base>

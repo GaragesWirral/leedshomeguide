@@ -1,0 +1,24 @@
+---
+import Base from '../layouts/Base.astro';
+import Registers from '../components/Registers.astro';
+---
+<Base title="How we check Leeds businesses | Leeds Home Guide" description="The criteria Leeds Home Guide uses to pick the trades in its lists, how each card shows which checks we have made, and how to check a firm yourself." path="/how-we-choose/">
+  <section class="page-head"><div class="wrap narrow"><p class="crumbs"><a href="/">Home</a> › How we check</p><h1>How we check businesses</h1><p class="lede">Our lists are only useful if you can trust them, so here is exactly how they are made.</p></div></section>
+  <article class="wrap narrow prose">
+    <h2>What we check</h2>
+    <ul>
+      <li>The business is based in Leeds or regularly works here.</li>
+      <li>Its company status on Companies House, for limited companies.</li>
+      <li>Trade registrations: where we have looked a firm up on Gas Safe, NICEIC, NAPIT, TrustMark or the HSE licence list, the card says so.</li>
+      <li>Public liability insurance: ask the firm to show it before work starts.</li>
+      <li>For asbestos firms, we show on the card where a firm is on the HSE licence list.</li>
+      <li>Google reviews, read for patterns, not just counted. Where we have done this, the card says so.</li>
+    </ul>
+    <h2>The registers, so you can check too</h2>
+    <Registers />
+    <h2>How many firms we list</h2>
+    <p>We list up to 3 firms per trade and show on each card which checks we have made.</p>
+    <h2>Corrections</h2>
+    <p>Spotted something wrong? <a href="/contact/">Contact us</a> with the page and the source, and we will check it and update the page. Every guide shows the date we last checked it.</p>
+  </article>
+</Base>

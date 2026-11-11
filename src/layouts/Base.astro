@@ -1,0 +1,77 @@
+---
+import '../styles/global.css';
+interface Props { title: string; description: string; path: string; schema?: object[]; ogType?: string }
+const { title, description, path, schema = [], ogType = 'website' } = Astro.props;
+const PREVIEW = (process.env.PREVIEW ?? '1') === '1';
+const canonical = new URL(path, Astro.site).href;
+const nav = [
+  { href: '/trades/', label: 'Find a trade' },
+  { href: '/guides/', label: 'Cost guides' },
+  { href: '/how-we-choose/', label: 'How we check' },
+];
+const org = { '@context': 'https://schema.org', '@type': 'Organization', name: 'Leeds Home Guide', url: 'https://leedshomeguide.co.uk/', areaServed: 'Leeds' };
+---
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  {PREVIEW ? <meta name="robots" content="noindex, nofollow" /> : <meta name="robots" content="index, follow, max-image-preview:large" />}
+  <link rel="canonical" href={canonical} />
+  <meta property="og:type" content={ogType} />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:url" content={canonical} />
+  <meta property="og:site_name" content="Leeds Home Guide" />
+  <meta property="og:locale" content="en_GB" />
+  <meta name="theme-color" content="#00203F" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="preload" href="/fonts/inter-latin-var.woff2" as="font" type="font/woff2" crossorigin />
+  <script type="application/ld+json" set:html={JSON.stringify(org)} />
+  {schema.map((s) => <script type="application/ld+json" set:html={JSON.stringify(s)} />)}
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  {PREVIEW && <div class="previewbar" role="note">Preview site. Not live yet: business details are being checked and some sections are placeholders.</div>}
+  <header class="site-header">
+    <div class="wrap hdr">
+      <a class="logo" href="/" aria-label="Leeds Home Guide home"><svg class="logo-mark" viewBox="0 0 28 28" aria-hidden="true"><rect width="28" height="28" rx="6" fill="#00203F"/><path d="M6.5 14.5 14 8l7.5 6.5" fill="none" stroke="#F97316" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 13.5V20h10v-6.5" fill="none" stroke="#fff" stroke-width="2.2" stroke-linejoin="round"/></svg><span>Leeds Home<b> Guide</b></span></a>
+      <nav class="desk" aria-label="Main desktop"><ul>{nav.map((n) => <li><a href={n.href}>{n.label}</a></li>)}</ul></nav>
+      <details class="menu">
+        <summary aria-label="Menu"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary>
+        <nav aria-label="Main"><ul>{nav.map((n) => <li><a href={n.href}>{n.label}</a></li>)}<li><a href="/get-listed/">For trades</a></li></ul></nav>
+      </details>
+    </div>
+  </header>
+  <main id="main"><slot /></main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="foot">
+        <div class="foot-about">
+          <p class="logo foot-logo"><svg class="logo-mark" viewBox="0 0 28 28" aria-hidden="true"><rect width="28" height="28" rx="6" fill="#fff"/><path d="M6.5 14.5 14 8l7.5 6.5" fill="none" stroke="#F97316" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 13.5V20h10v-6.5" fill="none" stroke="#00203F" stroke-width="2.2" stroke-linejoin="round"/></svg><span>Leeds Home Guide</span></p>
+          <p>Local Leeds trades and what jobs really cost.</p>
+        </div>
+        <ul class="foot-links">
+          <li><a href="/trades/">Find a trade</a></li>
+          <li><a href="/guides/">Cost guides</a></li>
+          <li><a href="/how-we-choose/">How we check</a></li>
+          <li><a href="/get-listed/">Get listed</a></li>
+        </ul>
+        <ul class="foot-links">
+          <li><a href="/guides/asbestos-garage-roof-removal-leeds/">Asbestos garage roofs</a></li>
+          <li><a href="/guides/selective-licensing-leeds/">For landlords</a></li>
+        </ul>
+        <ul class="foot-links">
+          <li><a href="/about/">About us</a></li>
+          <li><a href="/contact/">Contact</a></li>
+          <li><a href="/privacy/">Privacy</a></li>
+          <li><a href="/terms/">Terms</a></li>
+        </ul>
+      </div>
+      <p class="foot-legal">Free to use.</p>
+    </div>
+  </footer>
+</body>
+</html>

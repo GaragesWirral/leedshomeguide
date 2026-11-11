@@ -1,0 +1,121 @@
+---
+import Base from '../layouts/Base.astro';
+import Registers from '../components/Registers.astro';
+import { categories, icons } from '../lib/data';
+const site = { '@context': 'https://schema.org', '@type': 'WebSite', name: 'Leeds Home Guide', url: 'https://leedshomeguide.co.uk/', inLanguage: 'en-GB' };
+const tips = [
+  ['Get two or three written quotes.', 'A clear quote lists the work, the materials, waste removal and when payment is due. Be wary of anyone who wants most of the money up front.'],
+  ['Check the company.', 'Look up a limited company on Companies House to see how long it has traded and whether its accounts are up to date.'],
+  ['Check the register for the job.', 'Gas work needs a Gas Safe registered engineer, notifiable electrical work needs an electrician on a scheme such as NICEIC or NAPIT, and higher risk asbestos work needs an HSE licensed contractor.'],
+  ['Read reviews, not just stars.', 'A review that says "highly recommend" means more when it names the job, the price and the finish, and says whether the work was tidy and on time.'],
+  ['Ask about insurance and guarantees.', 'Public liability insurance, and a written guarantee for the work, give you peace of mind if something goes wrong.'],
+];
+const which = [
+  { job: 'Roof repair, slipped tiles, chimney repointing or a leaking gutter', who: 'A roofer', href: '/trades/roofers/' },
+  { job: 'A leak, a blocked toilet, a boiler or radiator repair', who: 'A plumber or heating engineer (Gas Safe for any gas work)', href: '/trades/plumbers/' },
+  { job: 'New sockets, lighting, a rewire, a fuse board or an EICR', who: 'An electrician', href: '/trades/electricians/' },
+  { job: 'An Artex ceiling, garage roof or pipe lagging that may contain asbestos', who: 'An asbestos removal specialist', href: '/trades/asbestos-removal/' },
+  { job: 'An extension, a renovation or brickwork', who: 'A builder (not listed yet)' },
+  { job: 'Doors, shelves, a new floor and other joinery', who: 'A joiner or handyman (not listed yet)' },
+  { job: 'Plaster repairs, painting and decorating', who: 'A plasterer or a painter and decorator (not listed yet)' },
+  { job: 'A patio, driveway or fence', who: 'A landscaper or driveway specialist (not listed yet)' },
+];
+const faqs = [
+  { q: 'How do I find a reliable tradesman in Leeds?', a: 'Start with local tradespeople who work in your part of Leeds, get written quotes, and check each one against the official register for the job. Our trade lists show on each card which register checks we have made.' },
+  { q: 'Is Leeds Home Guide free to use?', a: 'Yes. You can read every list and guide and contact any firm directly. You never pay us, and there is no booking fee.' },
+  { q: 'How do I know a tradesperson is qualified?', a: 'Ask which register or trade body they belong to, then check it on that body\'s own website. Gas Safe, NICEIC, NAPIT, TrustMark and the HSE all run free UK searches.' },
+  { q: 'Do your lists cover all of Leeds?', a: 'Every firm we list works in Leeds. Some are based nearby in West Yorkshire, such as Bradford, Wakefield or Batley, and each card shows where the firm is based.' },
+  { q: 'Will a tradesperson take a small job?', a: 'Many will, such as a dripping tap, a new socket or a small roof repair. Say it is a small job when you call, and ask whether there is a minimum charge.' },
+  { q: 'What if a repair or job goes wrong?', a: 'Talk to the tradesperson first and put the problem in writing. If the firm belongs to a trade body or TrustMark, it may have a complaints process. Under the Consumer Rights Act 2015, a service must be carried out with reasonable care and skill, and Citizens Advice can explain your options.' },
+  { q: 'Can I get free quotes?', a: 'Most Leeds tradespeople give free quotes for planned work like a new roof, a rewire, a bathroom or an extension. Emergency call outs usually have a fee, so ask before they come out.' },
+];
+const faqSchema = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) };
+// One short line per trade on the homepage; the detail lives on each trade page.
+const short: Record<string, string> = {
+  roofers: 'Repairs, new roofs, guttering',
+  plumbers: 'Leaks, boilers, heating',
+  electricians: 'Rewires, EICRs, EV chargers',
+  asbestos: 'Surveys, testing, removal',
+};
+const costs = [
+  { title: 'Asbestos garage roof removal', price: 'Disposal from £72.31', href: '/guides/asbestos-garage-roof-removal-leeds/' },
+  { title: 'New boiler', price: 'Coming soon' },
+];
+---
+<Base title="Tradesmen in Leeds: Find Trusted Local Tradespeople | Leeds Home Guide" description="Find a trusted local tradesperson in Leeds: roofers, plumbers, electricians and asbestos removal, with the register checks we have made shown on each card, plus tips for getting free quotes." path="/" schema={[site, faqSchema]}>
+  <section class="h-hero">
+    <div class="wrap h-center">
+      <h1>Find local tradespeople in Leeds</h1>
+      <p class="h-sub">Trusted local tradespeople in Leeds, with the register checks we have made shown on each card, and what the job should cost.</p>
+      <form class="search" role="search" id="tradesearch" action="/trades/">
+        <label for="q" class="skip">What do you need?</label>
+        <input id="q" name="q" type="search" placeholder="e.g. roofer, boiler, asbestos" autocomplete="off" />
+        <button class="btn" type="submit">Search</button>
+      </form>
+      <ul class="h-pills">
+        {categories.slice(0, 4).map((c) => <li><a href={`/trades/${c.slug}/`}>{c.name}</a></li>)}
+      </ul>
+    </div>
+  </section>
+
+  <section class="h-sec">
+    <div class="wrap">
+      <h2>Find a trade</h2>
+      <ul class="h-tiles">
+        {categories.map((c) => (
+          <li><a class="h-tile" href={`/trades/${c.slug}/`}>
+            <svg class="h-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" set:html={icons[c.key]} />
+            <span class="h-tile-name">{c.name}</span>
+            <span class="h-tile-line">{short[c.key]}</span>
+          </a></li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <section class="h-sec">
+    <div class="wrap">
+      <div class="h-head"><h2>What it costs in Leeds</h2><a class="h-more" href="/guides/">See all guides</a></div>
+      <ul class="h-costs">
+        {costs.map((g) => g.href
+          ? <li><a href={g.href}><span class="h-cost-t">{g.title}</span><span class="h-cost-p">{g.price}</span></a></li>
+          : <li class="is-soon"><span class="h-cost-t">{g.title}</span><span class="h-cost-p">{g.price}</span></li>)}
+      </ul>
+      <p class="h-more-row"><a class="h-more" href="/guides/">See all guides</a></p>
+    </div>
+  </section>
+
+  <section class="h-sec">
+    <div class="wrap">
+      <h2>How we check</h2>
+      <p class="h-intro">We look firms up on the official registers, and each card shows which checks we have made.</p>
+      <Registers compact />
+    </div>
+  </section>
+
+  <section class="h-sec">
+    <div class="wrap h-guide">
+      <h2>Which tradesperson do you need?</h2>
+      <p class="h-intro">From a quick repair to a full renovation, every homeowner in Leeds needs a specialist sooner or later. Not sure who to call? Start here.</p>
+      <ul class="h-which">{which.map((w) => <li><span class="h-which-job">{w.job}</span>{w.href ? <a href={w.href}>{w.who}</a> : <span class="h-which-who">{w.who}</span>}</li>)}</ul>
+      <h2>How to find a good tradesperson in Leeds</h2>
+      <p class="h-intro">Whether you need a roofer, a plumber, an electrician or a builder, the same few checks help you hire a tradesman you can trust.</p>
+      <ol class="steps">{tips.map(([t, d]) => <li><b>{t}</b> {d}</li>)}</ol>
+      <section class="faq"><h2>Questions people ask</h2>{faqs.map((f) => <details><summary>{f.q}</summary><p>{f.a}</p></details>)}</section>
+    </div>
+  </section>
+
+  <section class="h-band">
+    <div class="wrap h-band-in">
+      <p><b>Run a Leeds trade?</b> Listing is free.</p>
+      <a class="btn" href="/get-listed/">Get listed</a>
+    </div>
+  </section>
+  <script is:inline>
+    document.getElementById('tradesearch').addEventListener('submit', function (e) {
+      var q = (document.getElementById('q').value || '').toLowerCase();
+      var map = [['roof', 'roofers'], ['gutter', 'roofers'], ['plumb', 'plumbers'], ['boiler', 'plumbers'], ['leak', 'plumbers'], ['heat', 'plumbers'], ['electr', 'electricians'], ['eicr', 'electricians'], ['rewir', 'electricians'], ['asbestos', 'asbestos-removal'], ['garage', 'asbestos-removal'], ['artex', 'asbestos-removal']];
+      for (var i = 0; i < map.length; i++) { if (q.indexOf(map[i][0]) > -1) { e.preventDefault(); location.href = '/trades/' + map[i][1] + '/'; return; } }
+    });
+  </script>
+</Base>

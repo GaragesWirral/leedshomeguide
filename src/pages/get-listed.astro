@@ -1,0 +1,12 @@
+---
+import Base from '../layouts/Base.astro';
+import { CONTACT_EMAIL } from '../site.config';
+---
+<Base title="Get your Leeds trade business listed free | Leeds Home Guide" description="Leeds trades can be listed on Leeds Home Guide for free. Here is what we check and how to put your business forward." path="/get-listed/">
+  <section class="page-head"><div class="wrap narrow"><p class="crumbs"><a href="/">Home</a> › Get listed</p><h1>Leeds trades: get listed free</h1><p class="lede">We build each list ourselves, but we are always glad to hear from good local businesses.</p></div></section>
+  <article class="wrap narrow prose">
+    <h2>How it works</h2>
+    <ol><li>Tell us your business name, trade, the areas you cover and your website.</li><li>We check you against <a href="/how-we-choose/">our criteria</a>.</li><li>If you meet them, we add you and let you know, with a "Featured on Leeds Home Guide" badge you can show on your site.</li></ol>
+    <p>To put your business forward, email <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> with the details above. A listing request form is coming soon.</p>
+  </article>
+</Base>

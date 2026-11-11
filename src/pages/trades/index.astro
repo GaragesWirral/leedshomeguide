@@ -1,0 +1,25 @@
+---
+import Base from '../../layouts/Base.astro';
+import { categories, icons, comingSoon, UPDATED } from '../../lib/data';
+---
+<Base title="Find a trusted trade in Leeds | Leeds Home Guide" description="Hand picked Leeds roofers, plumbers, electricians and asbestos specialists, 3 firms per trade, with our checks shown on each card. Free to use." path="/trades/">
+  <section class="page-head"><div class="wrap">
+    <p class="crumbs"><a href="/">Home</a> › Find a trade</p>
+    <h1>Find a trade in Leeds</h1>
+    <p class="lede">Each list is picked by us on <a href="/how-we-choose/">published criteria</a>. Updated {UPDATED}.</p>
+  </div></section>
+  <div class="wrap">
+    <div class="grid two">
+      {categories.map((c) => (
+        <a class="card trade-card" href={`/trades/${c.slug}/`}>
+          <span class="tradeicon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" set:html={icons[c.key]} /></span>
+          <h2 class="card-h">{c.title}</h2>
+          <p>{c.intro}</p>
+          <p class="meta">{c.firms.map((f) => f.name).slice(0, 3).join(', ')}</p>
+        </a>
+      ))}
+    </div>
+    <h2 class="soon-h">Coming soon</h2>
+    <ul class="chips pills">{comingSoon.map((s) => <li><span class="chip pill">{s}</span></li>)}</ul>
+  </div>
+</Base>

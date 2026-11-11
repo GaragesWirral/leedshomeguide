@@ -1,0 +1,137 @@
+{
+ "name": "Roofers",
+ "title": "Best Roofers in Leeds",
+ "slug": "roofers",
+ "kicker": "ROOFING",
+ "intro": "Roof repairs, re roofs, flat roofs and guttering. Leeds has a lot of pre 1919 terraces with slate roofs and a lot of post war semis with concrete tiles, so it pays to pick a roofer who works on your type of roof.",
+ "services_hint": "Slate, tiled and flat roofs, chimneys, leadwork, guttering",
+ "firms": [
+  {
+   "name": "DPR Roofing",
+   "domain": "leedsroofs.com",
+   "url": "https://www.leedsroofs.com/",
+   "phone": "0113 335 0043",
+   "area": "LS19 · covers Leeds",
+   "claims": [
+    "Which? Trusted Trader (on Which?'s list, checked 9 Nov)",
+    "Family run since 1989 (per website)"
+   ],
+   "services": [
+    "Roof repairs",
+    "New roofs",
+    "Flat roofs",
+    "Guttering",
+    "Roof surveys"
+   ],
+   "why": "Its website says it has been family run since 1989 and lists Which? Trusted Trader status, plus a full spread of domestic work from emergency repairs to new roofs and surveys.",
+   "logo": "/firm-logos/leedsroofs.svg",
+   "logo_bg": "light"
+  },
+  {
+   "name": "Pickles Roofing",
+   "domain": "picklesbros.co.uk",
+   "url": "https://www.picklesbros.co.uk/",
+   "phone": "0113 275 2620",
+   "area": "Burley, LS4 · covers Yorkshire",
+   "claims": [
+    "Registered on Companies House since 2013",
+    "Family run (per website)",
+    "Domestic and commercial"
+   ],
+   "services": [
+    "Pitched roofs",
+    "Flat roofs",
+    "Commercial roofing"
+   ],
+   "why": "A family run Leeds roofing company working on homes and commercial buildings across Yorkshire, according to its website.",
+   "logo": "/firm-logos/picklesbros.png",
+   "logo_bg": "light"
+  },
+  {
+   "name": "The Family Roofing Company",
+   "domain": "thefamilyroofingcompany.co.uk",
+   "url": "https://www.thefamilyroofingcompany.co.uk/",
+   "phone": "0113 831 4363",
+   "area": "LS9 · covers Leeds",
+   "claims": [
+    "Registered on Companies House since 2020",
+    "Family run (per website)"
+   ],
+   "services": [
+    "Flat roofs",
+    "Pitched roofs",
+    "Repairs",
+    "Replacements"
+   ],
+   "why": "Specialises in flat and pitched roof repair and replacement for homes and businesses across Leeds.",
+   "logo": "/firm-logos/thefamilyroofingcompany.png",
+   "logo_bg": "light"
+  }
+ ],
+ "seo_title": "Roofers in Leeds: 3 Local Roofing Companies (2026) | Leeds Home Guide",
+ "seo_desc": "Looking for roofers in Leeds? 3 local roofing companies for roof repairs, flat roofs, new roofs and guttering, with what we checked and what to ask before you book.",
+ "h1": "Best roofers in Leeds: 3 local roofing companies",
+ "list_label": "local roofers in Leeds",
+ "guide": [
+  {
+   "h2": "Finding a good roofer in Leeds",
+   "p": [
+    "Finding a roofer can be hard, because the best roofing companies are busy and many jobs are quoted from the ground. A good roofing contractor will look at the roof's condition properly, often from a ladder, a drone or the loft, and explain what needs doing and why.",
+    "The three roofing companies above cover Leeds and the surrounding areas, and two of them say they are family run. Between them they offer a wide range of roofing services: roof repairs, flat roofs, pitched roofing, new roofs, guttering and roof surveys, for homeowners and businesses. Request a quote from two or three and compare them line by line. Some firms that come up in a search are based in Bradford, Harrogate or elsewhere in West Yorkshire. They can still be a good choice, but ask how quickly they can get to you if a gutter or roof starts leaking."
+   ]
+  },
+  {
+   "h2": "Common roofing work on Leeds homes",
+   "ul": [
+    "<b>Roof repair:</b> slipped or broken roof tiles and slates, cracked mortar on ridge tiles, and worn leadwork around chimneys are the usual causes of a leaking roof.",
+    "<b>Flat roof:</b> garages, dormers and back extensions often have flat roofs. Ask which flat roofing systems the roofer fits, such as felt, EPDM rubber or GRP fibreglass, and how long each is guaranteed.",
+    "<b>Gutter, fascia and soffit work:</b> a blocked or sagging gutter causes damp walls. Many roofers replace old timber fascias and soffits with uPVC at the same time, and quote the installation as one job.",
+    "<b>Roof windows:</b> fitting or resealing Velux style windows in a loft.",
+    "<b>New roof:</b> a full roof replacement, or re roof, when the existing roof has too many failing tiles or slates to keep repairing."
+   ]
+  },
+  {
+   "h2": "Slate or tile: pick a roofer who knows your roof",
+   "p": [
+    "Much of inner Leeds, from Headingley to Harehills, is pre 1919 terraces, many with slate roofs, while many post war semis have concrete tiles. Slate work, leadwork and chimney repairs need different skills from tiling, so ask for photos of similar work the roofer has completed nearby. As a homeowner, it is fair to ask for expert advice on whether a repair will last or a new roof is better value."
+   ]
+  },
+  {
+   "h2": "Rules worth knowing before roofing work",
+   "ul": [
+    "Replacing more than a quarter of a roof usually needs Building Regulations approval, including insulation to current standards. A roofer registered with a competent person scheme can sign this off, or you can apply to Leeds City Council building control.",
+    "If scaffolding goes on the pavement, the scaffolder needs a licence from Leeds City Council. Check the quote includes it.",
+    "Listed buildings and homes in conservation areas may need consent to change roof materials.",
+    "Old garage roofs, soffits and roof panels can contain asbestos. If you are not sure, have it tested first, and see our <a href=\"/trades/asbestos-removal/\">asbestos removal list</a>."
+   ]
+  },
+  {
+   "h2": "What to ask before you book a roofer",
+   "ul": [
+    "Is the quotation itemised, including scaffolding, skips and waste?",
+    "Is the workmanship guaranteed in writing, and is the guarantee backed if the roofing company stops trading?",
+    "Are you a member of a trade body such as the NFRC (National Federation of Roofing Contractors) or TrustMark?",
+    "Do you carry public liability insurance?",
+    "Can I see customer reviews or speak to previous customers?"
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "How do I find a trusted roofer in Leeds?",
+   "a": "Get two or three written quotes, check each roofing company on Companies House if it is a limited company, and look for trade bodies such as the NFRC or TrustMark, which you can search on their own websites. Read customer reviews of jobs like yours."
+  },
+  {
+   "q": "What should I do about a leaking roof?",
+   "a": "Catch the water with buckets, move anything valuable, and turn off the electrics in that room if water is near lights or sockets. Then call a roofer and take photos for your home insurance."
+  },
+  {
+   "q": "Can a roofer fix a flat roof on a garage?",
+   "a": "Yes. Most roofers in Leeds repair and replace flat roofs. If the garage roof is corrugated cement sheeting, it may contain asbestos, so have it tested before any work starts."
+  },
+  {
+   "q": "Do I need planning permission for a new roof?",
+   "a": "Usually not for a like for like replacement on a house. You may need consent for a listed building, a home in a conservation area, or a change to the shape or height of the roof."
+  }
+ ]
+}

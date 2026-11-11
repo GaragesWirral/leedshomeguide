@@ -1,0 +1,149 @@
+{
+ "name": "Electricians",
+ "title": "Best Electricians in Leeds",
+ "slug": "electricians",
+ "kicker": "ELECTRICAL",
+ "intro": "Rewires, fuse boards, EICRs for landlords, EV chargers and solar. Below are 3 local electricians in Leeds, with what each one does and how to check them. Any electrician doing notifiable work should be registered with a scheme such as NICEIC or NAPIT, and both have free online search tools.",
+ "services_hint": "Rewires, EICRs, fuse boards, EV chargers",
+ "firms": [
+  {
+   "name": "AJOB Electrical",
+   "domain": "ajobelectrical.com",
+   "url": "https://www.ajobelectrical.com/",
+   "phone": "0113 450 8507",
+   "area": "Wakefield, WF3 · covers Leeds",
+   "claims": [
+    "Registered on Companies House since 2013",
+    "NICEIC, Which? Trusted Trader and TrustMark (per website)"
+   ],
+   "services": [
+    "Domestic",
+    "Commercial",
+    "Smart home",
+    "Rewires"
+   ],
+   "why": "Electricians covering Leeds and Wakefield whose website lists NICEIC certification, Which? Trusted Trader and TrustMark approval.",
+   "logo": "/firm-logos/ajobelectrical.png",
+   "logo_bg": "light"
+  },
+  {
+   "name": "Martin Day Electricians",
+   "domain": "martindayelectrician.co.uk",
+   "url": "https://www.martindayelectrician.co.uk/",
+   "phone": "0113 347 3743",
+   "area": "LS12 · covers Leeds",
+   "claims": [
+    "Registered on Companies House since 2009",
+    "NICEIC Approved Contractor (per website)",
+    "30+ years (per website)"
+   ],
+   "services": [
+    "Rewires",
+    "Fuse boards",
+    "Domestic work"
+   ],
+   "why": "A domestic electrician who says he has worked in Leeds for over 30 years, gives written estimates and is an NICEIC Approved Contractor.",
+   "logo": "/firm-logos/martindayelectrician.png",
+   "logo_bg": "light"
+  },
+  {
+   "name": "CRE Electricians",
+   "domain": "cre-electricians.co.uk",
+   "url": "https://www.cre-electricians.co.uk/",
+   "phone": "0113 393 4546",
+   "area": "LS26 · covers Yorkshire",
+   "claims": [
+    "Registered on Companies House since 2012",
+    "NICEIC and NAPIT mentioned (per website)"
+   ],
+   "services": [
+    "Solar panels",
+    "EV charging",
+    "Electrical work"
+   ],
+   "why": "A good pick if you want solar or an EV charger alongside general electrical work. Its website says it was established in 2012.",
+   "logo": "/firm-logos/cre-electricians.png",
+   "logo_bg": "light"
+  }
+ ],
+ "seo_title": "Electrician in Leeds: 3 Local Electricians (2026) | Leeds Home Guide",
+ "seo_desc": "Need an electrician in Leeds? 3 local electrical firms for rewires, fuse boards, EICRs and EV chargers, with how to check NICEIC and NAPIT and what to ask first.",
+ "h1": "Best electricians in Leeds: 3 local electrical firms",
+ "list_label": "local electricians in Leeds",
+ "guide": [
+  {
+   "h2": "Finding a good electrician in Leeds",
+   "p": [
+    "Need an electrician in Leeds? Electrical work in Leeds homes ranges from a new socket or lighting to a full rewire, a new consumer unit (fuse board), an EICR for a rental, or an EV charger on the drive. Some electricians focus on domestic electrical work, others on commercial projects, and many offer domestic and commercial electrical services. Pick a firm whose usual work matches your job, big or small.",
+    "The three firms above all work throughout Leeds and the surrounding area, from LS12 to Wakefield and across West Yorkshire. Between them they offer a range of electrical services: rewires, fuse boards, smart home work, solar and EV charging, for home or business. Get in touch with two and compare written quotes."
+   ]
+  },
+  {
+   "h2": "Electrical services in Leeds: which firm for which job",
+   "ul": [
+    "<b>Small jobs</b> such as extra sockets, outside lights or a faulty switch: a local Leeds electrician is usually the quickest and cheapest.",
+    "<b>Larger jobs</b> such as a full rewire, an extension or a kitchen: ask for a written quote that lists the circuits, the electrical wiring and the certificate you will get.",
+    "<b>Residential and commercial</b> work such as shops, offices and flats: use an electrical company with commercial experience and the right insurance.",
+    "<b>An electrical emergency</b>, such as burning smells, sparking or a fuse board that keeps tripping: switch off at the fuse board and call an electrician. If you smell gas, call the National Gas Emergency number on 0800 111 999 instead."
+   ]
+  },
+  {
+   "h2": "Check the electrician is registered",
+   "p": [
+    "Some electrical installation work is notifiable under Part P of the Building Regulations. That includes a new circuit, a replacement consumer unit and most work in bathrooms. It must be done by an electrician registered with a competent person scheme, or be signed off by Leeds City Council building control.",
+    "A registered electrical contractor can certify the work themselves, and you should get a Building Regulations compliance certificate when the job is finished. You can check registration for free on the <a href=\"https://www.niceic.com/find-a-contractor\" rel=\"noopener\" target=\"_blank\">NICEIC</a> and <a href=\"https://search.napit.org.uk/\" rel=\"noopener\" target=\"_blank\">NAPIT</a> websites. Check the firm's name and address match the van or the quote."
+   ]
+  },
+  {
+   "h2": "Rewires and fuse boards",
+   "p": [
+    "Signs that a qualified electrician may suggest a rewire or a new fuse board include old rubber or fabric covered wiring, a fuse box with fuse wire instead of switches, no RCD protection, sockets that feel warm, or lights that flicker. A full rewire usually means lifting floorboards and chasing walls, so it is best done before decorating."
+   ]
+  },
+  {
+   "h2": "EICRs for Leeds landlords",
+   "p": [
+    "Private landlords in England must have the electrics inspected and tested at least every five years and give tenants a copy of the Electrical Installation Condition Report (EICR). If the report lists urgent work, it must be done within 28 days, or sooner if the report says so. If your property is in a Leeds <a href=\"/guides/selective-licensing-leeds/\">selective licensing area</a>, keep the latest EICR to hand."
+   ]
+  },
+  {
+   "h2": "EV chargers and solar",
+   "p": [
+    "An EV charger needs its own circuit, and the installer should check your supply, earthing and the space on your fuse board. Ask whether the charger is a smart charger, as new home chargers have to meet the smart charge point rules. For solar panels and batteries, look for an installer certified under MCS, which most export tariffs ask for."
+   ]
+  },
+  {
+   "h2": "Reading reviews",
+   "p": [
+    "Most Leeds electricians have reviews that say \"highly recommended\" or \"would highly recommend\". Those mean more when the reviewer names the job, the price and how tidy the work was. Look for reviews of jobs like yours, and for how the firm answered any complaints. A reliable electrician based in Leeds with fewer reviews can still be a better pick than a busy firm with hundreds, so check registration first. It gives you peace of mind that the work can be signed off."
+   ]
+  },
+  {
+   "h2": "What to ask before you book",
+   "ul": [
+    "Are you registered with NICEIC, NAPIT or another scheme, and will I get a certificate?",
+    "Is the quote fixed, and does it include making good the walls?",
+    "Is the workmanship guaranteed, and for how long?",
+    "Do you carry public liability insurance?"
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "How do I check an electrician in Leeds is registered?",
+   "a": "Search the firm's name or postcode on the NICEIC and NAPIT websites. Both are free. A registered electrician can also give you the scheme membership number to check."
+  },
+  {
+   "q": "Do I need a registered electrician to change a socket?",
+   "a": "Replacing a socket or light switch like for like is not usually notifiable. Adding a new circuit, changing a consumer unit or most work in a bathroom is, so use a registered electrician for those jobs."
+  },
+  {
+   "q": "How often does a rental property need an EICR?",
+   "a": "At least every five years in England, or sooner if the last report says so. Landlords must give a copy to tenants and, if asked, to the council."
+  },
+  {
+   "q": "Can an electrician fit an EV charger at home?",
+   "a": "Yes, if they install chargers regularly. Ask for a smart charger that meets the current rules, and check the installer is registered with a scheme such as NICEIC or NAPIT."
+  }
+ ]
+}

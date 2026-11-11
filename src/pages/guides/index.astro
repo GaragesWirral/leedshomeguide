@@ -1,0 +1,35 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+const all = await getCollection('articles');
+const landlord = all.filter((a) => a.data.kicker === 'Landlords');
+const costs = all.filter((a) => a.data.kicker !== 'Landlords');
+const soon = ['New boiler cost in Leeds', 'Do you need planning permission in Leeds?', 'Damp and mould in Leeds homes'];
+---
+<Base title="Leeds home cost guides and landlord guides | Leeds Home Guide" description="Plain English guides for Leeds homeowners and landlords: real local costs and council rules, each with its official sources and the date we checked them." path="/guides/">
+  <section class="page-head"><div class="wrap">
+    <p class="crumbs"><a href="/">Home</a> › Guides</p>
+    <h1>Costs and guides</h1>
+    <p class="lede">Every guide links to its sources and shows the date we last checked them.</p>
+  </div></section>
+  <div class="wrap">
+    <section class="guide-sec" aria-labelledby="g-costs">
+      <h2 id="g-costs">Cost guides</h2>
+      <p>What common jobs cost in Leeds, and what affects the price.</p>
+      <div class="grid two">
+        {costs.map((a) => (<a class="card" href={`/guides/${a.id}/`}><span class="tag">{a.data.kicker}</span><h3 class="card-h">{a.data.h1}</h3>{a.data.quick && <p class="price">{a.data.quick.value}</p>}<p>{a.data.description}</p><p class="meta">Last checked {a.data.updated}</p></a>))}
+      </div>
+    </section>
+    <section class="guide-sec" id="for-landlords" aria-labelledby="g-landlords">
+      <h2 id="g-landlords">For landlords</h2>
+      <p>Council rules for people who rent out a home in Leeds.</p>
+      <div class="grid two">
+        {landlord.map((a) => (<a class="card" href={`/guides/${a.id}/`}><span class="tag">For landlords</span><h3 class="card-h">{a.data.h1}</h3>{a.data.intro && <p>{a.data.intro}</p>}{a.data.quick && <p class="price">{a.data.quick.value}</p>}<p class="meta">Last checked {a.data.updated}</p></a>))}
+      </div>
+    </section>
+    <section class="guide-sec">
+      <h2>Coming soon</h2>
+      <ul>{soon.map((s) => <li>{s}</li>)}</ul>
+    </section>
+  </div>
+</Base>

@@ -1,0 +1,27 @@
+---
+// Registers we check listings against, shown with each body's official logo (self hosted in /public/logos).
+// Logos are used on Joseph's instruction of 9 Nov 2026 (see ../../logo_decisions.md for each body's terms).
+// The strip says "We check against" only: never "accredited by", "member of" or "approved".
+// These logos must NOT appear on a trade card or next to a firm unless that firm's own record was checked.
+const registers = [
+  { name: 'Companies House', what: 'Company status', logo: '/logos/companies-house.svg', w: 414, h: 134, url: 'https://find-and-update.company-information.service.gov.uk/' },
+  { name: 'Gas Safe', what: 'Gas engineers', logo: '/logos/gas-safe-register.png', w: 106, h: 120, cls: 'is-tall is-yellow', url: 'https://www.gassaferegister.co.uk/find-an-engineer-or-check-the-register/' },
+  { name: 'NICEIC', what: 'Electricians', logo: '/logos/niceic.svg', w: 321, h: 160, cls: 'is-tall', url: 'https://niceic.com/find-a-tradesperson/' },
+  { name: 'NAPIT', what: 'Electricians and installers', logo: '/logos/napit.png', w: 388, h: 128, url: 'https://search.napit.org.uk/' },
+  { name: 'TrustMark', what: 'Home improvement', logo: '/logos/trustmark.svg', w: 212, h: 44, url: 'https://www.trustmark.org.uk/find-a-tradesperson' },
+  { name: 'HSE licensed asbestos', what: 'Licensed contractors', logo: '/logos/hse.svg', w: 233, h: 46, url: 'https://www.coniac.org.uk/resources/current-licensed-asbestos-contractors' },
+];
+const { compact = false } = Astro.props as { compact?: boolean };
+---
+<div class={compact ? 'regs-wrap is-compact' : 'regs-wrap'}>
+  <p class={compact ? 'regs-label skip' : 'regs-label'}>We check against</p>
+  <ul class="regs" aria-label="Official registers we check against">
+    {registers.map((r) => (
+      <li><a class="reg" href={r.url} rel="noopener" target="_blank" title={`${r.name} register search`}>
+        <img class={`reg-logo ${r.cls ?? ''}`.trim()} src={r.logo} alt={`${r.name} register search`} width={r.w} height={r.h} loading="lazy" decoding="async" />
+        {!compact && <span class="reg-what">{r.what}</span>}
+      </a></li>
+    ))}
+  </ul>
+  <p class="meta regs-note">Logos belong to their owners. Leeds Home Guide is independent and not affiliated with or endorsed by these organisations.</p>
+</div>

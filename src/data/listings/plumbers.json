@@ -1,0 +1,134 @@
+{
+ "name": "Plumbers",
+ "title": "Best Plumbers in Leeds",
+ "slug": "plumbers",
+ "kicker": "PLUMBING AND HEATING",
+ "intro": "Leaks, blocked drains, boiler breakdowns and new boilers. Below are 3 local plumbers in Leeds, with what each one does and how to check them. For anything involving gas, the engineer must be on the Gas Safe Register, and you can check their card number for free.",
+ "services_hint": "Emergency plumbing, boilers, central heating",
+ "firms": [
+  {
+   "name": "BASI Plumbing & Heating",
+   "domain": "basiheating.co.uk",
+   "url": "https://www.basiheating.co.uk/",
+   "phone": "0800 980 6018",
+   "area": "Bradford, BD3 · covers Leeds",
+   "claims": [
+    "Gas Safe 623525 (per website)",
+    "Since 1990 (per website)"
+   ],
+   "services": [
+    "New boilers",
+    "Boiler servicing",
+    "Repairs"
+   ],
+   "why": "Plumbers and heating engineers across Yorkshire who publish their prices on their website, which is rare and useful. It lists Gas Safe number 623525.",
+   "logo": "/firm-logos/basiheating.png",
+   "logo_bg": "light"
+  },
+  {
+   "name": "LS1 Plumbing",
+   "domain": "ls1plumbing.co.uk",
+   "url": "https://www.ls1plumbing.co.uk/",
+   "phone": "0113 547 8838",
+   "area": "Leeds",
+   "claims": [
+    "Registered on Companies House since 2025",
+    "Gas Safe (per website)"
+   ],
+   "services": [
+    "Emergency plumbing",
+    "Heating",
+    "Boilers"
+   ],
+   "why": "A Leeds plumbing company focused on fast response to plumbing, heating and boiler emergencies.",
+   "logo": "/firm-logos/ls1plumbing.png",
+   "logo_bg": "light"
+  },
+  {
+   "name": "Same Day Plumber Leeds",
+   "domain": "samedayplumberleeds.co.uk",
+   "url": "https://www.samedayplumberleeds.co.uk/",
+   "phone": "0113 264 6636",
+   "area": "Leeds",
+   "claims": [
+    "Est. 1978 (per website)",
+    "City & Guilds qualified"
+   ],
+   "services": [
+    "Emergency call outs",
+    "Leaks",
+    "Bathrooms"
+   ],
+   "why": "An emergency plumbing service that says it has been going since 1978, with 24/7 call outs and City & Guilds qualified plumbers.",
+   "logo": "/firm-logos/samedayplumberleeds.png",
+   "logo_bg": "light"
+  }
+ ],
+ "seo_title": "Plumber in Leeds: 3 Local Plumbers (2026) | Leeds Home Guide",
+ "seo_desc": "Need a plumber in Leeds? 3 local plumbing and heating firms for leaks, boilers and emergency call outs, with how to check Gas Safe and what to ask before you book.",
+ "h1": "Best plumbers in Leeds: 3 local plumbing and heating firms",
+ "list_label": "local plumbers in Leeds",
+ "guide": [
+  {
+   "h2": "Finding a good plumber in Leeds",
+   "p": [
+    "Most plumbing jobs in Leeds fall into a few groups: a leak or a dripping tap, a blocked toilet or drain, a radiator that will not heat up, or a boiler that has stopped working. A local plumber who covers your part of Leeds can usually get to you faster and charges less travel time, so it is worth starting with firms based in or near the city.",
+    "The three plumbers above all work across Leeds and West Yorkshire. Between them they cover emergency plumbing, general plumbing work, central heating and boiler installations. Read each card to see which jobs a firm says it does, then call two of them and compare."
+   ]
+  },
+  {
+   "h2": "Emergency plumber in Leeds: what to do first",
+   "p": [
+    "If a pipe bursts or water is coming through a ceiling, you can limit the damage before the plumber arrives:"
+   ],
+   "ul": [
+    "Turn off your stop tap. It is usually under the kitchen sink, or where the water pipe comes into the house.",
+    "Switch off the central heating system and any electric water heater.",
+    "Open the cold taps to drain the pipes, and turn off the electrics at the fuse board if water is near sockets or lights.",
+    "Take photos for your home insurance before anything is moved."
+   ]
+  },
+  {
+   "h2": "Plumbing and heating: when you need a Gas Safe engineer",
+   "p": [
+    "Any work on a gas boiler, gas fire or gas hob must be done by an engineer on the Gas Safe Register. It is the law, and it is the most important check you can make. Ask to see the engineer's Gas Safe ID card, then check the number and the type of gas work they are qualified for at <a href=\"https://www.gassaferegister.co.uk/\" rel=\"noopener\" target=\"_blank\">gassaferegister.co.uk</a>. It is free.",
+    "Water work, such as new taps, toilets, showers and pipework, does not need Gas Safe. For larger jobs, a plumber on WaterSafe, the national register of approved plumbers, can certify that the work meets the water regulations. Yorkshire Water supplies Leeds, and WaterSafe lets you search for approved plumbers near you."
+   ]
+  },
+  {
+   "h2": "Boiler repair or replace?",
+   "p": [
+    "Many Leeds homes have a combi boiler from a maker such as Worcester Bosch, Baxi or Ideal. A breakdown is often a part that can be replaced, such as a pump, valve or fan, but on an older boiler a repair can cost a big share of a new one. Ask the heating engineer to put both options in writing, with the type of boiler they recommend and the warranty that comes with it.",
+    "Manufacturers usually ask for a yearly service to keep the warranty valid, and landlords must have a gas safety check every year and give tenants a copy of the record."
+   ]
+  },
+  {
+   "h2": "What to ask before you book a plumber",
+   "ul": [
+    "Is there a call out fee, and what is the hourly rate after the first hour?",
+    "Is the quote fixed, or will parts be added on top?",
+    "Is the plumbing work guaranteed, and for how long?",
+    "Do you carry public liability insurance?",
+    "For gas: may I see your Gas Safe card?"
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "How do I check a plumber is Gas Safe registered?",
+   "a": "Ask for the engineer's Gas Safe ID card and check the licence number on the Gas Safe Register website. The card also lists the types of gas work the engineer can do, such as boilers or cookers."
+  },
+  {
+   "q": "Do I need a Gas Safe plumber for a leaking tap?",
+   "a": "No. Gas Safe registration is only needed for gas work. A leaking tap is usually a worn washer or cartridge, and any competent plumber can fix it."
+  },
+  {
+   "q": "Who fixes a blocked drain outside my house in Leeds?",
+   "a": "Drains inside your property boundary that serve only your home are usually yours to fix. A drain shared with neighbours, or past your boundary, is usually the responsibility of Yorkshire Water, so call them first."
+  },
+  {
+   "q": "Can a plumber fit a new boiler?",
+   "a": "Only if they are also a Gas Safe registered engineer qualified for boilers. Many Leeds firms offer plumbing and heating together, as the firms above do."
+  }
+ ]
+}
