@@ -26,9 +26,9 @@ const org = { '@context': 'https://schema.org', '@type': 'Organization', name: '
   <meta property="og:url" content={canonical} />
   <meta property="og:site_name" content="Leeds Home Guide" />
   <meta property="og:locale" content="en_GB" />
-  <meta name="theme-color" content="#00203F" />
+  <meta name="theme-color" content="#006AFA" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-  <link rel="preload" href="/fonts/inter-latin-var.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/fonts/plus-jakarta-sans-latin-var.woff2" as="font" type="font/woff2" crossorigin />
   <script type="application/ld+json" set:html={JSON.stringify(org)} />
   {schema.map((s) => <script type="application/ld+json" set:html={JSON.stringify(s)} />)}
 </head>
@@ -37,8 +37,9 @@ const org = { '@context': 'https://schema.org', '@type': 'Organization', name: '
   {PREVIEW && <div class="previewbar" role="note">Preview site. Not live yet: business details are being checked and some sections are placeholders.</div>}
   <header class="site-header">
     <div class="wrap hdr">
-      <a class="logo" href="/" aria-label="Leeds Home Guide home"><svg class="logo-mark" viewBox="0 0 28 28" aria-hidden="true"><rect width="28" height="28" rx="6" fill="#00203F"/><path d="M6.5 14.5 14 8l7.5 6.5" fill="none" stroke="#F97316" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 13.5V20h10v-6.5" fill="none" stroke="#fff" stroke-width="2.2" stroke-linejoin="round"/></svg><span>Leeds Home<b> Guide</b></span></a>
+      <a class="logo" href="/" aria-label="Leeds Home Guide home"><svg class="logo-mark" viewBox="0 0 28 28" aria-hidden="true"><path d="M4 12.5 14 4l10 8.5V24a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1z" fill="none" stroke="#006AFA" stroke-width="2.4" stroke-linejoin="round"/><rect x="10.5" y="14" width="3" height="3" rx=".6" fill="#006AFA"/><rect x="14.5" y="14" width="3" height="3" rx=".6" fill="#006AFA"/><rect x="10.5" y="18" width="3" height="3" rx=".6" fill="#006AFA"/><rect x="14.5" y="18" width="3" height="3" rx=".6" fill="#006AFA"/></svg><span>Leeds Home<b> Guide</b></span></a>
       <nav class="desk" aria-label="Main desktop"><ul>{nav.map((n) => <li><a href={n.href}>{n.label}</a></li>)}</ul></nav>
+      <div class="hdr-right"><a class="hdr-link" href="/get-listed/">For trades</a><a class="btn hdr-cta" href="/trades/">Find a pro</a></div>
       <details class="menu">
         <summary aria-label="Menu"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary>
         <nav aria-label="Main"><ul>{nav.map((n) => <li><a href={n.href}>{n.label}</a></li>)}<li><a href="/get-listed/">For trades</a></li></ul></nav>
@@ -50,7 +51,7 @@ const org = { '@context': 'https://schema.org', '@type': 'Organization', name: '
     <div class="wrap">
       <div class="foot">
         <div class="foot-about">
-          <p class="logo foot-logo"><svg class="logo-mark" viewBox="0 0 28 28" aria-hidden="true"><rect width="28" height="28" rx="6" fill="#fff"/><path d="M6.5 14.5 14 8l7.5 6.5" fill="none" stroke="#F97316" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 13.5V20h10v-6.5" fill="none" stroke="#00203F" stroke-width="2.2" stroke-linejoin="round"/></svg><span>Leeds Home Guide</span></p>
+          <p class="logo foot-logo"><svg class="logo-mark" viewBox="0 0 28 28" aria-hidden="true"><path d="M4 12.5 14 4l10 8.5V24a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1z" fill="none" stroke="#fff" stroke-width="2.4" stroke-linejoin="round"/><rect x="10.5" y="14" width="3" height="3" rx=".6" fill="#fff"/><rect x="14.5" y="14" width="3" height="3" rx=".6" fill="#fff"/><rect x="10.5" y="18" width="3" height="3" rx=".6" fill="#fff"/><rect x="14.5" y="18" width="3" height="3" rx=".6" fill="#fff"/></svg><span>Leeds Home Guide</span></p>
           <p>Local Leeds trades and what jobs really cost.</p>
         </div>
         <ul class="foot-links">

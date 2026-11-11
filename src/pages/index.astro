@@ -1,7 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import Registers from '../components/Registers.astro';
-import { categories, icons } from '../lib/data';
+import { categories, icons, comingSoon } from '../lib/data';
 const site = { '@context': 'https://schema.org', '@type': 'WebSite', name: 'Leeds Home Guide', url: 'https://leedshomeguide.co.uk/', inLanguage: 'en-GB' };
 const tips = [
   ['Get two or three written quotes.', 'A clear quote lists the work, the materials, waste removal and when payment is due. Be wary of anyone who wants most of the money up front.'],
@@ -38,77 +38,104 @@ const short: Record<string, string> = {
   asbestos: 'Surveys, testing, removal',
 };
 const costs = [
-  { title: 'Asbestos garage roof removal', price: 'Disposal from £72.31', href: '/guides/asbestos-garage-roof-removal-leeds/' },
-  { title: 'New boiler', price: 'Coming soon' },
+  { title: 'Asbestos garage roof removal', price: 'Disposal from £72.31', note: 'Leeds council disposal charges, plus what a contractor adds', href: '/guides/asbestos-garage-roof-removal-leeds/', icon: 'asbestos' },
+  { title: 'New boiler', price: 'Coming soon', note: 'Typical Leeds prices for a replacement boiler', icon: 'plumbers' },
+];
+const how = [
+  { t: 'Search for your job', d: 'Type the trade you need, or pick one of the popular services above.' },
+  { t: 'Compare local firms', d: 'See up to 3 Leeds firms per trade, with the register checks we have made shown on each card.' },
+  { t: 'Contact them directly', d: 'Call or visit the firm yourself. It is free, with no booking fee and no middleman.' },
 ];
 ---
 <Base title="Tradesmen in Leeds: Find Trusted Local Tradespeople | Leeds Home Guide" description="Find a trusted local tradesperson in Leeds: roofers, plumbers, electricians and asbestos removal, with the register checks we have made shown on each card, plus tips for getting free quotes." path="/" schema={[site, faqSchema]}>
-  <section class="h-hero">
-    <div class="wrap h-center">
+  <section class="hg-hero">
+    <div class="wrap hg-hero-in">
+      <p class="hg-tabs"><a class="is-on" href="/trades/">Hire a pro</a><a href="/get-listed/">For trades</a></p>
       <h1>Find local tradespeople in Leeds</h1>
-      <p class="h-sub">Trusted local tradespeople in Leeds, with the register checks we have made shown on each card, and what the job should cost.</p>
-      <form class="search" role="search" id="tradesearch" action="/trades/">
-        <label for="q" class="skip">What do you need?</label>
-        <input id="q" name="q" type="search" placeholder="e.g. roofer, boiler, asbestos" autocomplete="off" />
-        <button class="btn" type="submit">Search</button>
+      <p class="hg-sub">Trusted local tradespeople in Leeds, with the register checks we have made shown on each card, and what the job should cost.</p>
+      <form class="hg-search" role="search" id="tradesearch" action="/trades/">
+        <label class="hg-field hg-what">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="m16 16 4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <span class="skip">What do you need?</span>
+          <input id="q" name="q" type="search" placeholder="e.g. roofer, boiler, asbestos" autocomplete="off" />
+        </label>
+        <span class="hg-field hg-where" aria-label="Area: Leeds">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-6.5-6.2-6.5-11.2a6.5 6.5 0 0 1 13 0C18.5 14.8 12 21 12 21z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="12" cy="9.8" r="2.3" fill="currentColor"/></svg>
+          Leeds
+        </span>
+        <button class="btn hg-go" type="submit">Search</button>
       </form>
-      <ul class="h-pills">
-        {categories.slice(0, 4).map((c) => <li><a href={`/trades/${c.slug}/`}>{c.name}</a></li>)}
+      <ul class="hg-pills">
+        {categories.map((c) => <li><a href={`/trades/${c.slug}/`}>{c.name}</a></li>)}
       </ul>
     </div>
   </section>
 
-  <section class="h-sec">
+  <section class="hg-sec">
     <div class="wrap">
-      <h2>Find a trade</h2>
-      <ul class="h-tiles">
+      <div class="hg-head"><h2>Popular home services in Leeds</h2><a class="hg-more" href="/trades/">See all</a></div>
+      <ul class="hg-services">
         {categories.map((c) => (
-          <li><a class="h-tile" href={`/trades/${c.slug}/`}>
-            <svg class="h-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" set:html={icons[c.key]} />
-            <span class="h-tile-name">{c.name}</span>
-            <span class="h-tile-line">{short[c.key]}</span>
+          <li><a class={`hg-svc is-${c.key}`} href={`/trades/${c.slug}/`}>
+            <span class="hg-svc-art" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" set:html={icons[c.key]} /></span>
+            <span class="hg-svc-body"><span class="hg-svc-name">{c.name}</span><span class="hg-svc-line">{short[c.key]}</span></span>
           </a></li>
         ))}
       </ul>
+      <p class="hg-soon"><span>Coming soon:</span> {comingSoon.join(', ')}</p>
     </div>
   </section>
 
-  <section class="h-sec">
+  <section class="hg-sec hg-soft">
     <div class="wrap">
-      <div class="h-head"><h2>What it costs in Leeds</h2><a class="h-more" href="/guides/">See all guides</a></div>
-      <ul class="h-costs">
-        {costs.map((g) => g.href
-          ? <li><a href={g.href}><span class="h-cost-t">{g.title}</span><span class="h-cost-p">{g.price}</span></a></li>
-          : <li class="is-soon"><span class="h-cost-t">{g.title}</span><span class="h-cost-p">{g.price}</span></li>)}
-      </ul>
-      <p class="h-more-row"><a class="h-more" href="/guides/">See all guides</a></p>
+      <h2 class="hg-center-h">How Leeds Home Guide works</h2>
+      <ol class="hg-how">
+        {how.map((h, i) => <li><span class="hg-how-n">{i + 1}</span><b>{h.t}</b><span>{h.d}</span></li>)}
+      </ol>
     </div>
   </section>
 
-  <section class="h-sec">
+  <section class="hg-sec">
+    <div class="wrap">
+      <div class="hg-head"><h2>Cost estimates for Leeds</h2><a class="hg-more" href="/guides/">See all guides</a></div>
+      <ul class="hg-costs">
+        {costs.map((g) => {
+          const inner = (<Fragment>
+            <span class="hg-cost-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" set:html={icons[g.icon]} /></span>
+            <span class="hg-cost-t">{g.title}</span>
+            <span class="hg-cost-n">{g.note}</span>
+            <span class="hg-cost-p">{g.price}</span>
+          </Fragment>);
+          return g.href ? <li><a class="hg-cost" href={g.href}>{inner}</a></li> : <li><div class="hg-cost is-soon">{inner}</div></li>;
+        })}
+      </ul>
+    </div>
+  </section>
+
+  <section class="hg-sec hg-soft">
     <div class="wrap">
       <h2>How we check</h2>
-      <p class="h-intro">We look firms up on the official registers, and each card shows which checks we have made.</p>
+      <p class="hg-intro">We look firms up on the official registers, and each card shows which checks we have made.</p>
       <Registers compact />
     </div>
   </section>
 
-  <section class="h-sec">
+  <section class="hg-sec">
     <div class="wrap h-guide">
       <h2>Which tradesperson do you need?</h2>
-      <p class="h-intro">From a quick repair to a full renovation, every homeowner in Leeds needs a specialist sooner or later. Not sure who to call? Start here.</p>
+      <p class="hg-intro">From a quick repair to a full renovation, every homeowner in Leeds needs a specialist sooner or later. Not sure who to call? Start here.</p>
       <ul class="h-which">{which.map((w) => <li><span class="h-which-job">{w.job}</span>{w.href ? <a href={w.href}>{w.who}</a> : <span class="h-which-who">{w.who}</span>}</li>)}</ul>
       <h2>How to find a good tradesperson in Leeds</h2>
-      <p class="h-intro">Whether you need a roofer, a plumber, an electrician or a builder, the same few checks help you hire a tradesman you can trust.</p>
+      <p class="hg-intro">Whether you need a roofer, a plumber, an electrician or a builder, the same few checks help you hire a tradesman you can trust.</p>
       <ol class="steps">{tips.map(([t, d]) => <li><b>{t}</b> {d}</li>)}</ol>
       <section class="faq"><h2>Questions people ask</h2>{faqs.map((f) => <details><summary>{f.q}</summary><p>{f.a}</p></details>)}</section>
     </div>
   </section>
 
-  <section class="h-band">
-    <div class="wrap h-band-in">
-      <p><b>Run a Leeds trade?</b> Listing is free.</p>
-      <a class="btn" href="/get-listed/">Get listed</a>
+  <section class="hg-cta">
+    <div class="wrap hg-cta-in">
+      <div><h2>Run a Leeds trade?</h2><p>Listing is free. Tell us about your business and the work you do.</p></div>
+      <a class="btn hg-cta-btn" href="/get-listed/">Get listed</a>
     </div>
   </section>
   <script is:inline>
