@@ -1,0 +1,135 @@
+{
+ "name": "Window cleaners",
+ "title": "Best Window Cleaners in Leeds",
+ "slug": "window-cleaners",
+ "kicker": "WINDOW CLEANING",
+ "intro": "Regular window cleaning, conservatory roofs, gutters and fascias. Below are 3 window cleaning firms in Leeds, how traditional and water fed pole cleaning compare, and what to ask before you sign up for a regular round.",
+ "services_hint": "Windows, conservatories, gutters",
+ "seo_title": "Window Cleaners Leeds: 3 Local Window Cleaning Firms",
+ "seo_desc": "Window cleaners in Leeds: 3 local window cleaning firms for regular rounds, conservatory roofs and gutters, with how pole and traditional cleaning compare.",
+ "h1": "Best window cleaners in Leeds: 3 local window cleaning firms",
+ "list_label": "window cleaners in Leeds",
+ "checks": [
+  "Ask whether the window cleaner has public liability insurance.",
+  "Ask how often they will come and how you pay, and whether frames and sills are included.",
+  "For high windows, ask whether they use water fed poles from the ground or ladders."
+ ],
+ "firms": [
+  {
+   "name": "Morrells Window Cleaning",
+   "domain": "morrellswindowcleaning.com",
+   "url": "https://www.morrellswindowcleaning.com/",
+   "phone": "0113 824 4140",
+   "area": "Wortley, Leeds LS12",
+   "rating": {
+    "score": "4.9",
+    "count": 303,
+    "url": "https://www.google.com/maps/search/?api=1&query=Morrells+Window+Cleaning+Ltd+Leeds",
+    "read": "12 November 2026"
+   },
+   "claims": [
+    "Morrells Window Cleaning Ltd: Companies House 13326347, active since 2021 (checked 12 Nov 2026)",
+    "Covers Leeds, Bradford and Pontefract (per website)"
+   ],
+   "services": [
+    "Window cleaning",
+    "Gutter cleaning",
+    "Exterior cleaning"
+   ],
+   "why": "A Leeds window cleaning company with over 300 Google reviews that covers homes and businesses across Leeds, Bradford and Pontefract, and also cleans gutters and exteriors.",
+   "logo_bg": "light"
+  },
+  {
+   "name": "Preen and Clean Leeds",
+   "domain": "preenandclean.com",
+   "url": "https://preenandclean.com/locations/leeds/",
+   "phone": "0113 418 0192",
+   "area": "Leeds",
+   "rating": {
+    "score": "4.7",
+    "count": 416,
+    "url": "https://www.google.com/maps/search/?api=1&query=Preen+%26+Clean+Leeds",
+    "read": "12 November 2026"
+   },
+   "claims": [
+    "Several Leeds companies trade under this name on Companies House, for example Preen and Clean Leeds Central Ltd, 12460691 (checked 12 Nov 2026)",
+    "Part of the Preen & Clean franchise (per website)"
+   ],
+   "services": [
+    "Window cleaning",
+    "Conservatory cleaning",
+    "Gutter cleaning"
+   ],
+   "why": "The Leeds arm of a UK window cleaning franchise, with more than 400 Google reviews. Useful if you want a firm with set processes and online account management.",
+   "logo_bg": "light"
+  },
+  {
+   "name": "JWD Traditional Window Cleaning",
+   "domain": "jwdtraditionalwindowcleaning.co.uk",
+   "url": "https://www.jwdtraditionalwindowcleaning.co.uk/",
+   "phone": "07508 635319",
+   "area": "Leeds",
+   "claims": [
+    "No limited company matched on Companies House under this name (checked 12 Nov 2026)",
+    "Traditional window cleaning, gutters and conservatories (per website)",
+    "100% satisfaction guarantee (per website)"
+   ],
+   "services": [
+    "Traditional window cleaning",
+    "Conservatory cleaning",
+    "Gutter cleaning"
+   ],
+   "why": "An independent Leeds window cleaner using traditional methods, which some people prefer for older sash and leaded windows, plus gutter and conservatory cleaning.",
+   "logo_bg": "light"
+  }
+ ],
+ "guide": [
+  {
+   "h2": "Traditional or water fed pole?",
+   "p": [
+    "<b>Traditional window cleaning</b> uses a squeegee and ladders where needed. It gets into corners well and suits small panes and leaded lights.",
+    "<b>Water fed pole cleaning</b> uses purified water pumped up a long pole from the ground. It cleans frames and sills as well as glass, avoids ladders and dries without smears. Most Leeds rounds now use poles for upper floors."
+   ]
+  },
+  {
+   "h2": "How often should windows be cleaned?",
+   "p": [
+    "Most homes in Leeds have their windows cleaned every four to eight weeks. Homes on busy roads, near building work or under trees may need more frequent cleans. Many window cleaners offer a regular round and send a text before each visit."
+   ]
+  },
+  {
+   "h2": "Gutters and conservatory roofs",
+   "p": [
+    "Many window cleaners also clear gutters and clean conservatory roofs and fascias. Blocked gutters are a common cause of damp in Leeds' older houses, so clearing them once or twice a year is worth it. See <a href=\"/trades/damp-proofing/\">damp proofing in Leeds</a> if water is already getting in."
+   ]
+  },
+  {
+   "h2": "Questions to ask a window cleaner",
+   "ul": [
+    "Are you insured, and can I see proof?",
+    "How often will you come, and do you text before visiting?",
+    "Are frames, sills and doors included?",
+    "How do I pay, and what happens if I am out?",
+    "Do you clean conservatory roofs and gutters?"
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "How much does a window cleaner cost in Leeds?",
+   "a": "Prices depend on the number of windows and access. Ask for a fixed price per clean. Our window cleaner cost guide is coming in a later update."
+  },
+  {
+   "q": "Do I need to be home for the window cleaner?",
+   "a": "Usually not for outside windows, as long as they can reach the back of the house. Agree how you will pay."
+  },
+  {
+   "q": "Is water fed pole cleaning as good as traditional?",
+   "a": "For most windows, yes. Purified water dries without streaks and the frames get cleaned too. Traditional cleaning can be better for small panes and leaded windows."
+  },
+  {
+   "q": "Can window cleaners clean conservatory roofs?",
+   "a": "Many can, using poles and soft brushes. Ask whether it is included or priced separately."
+  }
+ ]
+}

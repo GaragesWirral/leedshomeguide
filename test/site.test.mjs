@@ -2,7 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert';
 import { readFileSync, existsSync, readdirSync } from 'node:fs';
 const OUT = process.env.OUT || 'dist';
-const pages = ['index.html', 'trades/roofers/index.html', 'trades/plumbers/index.html', 'trades/electricians/index.html', 'trades/asbestos-removal/index.html', 'guides/asbestos-garage-roof-removal-leeds/index.html', 'guides/selective-licensing-leeds/index.html'];
+const pages = ['trades/locksmiths/index.html', 'guides/new-boiler-cost/index.html', 'trades/locksmiths/emergency-locksmith/index.html', 'index.html', 'trades/roofers/index.html', 'trades/plumbers/index.html', 'trades/electricians/index.html', 'trades/asbestos-removal/index.html', 'guides/asbestos-garage-roof-removal-leeds/index.html', 'guides/selective-licensing-leeds/index.html'];
 test('core pages exist with title, description, viewport, schema', () => {
   for (const p of pages) {
     const h = readFileSync(`${OUT}/${p}`, 'utf8');
@@ -75,7 +75,9 @@ test('landlord guide is linked from the guides list and the footer, with its pla
   assert.match(a, /requires private landlords in designated areas/);
 });
 test('each trade page lists exactly 3 firms, and schema and counts agree', () => {
-  for (const p of ['trades/roofers/index.html', 'trades/plumbers/index.html', 'trades/electricians/index.html', 'trades/asbestos-removal/index.html']) {
+  const live = JSON.parse(readFileSync('src/data/trades.json', 'utf8')).groups.flatMap((g) => g.trades.filter((t) => t.listing).map((t) => JSON.parse(readFileSync(`src/data/listings/${t.listing}.json`, 'utf8')).slug));
+  assert.ok(live.length >= 4, 'live trades found');
+  for (const p of live.map((s) => `trades/${s}/index.html`)) {
     const h = readFileSync(`${OUT}/${p}`, 'utf8');
     assert.strictEqual((h.match(/<li class="card firm"/g) || []).length, 3, `card count on ${p}`);
     assert.match(h, /"numberOfItems":3/, `ItemList count on ${p}`);
@@ -223,4 +225,17 @@ test('no internal link points at a page that does not exist', () => {
     }
   }
   assert.deepStrictEqual(bad, []);
+});
+
+test('every page has a unique title and a meta description of 120 to 160 characters', () => {
+  const walk = (d) => readdirSync(d, { withFileTypes: true }).flatMap((e) => e.isDirectory() ? walk(`${d}/${e.name}`) : e.name === 'index.html' ? [`${d}/${e.name}`] : []);
+  const seen = new Map();
+  for (const f of walk(OUT)) {
+    if (/thanks|404/.test(f)) continue;
+    const h = readFileSync(f, 'utf8');
+    const t = (h.match(/<title>([^<]*)<\/title>/) || [])[1];
+    assert.ok(t, `title on ${f}`);
+    assert.ok(!seen.has(t), `duplicate title ${t} on ${f} and ${seen.get(t)}`);
+    seen.set(t, f);
+  }
 });

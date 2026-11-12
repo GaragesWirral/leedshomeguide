@@ -1,0 +1,145 @@
+{
+ "name": "Pest control",
+ "title": "Best Pest Control in Leeds",
+ "slug": "pest-control",
+ "kicker": "PEST CONTROL",
+ "intro": "Mice in the kitchen, rats in the garden, a wasp nest under the eaves or bed bugs after a holiday. Below are 3 pest control firms in Leeds, how they compare with Leeds City Council's own pest service, and what treatments typically cost.",
+ "services_hint": "Rats, mice, wasps, bed bugs",
+ "seo_title": "Pest Control Leeds: 3 Local Pest Controllers (2026)",
+ "seo_desc": "Pest control in Leeds: 3 local pest controllers, the council pest service, typical 2026 prices for rats, mice, wasps and bed bugs, and what to ask first.",
+ "h1": "Best pest control in Leeds: 3 local pest controllers",
+ "list_label": "pest control firms in Leeds",
+ "checks": [
+  "Ask whether the technician holds a pest control qualification and belongs to the BPCA or NPTA.",
+  "Ask how many visits the price covers, as rodent treatments often need two or three.",
+  "Ask what products will be used and how to keep children and pets safe."
+ ],
+ "expert_tip": {
+  "by": "Leeds City Council guidance",
+  "src": "Leeds City Council: Pest control",
+  "url": "https://www.leeds.gov.uk/environmental-health/pest-control",
+  "body": "Leeds City Council runs its own pest control service for residents and businesses. For most pests its price covers all the visits needed to clear the current problem, except bedbugs and wasps. After you request a treatment online, the council says to allow up to 5 working days to be contacted, so for an urgent problem a private firm may be quicker."
+ },
+ "firms": [
+  {
+   "name": "The Pest Company Leeds",
+   "domain": "thepestcompany.co.uk",
+   "url": "https://www.thepestcompany.co.uk/pest-control-leeds/",
+   "phone": "0113 318 2143",
+   "area": "Lawnswood, Leeds LS16",
+   "rating": {
+    "score": "5.0",
+    "count": 86,
+    "url": "https://www.google.com/maps/search/?api=1&query=The+Pest+Company+Leeds",
+    "read": "12 November 2026"
+   },
+   "claims": [
+    "We could not match the company behind this branch on Companies House (checked 12 Nov 2026)",
+    "BPCA members (per website)",
+    "Fully qualified and insured, domestic and commercial (per website)"
+   ],
+   "services": [
+    "Rats and mice",
+    "Wasps and insects",
+    "Commercial pest control"
+   ],
+   "why": "A Leeds branch of a regional pest control firm with strong Google reviews, offering domestic and commercial pest control and saying its technicians are BPCA members.",
+   "logo_bg": "light"
+  },
+  {
+   "name": "Pestek Pest Control",
+   "domain": "pestek.co.uk",
+   "url": "https://www.pestek.co.uk/",
+   "phone": "07977 108036",
+   "area": "Leeds",
+   "rating": {
+    "score": "5.0",
+    "count": 307,
+    "url": "https://www.google.com/maps/search/?api=1&query=Pestek+Leeds",
+    "read": "12 November 2026"
+   },
+   "claims": [
+    "No active limited company found on Companies House under this name (checked 12 Nov 2026)",
+    "Pest control in Leeds since 2008 (per website)",
+    "All treatments guaranteed (per website)"
+   ],
+   "services": [
+    "Rats and mice",
+    "Wasp nests",
+    "Insects and birds"
+   ],
+   "why": "A Leeds pest controller working since 2008 with more than 300 Google reviews, which says every treatment is guaranteed.",
+   "logo_bg": "light"
+  },
+  {
+   "name": "MJR Pest Control",
+   "domain": "mjrpestcontrol.co.uk",
+   "url": "https://mjrpestcontrol.co.uk/",
+   "phone": "07799 241461",
+   "area": "Leeds",
+   "claims": [
+    "No limited company matched on Companies House under this name (checked 12 Nov 2026)",
+    "NPTA members and City & Guilds qualified technicians (per website)",
+    "Same day response for wasps (per website)"
+   ],
+   "services": [
+    "Wasp nest removal",
+    "Rodent control",
+    "Rabbits and vermin"
+   ],
+   "why": "A Leeds pest control business offering same day response for wasps and urgent jobs, with technicians it says are NPTA members and City & Guilds qualified.",
+   "logo_bg": "light"
+  }
+ ],
+ "guide": [
+  {
+   "h2": "Council or private pest control in Leeds?",
+   "p": [
+    "Leeds City Council offers pest treatments for residents, with officers who are BASIS Prompt registered and members of the National Pest Technicians Association. Its price includes all the visits needed for the current problem for most pests. The trade off is speed: the council asks you to allow up to 5 working days for contact. Private firms can often come the same or next day, which matters for wasps near a door or rats indoors."
+   ]
+  },
+  {
+   "h2": "Common pests in Leeds homes",
+   "ul": [
+    "<b>Mice and rats</b>: the most common call out, especially in autumn and winter. Treatment usually needs several visits.",
+    "<b>Wasps</b>: nests in roofs, sheds and bushes in summer. See <a href=\"/trades/pest-control/wasp-nest-removal/\">wasp nest removal in Leeds</a>.",
+    "<b>Bed bugs</b>: often brought home from travel or second hand furniture. Hard to clear without professional treatment.",
+    "<b>Fleas, ants and moths</b>: usually treated in one or two visits.",
+    "<b>Pigeons and squirrels</b>: proofing is usually more effective than control alone."
+   ]
+  },
+  {
+   "h2": "How much does pest control cost?",
+   "p": [
+    "Checkatrade's 2026 guide gives these average UK prices: about £180 for rats or mice over two visits, £137.50 for a wasp nest, £190 for bed bugs and £150 for fleas. See our <a href=\"/guides/pest-control-cost/\">pest control cost guide</a> for the full list."
+   ]
+  },
+  {
+   "h2": "Preventing pests coming back",
+   "ul": [
+    "Seal gaps around pipes and under doors; a mouse can get through a very small hole.",
+    "Keep food in sealed containers and bins closed.",
+    "Clear garden clutter and keep compost bins sealed.",
+    "Check lofts and sheds for wasp nests in spring while they are small."
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Does Leeds City Council do pest control?",
+   "a": "Yes. The council offers pest treatments for residents and businesses. For most pests the price covers all the visits needed for the current problem. Request online and allow up to 5 working days for contact."
+  },
+  {
+   "q": "How much does it cost to get rid of mice?",
+   "a": "Checkatrade's 2026 guide puts rat or mouse removal at about £120 to £240 for two visits, averaging £180."
+  },
+  {
+   "q": "How long does it take to get rid of rats?",
+   "a": "Usually two to three visits over a couple of weeks, depending on how big the problem is and whether entry points are sealed."
+  },
+  {
+   "q": "Is pest control safe for pets?",
+   "a": "Professional pest controllers use bait boxes and products designed to limit risk to pets and children. Tell the technician about any pets before they start."
+  }
+ ]
+}

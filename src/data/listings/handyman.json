@@ -1,0 +1,140 @@
+{
+ "name": "Handyman services",
+ "title": "Best Handyman Services in Leeds",
+ "slug": "handyman",
+ "kicker": "HANDYMAN AND ODD JOBS",
+ "intro": "Shelves to put up, a dripping tap, flat pack to build or a door that sticks. Below are 3 handyman services in Leeds with strong Google reviews, what a handyman can and cannot do, and how to get the most from a half or full day booking.",
+ "services_hint": "Odd jobs, flat pack, small repairs",
+ "seo_title": "Handyman Leeds: 3 Local Handyman Services (2026)",
+ "seo_desc": "Handyman in Leeds: 3 local handyman services for odd jobs, flat pack, shelves and small repairs, what a handyman can legally do, and tips for booking.",
+ "h1": "Best handyman services in Leeds: 3 local handymen",
+ "list_label": "handyman services in Leeds",
+ "checks": [
+  "Make a written list of jobs before you call so the handyman can quote for a half or full day.",
+  "Ask whether they have public liability insurance.",
+  "Check that any gas or major electrical work goes to a Gas Safe engineer or a registered electrician instead."
+ ],
+ "firms": [
+  {
+   "name": "Hudson Handyman Services",
+   "domain": "hudsonhandyman.co.uk",
+   "url": "https://hudsonhandyman.co.uk/",
+   "phone": "07435 668571",
+   "area": "Woodland Lane, Leeds LS7",
+   "rating": {
+    "score": "5.0",
+    "count": 78,
+    "url": "https://www.google.com/maps/search/?api=1&query=Hudson+Handyman+Services+Leeds",
+    "read": "12 November 2026"
+   },
+   "claims": [
+    "Hudson Handyman Services Ltd: Companies House 14741863, active since 2023 (checked 12 Nov 2026)",
+    "Free quotes (per website)"
+   ],
+   "services": [
+    "Blinds and curtain poles",
+    "Handrails and locks",
+    "Installations and repairs"
+   ],
+   "why": "A Leeds handyman business that handles installations and repairs such as blinds, handrails, locks and handles, and gives free quotes.",
+   "logo_bg": "light"
+  },
+  {
+   "name": "Hey Handyman",
+   "domain": "heyhandyman.co.uk",
+   "url": "https://heyhandyman.co.uk/",
+   "phone": "07767 175220",
+   "area": "Leeds",
+   "rating": {
+    "score": "5.0",
+    "count": 120,
+    "url": "https://www.google.com/maps/search/?api=1&query=Hey+Handyman+Leeds",
+    "read": "12 November 2026"
+   },
+   "claims": [
+    "No limited company matched on Companies House under this name (checked 12 Nov 2026)",
+    "Experienced and fully insured (per website)"
+   ],
+   "services": [
+    "Flat pack assembly",
+    "Small plumbing jobs",
+    "General repairs"
+   ],
+   "why": "A Leeds handyman service with more than 100 Google reviews that covers flat pack assembly, small plumbing jobs and general repairs around the home.",
+   "logo_bg": "light"
+  },
+  {
+   "name": "S. Bretherick Handyman Services",
+   "domain": "sbhandymanservices.co.uk",
+   "url": "https://sbhandymanservices.co.uk/",
+   "phone": "07958 250217",
+   "area": "Kellett Road, Leeds LS12",
+   "rating": {
+    "score": "5.0",
+    "count": 111,
+    "url": "https://www.google.com/maps/search/?api=1&query=Bretherick+Handyman+Services+Leeds",
+    "read": "12 November 2026"
+   },
+   "claims": [
+    "No limited company matched on Companies House under this name (checked 12 Nov 2026)",
+    "No call out fee, fully insured, free quotes (per website)"
+   ],
+   "services": [
+    "Odd jobs",
+    "Flat pack",
+    "Repairs and maintenance"
+   ],
+   "why": "A one person handyman business in west Leeds covering Leeds and West Yorkshire, which says no job is too small and charges no call out fee.",
+   "logo_bg": "light"
+  }
+ ],
+ "guide": [
+  {
+   "h2": "What a handyman can do",
+   "ul": [
+    "Putting up shelves, pictures, mirrors, curtain poles and blinds",
+    "Building flat pack furniture",
+    "Small plumbing jobs such as a dripping tap, toilet seat or replacing a washer",
+    "Adjusting doors and replacing handles and locks",
+    "Sealant, small repairs to plaster and paintwork",
+    "Fitting TV brackets and small garden jobs"
+   ]
+  },
+  {
+   "h2": "What a handyman should not do",
+   "p": [
+    "Any work on gas, including moving a gas pipe or fitting a hob, must be done by a Gas Safe registered engineer. Larger electrical work, such as new circuits or a consumer unit, should be done by a registered electrician so you get the right certificates. See our lists of <a href=\"/trades/plumbers/\">plumbers in Leeds</a> and <a href=\"/trades/electricians/\">electricians in Leeds</a>."
+   ]
+  },
+  {
+   "h2": "Getting the most from a handyman",
+   "p": [
+    "Most handymen charge by the hour, half day or day. Write a list of every small job, with photos, and send it before the visit. Buy any materials you have chosen yourself, or agree that the handyman will supply them at cost. Grouping jobs into one visit is usually much cheaper than several call outs."
+   ]
+  },
+  {
+   "h2": "Handyman or specialist?",
+   "p": [
+    "For a bigger single job, such as a new door lock, a full room of plastering or a fence, a specialist may do it faster and better. See <a href=\"/trades/locksmiths/\">locksmiths in Leeds</a> for locks, or our <a href=\"/trades/\">full list of Leeds trades</a>."
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "How much does a handyman charge in Leeds?",
+   "a": "Most charge by the hour or by the half day. Ask for the rate and any minimum charge when you book. Our handyman cost guide is coming in a later update."
+  },
+  {
+   "q": "Can a handyman do electrical work?",
+   "a": "Small like for like jobs, such as replacing a light fitting, may be fine, but new circuits and consumer units should be done by a registered electrician who can certify the work."
+  },
+  {
+   "q": "Will a handyman take a small job?",
+   "a": "Many will, especially if you can add a few more jobs to make it worth the visit. Ask about a minimum charge."
+  },
+  {
+   "q": "Do handymen bring their own tools and materials?",
+   "a": "They bring tools. Materials are usually extra, either bought by you or supplied by the handyman and added to the bill."
+  }
+ ]
+}

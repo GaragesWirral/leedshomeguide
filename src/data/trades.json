@@ -21,17 +21,18 @@
      "listing": "electricians"
     },
     {
-     "name": "Boiler and heating engineers"
-    },
-    {
      "name": "Locksmiths",
      "listing": "locksmiths"
     },
     {
-     "name": "Plasterers"
+     "name": "Handyman services",
+     "listing": "handyman"
     },
     {
-     "name": "Handymen"
+     "name": "Boiler and heating engineers"
+    },
+    {
+     "name": "Plasterers"
     },
     {
      "name": "Glaziers"
@@ -103,30 +104,35 @@
    "intro": "Services that keep a home running: cleaning, moving house, clearing waste and dealing with pests.",
    "trades": [
     {
-     "name": "Cleaners"
+     "name": "Cleaners",
+     "listing": "cleaners"
     },
     {
      "name": "Carpet cleaning",
      "listing": "carpet-cleaning"
     },
     {
-     "name": "Window cleaners"
+     "name": "Window cleaners",
+     "listing": "window-cleaners"
     },
     {
-     "name": "Gutter cleaning"
-    },
-    {
-     "name": "Removals"
+     "name": "Removals",
+     "listing": "removals"
     },
     {
      "name": "Skip hire",
      "listing": "skip-hire"
     },
     {
-     "name": "Rubbish removal"
+     "name": "Rubbish removal and house clearance",
+     "listing": "rubbish-removal"
     },
     {
-     "name": "Pest control"
+     "name": "Pest control",
+     "listing": "pest-control"
+    },
+    {
+     "name": "Gutter cleaning"
     }
    ]
   },
@@ -142,13 +148,16 @@
      "listing": "asbestos"
     },
     {
-     "name": "Damp proofing"
+     "name": "Damp proofing",
+     "listing": "damp-proofing"
     },
     {
-     "name": "Damp and mould"
+     "name": "Garage removal",
+     "listing": "garage-removal"
     },
     {
-     "name": "Garage removal"
+     "name": "Asbestos surveys",
+     "listing": "asbestos-surveys"
     },
     {
      "name": "Drainage"

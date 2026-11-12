@@ -1,0 +1,145 @@
+{
+ "name": "Cleaners",
+ "title": "Best Cleaners in Leeds",
+ "slug": "cleaners",
+ "kicker": "HOUSE CLEANING",
+ "intro": "A weekly clean, a one off deep clean or help before you sell or move out. Below are 3 cleaning companies in Leeds that clean homes, with what each offers and what to ask before you let someone into your home.",
+ "services_hint": "Regular, one off and deep cleans",
+ "seo_title": "Cleaners Leeds: 3 Local Domestic Cleaning Firms (2026)",
+ "seo_desc": "Domestic cleaners in Leeds from 3 local cleaning companies. Regular and one off cleans, deep cleans, what to ask, and how to check a cleaner before they start.",
+ "h1": "Best cleaners in Leeds: 3 local house cleaning companies",
+ "list_label": "cleaning companies in Leeds",
+ "checks": [
+  "Ask whether cleaners are employed by the firm or self employed, and whether they are DBS checked.",
+  "Ask whether the firm has public liability insurance in case something is damaged.",
+  "Agree what is included in a clean, such as ironing, oven or windows, and the hourly rate, in writing."
+ ],
+ "firms": [
+  {
+   "name": "Clean Leeds",
+   "domain": "cleanleeds.co.uk",
+   "url": "https://cleanleeds.co.uk/",
+   "phone": "0113 225 5563",
+   "area": "North Leeds and city centre",
+   "rating": {
+    "score": "4.7",
+    "count": 58,
+    "url": "https://www.google.com/maps/search/?api=1&query=Clean+Leeds+Ltd",
+    "read": "12 November 2026"
+   },
+   "claims": [
+    "Clean Leeds Limited: Companies House 14858454, active since 2023 (checked 12 Nov 2026)",
+    "Staff DBS checked and directly employed (per website)",
+    "Fully insured (per website)"
+   ],
+   "services": [
+    "Regular house cleaning",
+    "One off and deep cleans",
+    "Commercial cleaning"
+   ],
+   "why": "A Leeds cleaning company serving north Leeds and the city centre, which says its cleaners are directly employed rather than self employed contractors, a useful difference if you want the same reliable team.",
+   "logo_bg": "light"
+  },
+  {
+   "name": "Platinum City Cleaning Services",
+   "domain": "platinumcitycleaning.co.uk",
+   "url": "https://www.platinumcitycleaning.co.uk/",
+   "phone": "07949 912092",
+   "area": "Leeds",
+   "rating": {
+    "score": "5.0",
+    "count": 87,
+    "url": "https://www.google.com/maps/search/?api=1&query=Platinum+City+Cleaning+Services+Leeds",
+    "read": "12 November 2026"
+   },
+   "claims": [
+    "No limited company matched on Companies House under this name (checked 12 Nov 2026)",
+    "Family run, DBS checked, trained and insured (per website)",
+    "Satisfaction guarantee (per website)"
+   ],
+   "services": [
+    "Domestic cleaning",
+    "Office cleaning",
+    "Airbnb and landlord cleans"
+   ],
+   "why": "A family run Leeds cleaning business with strong Google reviews that cleans homes, offices and short let properties, including early morning and late night cleans.",
+   "logo_bg": "light"
+  },
+  {
+   "name": "Cleen-Bees",
+   "domain": "cleenbees.co.uk",
+   "url": "https://cleenbees.co.uk/",
+   "phone": "07534 648333",
+   "area": "Upper Wortley, Leeds LS12",
+   "rating": {
+    "score": "4.3",
+    "count": 22,
+    "url": "https://www.google.com/maps/search/?api=1&query=Cleen-Bees+Ltd+Leeds",
+    "read": "12 November 2026"
+   },
+   "claims": [
+    "Cleen-Bees Limited: Companies House 12285883, active since 2019 (checked 12 Nov 2026)",
+    "Domestic, commercial and industrial cleaning (per website)"
+   ],
+   "services": [
+    "Domestic cleaning",
+    "Commercial cleaning",
+    "Independent living support"
+   ],
+   "why": "A Leeds cleaning company based in Upper Wortley that offers domestic and commercial cleaning, and also independent living services for people who need extra help at home.",
+   "logo_bg": "light"
+  }
+ ],
+ "guide": [
+  {
+   "h2": "Choosing a cleaner in Leeds",
+   "p": [
+    "You can hire a cleaner through a cleaning company, an agency that introduces self employed cleaners, or directly. A cleaning company that employs its staff usually handles holiday cover, insurance and vetting for you. With an agency or a private cleaner, check who is responsible if something goes wrong.",
+    "Whoever you choose, ask for references or read reviews that mention regular cleans over several months, not just one visit."
+   ]
+  },
+  {
+   "h2": "Types of house cleaning",
+   "ul": [
+    "<b>Regular cleaning</b>: weekly or fortnightly, usually charged by the hour.",
+    "<b>Deep cleaning</b>: a one off top to bottom clean, including inside cupboards, skirting boards and appliances.",
+    "<b>End of tenancy cleaning</b>: a thorough clean when you move out of a rented home, often to an agent's checklist.",
+    "<b>After builders cleaning</b>: dust and debris after a renovation."
+   ]
+  },
+  {
+   "h2": "What to agree before the first clean",
+   "ul": [
+    "The hourly rate and minimum hours per visit",
+    "Who supplies cleaning products and equipment",
+    "How keys are kept and returned",
+    "What happens if a clean is missed or something is damaged",
+    "How much notice either side must give to stop"
+   ]
+  },
+  {
+   "h2": "Cleaning and your carpets",
+   "p": [
+    "Most house cleaners vacuum but do not deep clean carpets or sofas. For that, see our list of <a href=\"/trades/carpet-cleaning/\">carpet cleaning firms in Leeds</a> and the typical prices in our <a href=\"/guides/carpet-cleaning-cost/\">carpet cleaning cost guide</a>."
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Should a cleaner be DBS checked?",
+   "a": "It is not a legal requirement for domestic cleaners, but many cleaning companies DBS check their staff. If someone will have keys to your home, it is reasonable to ask."
+  },
+  {
+   "q": "Do I need to provide cleaning products?",
+   "a": "It depends on the firm. Some bring everything, others use your products and equipment. Agree this before the first clean."
+  },
+  {
+   "q": "What is included in a deep clean?",
+   "a": "Usually everything in a regular clean plus areas that are often missed, such as inside cupboards and appliances, behind furniture, skirting boards, doors and light switches. Ask for a checklist."
+  },
+  {
+   "q": "Can I get the same cleaner each week?",
+   "a": "Many companies try to send the same cleaner or team for regular cleans. Ask how they cover holidays and sickness."
+  }
+ ]
+}
