@@ -61,6 +61,15 @@ Checkatrade's damp survey guide gives higher figures of about £200 for a 2 bed 
 - Ventilation and heating, to rule condensation in or out
 - A written report with photos and a clear cause
 
+## Types of damp the survey should identify
+
+- **Condensation**: moisture from inside the home settling on cold walls, often with black mould
+- **Penetrating damp**: rain getting in through walls, roofs, gutters, windows or chimneys
+- **Rising damp**: ground moisture rising up walls without a working damp proof course
+- **Plumbing leaks**: hidden leaks from pipes, showers or heating
+
+A damp surveyor will often also check timber for rot and woodworm, which is why lenders sometimes ask for a damp and timber survey.
+
 ## Free survey or independent survey?
 
 Many damp proofing companies offer free surveys. The surveyor is often also selling the treatment, so a free survey can lead to a quote for chemical damp proofing whatever the cause. An independent damp surveyor charges a fee but has nothing to sell. For older Leeds stone terraces, where condensation and penetrating damp are common, a neutral opinion can save far more than it costs.

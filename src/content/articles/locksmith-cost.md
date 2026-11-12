@@ -85,6 +85,17 @@ Checkatrade publishes average job prices for a handful of UK cities. For Leeds i
 - **Damage.** If the lock has to be drilled, you pay for a new one.
 - **Travel.** MyBuilder notes travel charges of about £20 to £50 if the locksmith comes a long way, which is a good reason to use a local locksmith.
 
+## Lock types and what they cost
+
+| Lock | What it is | Typical replacement (Checkatrade) |
+|---|---|---|
+| Euro cylinder (uPVC and composite doors) | The barrel the key goes into | £100 to £150 |
+| Anti snap euro cylinder | A cylinder designed to resist snapping, for example to TS007 3 star | £125 to £175 |
+| Yale or nightlatch | A rim lock on many older timber doors | £85 to £120 |
+| Mortice lock | A lock set into the door edge, often a 5 lever British Standard lock | £115 to £165 |
+
+High security and British Standard locks cost more but are often required by home insurers. When you move house, changing the locks is one of the cheapest ways to improve home security.
+
 ## Avoiding a rogue locksmith
 
 Locksmiths are not regulated in the UK. Which? warns that some firms advertise at the top of search results, quote a low price on the phone and then charge hundreds more on the doorstep. Agree a total price including VAT and parts before anyone sets off, and check the firm on the [Master Locksmiths Association](https://www.locksmiths.co.uk/locksmith-leeds/) register.

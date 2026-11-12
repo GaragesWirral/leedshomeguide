@@ -70,6 +70,17 @@ A DIY kit means you take the sample yourself, which can release fibres. A traine
 - **Access**, such as lofts, voids and crawl spaces
 - **Turnaround**, as faster lab results can cost more
 
+## What you get in an asbestos survey report
+
+A good asbestos survey report lists every material sampled or presumed to contain asbestos, where it is, its condition and a risk assessment, with photos and a plan. For management surveys it forms the asbestos register that dutyholders must keep. Ask whether the price includes laboratory analysis of samples by a UKAS accredited lab, and whether VAT is included.
+
+## Who needs an asbestos survey?
+
+- **Homeowners** planning a renovation of a house built before 2000
+- **Landlords and managing agents** responsible for the common parts of flats
+- **Businesses** with a duty to manage asbestos in non domestic premises
+- **Buyers** of older commercial property who want to know the cost of asbestos management
+
 ## After the survey
 
 If asbestos is found, it does not always need removing. Material in good condition can often be left and recorded, or sealed. See our [asbestos removal cost guide](/guides/asbestos-removal-cost/) for removal prices, and our list of [asbestos surveys in Leeds](/trades/asbestos-surveys/) for local firms.

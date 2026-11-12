@@ -73,6 +73,18 @@ A report with any C1, C2 or FI code is unsatisfactory. The faults need fixing, a
 - **Access** to the consumer unit, sockets and lofts
 - **Remedial work**, which is quoted separately
 
+## What happens during an EICR
+
+An electrician carries out an inspection and testing of the electrical installation. That usually includes the consumer unit, a sample of sockets, switches and light fittings, and testing each circuit for faults. The number of circuits and the property size are the main things that set the time taken. The electrician then writes the EICR report, listing any faults with a code.
+
+## EICR for homeowners
+
+Homeowners do not have a legal requirement to get an EICR, but one is worth considering when you buy an older property, before a renovation, or if the wiring is over 25 years old. It gives peace of mind and tells you whether remedial work is needed before you decorate.
+
+## How long is an EICR valid?
+
+For rented homes in England, GOV.UK guidance says at least every 5 years. For owner occupied homes, electricians usually recommend every 10 years. The report itself states when the next inspection is due.
+
 ## Saving money on an EICR
 
 - Book several properties together if you are a landlord.

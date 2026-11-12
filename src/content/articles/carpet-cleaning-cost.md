@@ -61,6 +61,24 @@ Source: Checkatrade, May 2026.
 - **Method**: hot water extraction or low moisture cleaning
 - **Access and parking** for van mounted machines
 
+## Carpet cleaning methods and cost
+
+| Method | How it works | Drying time |
+|---|---|---|
+| Hot water extraction (often called steam cleaning) | Hot cleaning solution sprayed in and extracted with a powerful vacuum | Several hours |
+| Low moisture cleaning | Less water and a cleaning solution worked into the fibres | Often one to two hours |
+| Dry cleaning compounds | A powder brushed in and vacuumed out | Very quick |
+
+Professional carpet cleaning companies choose the cleaning method to suit the carpet fibre. Wool carpets and rugs need gentler cleaning products than synthetic carpets. Ask which method a carpet cleaner will use and how long the drying time will be.
+
+## Rugs, upholstery and end of tenancy cleaning
+
+Many carpet cleaners also offer rug cleaning, upholstery cleaning for sofas and chairs, and end of tenancy cleaning. Rug cleaning costs depend on the size of the rug and the material, and delicate rugs may need to go to a specialist. For end of tenancy cleaning in Leeds, ask your letting agent whether a professional carpet clean and a receipt are required.
+
+## Carpet cleaning prices in Leeds
+
+Checkatrade does not list a Leeds price, so the per room figures above are the best guide. Prices in Leeds are likely to sit somewhere between the cheaper northern cities and London, but get two quotes from local carpet cleaners to be sure.
+
 ## Getting a fair price
 
 1. Ask for a fixed price per room and what counts as a room.

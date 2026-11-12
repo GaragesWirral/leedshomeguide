@@ -63,6 +63,29 @@ MyBuilder (August 2026) gives a wider range, from about £409 for a 1 bedroom fl
 | Last minute booking | £50 to £150 extra | MyBuilder |
 | Cleaning before or after | £100 to £300 | MyBuilder |
 
+## What affects removal costs?
+
+House removal costs vary a lot, and removal quotes from removal companies can differ by hundreds of pounds for the same move. The main things that affect the cost are:
+
+- **The amount you are moving**, usually measured by the number of bedrooms or the van loads needed
+- **Distance**, as a long distance move adds fuel costs, mileage and sometimes an overnight stay
+- **Access** at both homes, such as stairs, lifts, parking and long carries from the lorry
+- **The day you move**, as Fridays, weekends and the end of the month are busiest
+- **Extras** such as packing, dismantling furniture, storage and specialist items like pianos
+- **Insurance**, as higher cover for valuable items costs more
+
+## Local moves in Leeds
+
+Most moves within Leeds are local moves, so the removal team spends more time loading and unloading than driving. Checkatrade's guide gives £400 to £500 for a small local move within about 50 miles, and £500 to £700 for a typical move with a team of two and a van. Moving locally on a weekday in the middle of the month usually costs less.
+
+## Getting an accurate removal quote
+
+An accurate quote needs the removal company to see what you own. Ask for a home survey, in person or by video, and a written fixed price. Compare at least two or three removal firms, and check each quote lists the number of crew, the vehicle, packing, insurance and any extra cost for parking or access. On moving day, have everything packed and labelled so the removal team can work quickly.
+
+## Removal company or man and van?
+
+A man and van is usually cheaper for a flat, a student move or a few items. A full removal company is better for a family home, with more crew, larger vehicles, packing services and more insurance cover. If you choose a man and van, check the goods in transit insurance limit.
+
 ## Keeping removal costs down
 
 1. **Declutter first.** Every box costs money to move. See [rubbish removal in Leeds](/trades/rubbish-removal/).

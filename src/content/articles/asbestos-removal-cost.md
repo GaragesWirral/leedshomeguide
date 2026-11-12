@@ -63,6 +63,18 @@ Some asbestos work, such as removing sprayed coatings or lagging, must be done b
 - **Disposal**: asbestos must go to a licensed site
 - **Making good**: replastering or a new roof is extra
 
+## Types of asbestos and cost
+
+The type of asbestos material affects the removal process and the cost. Asbestos cement, used in garage roofs, sheds and soffits, is relatively stable and usually cheaper to remove. Asbestos insulation board, lagging on pipes and sprayed coatings are more friable, which means they release fibres easily, and removing them is usually licensed asbestos removal work under the Control of Asbestos Regulations 2012. Licensed work costs more because of enclosures, air testing and notification.
+
+## Getting an asbestos removal quote
+
+1. **Get an asbestos survey or test first**, so the asbestos removal companies know what they are quoting for.
+2. **Ask whether the work is licensed or non licensed**, and why.
+3. **Check what the quote includes**: removal work, wrapping, asbestos waste disposal, air testing and making good.
+4. **Ask for the waste consignment note**, which shows where the asbestos waste went.
+5. **Compare at least two quotes**, as the cost to remove asbestos varies widely.
+
 ## Remove, seal or leave?
 
 Asbestos in good condition that will not be disturbed can often be left and recorded, or sealed. Removal makes sense when it is damaged or in the way of building work.
