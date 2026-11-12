@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://leedshomeguide.co.uk/sitemap.xml
