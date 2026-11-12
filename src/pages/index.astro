@@ -153,7 +153,7 @@ const how = [
   <script is:inline>
     document.getElementById('tradesearch').addEventListener('submit', function (e) {
       var q = (document.getElementById('q').value || '').toLowerCase();
-      var map = [['roof', 'roofers'], ['gutter', 'roofers'], ['plumb', 'plumbers'], ['boiler', 'plumbers'], ['leak', 'plumbers'], ['heat', 'plumbers'], ['electr', 'electricians'], ['eicr', 'electricians'], ['rewir', 'electricians'], ['asbestos', 'asbestos-removal'], ['garage', 'asbestos-removal'], ['artex', 'asbestos-removal']];
+      var map = [['survey', 'asbestos-surveys'], ['window', 'window-cleaners'], ['roof', 'roofers'], ['gutter', 'roofers'], ['plumb', 'plumbers'], ['boiler', 'plumbers'], ['leak', 'plumbers'], ['heat', 'plumbers'], ['electr', 'electricians'], ['eicr', 'electricians'], ['rewir', 'electricians'], ['asbestos', 'asbestos-removal'], ['garage', 'asbestos-removal'], ['artex', 'asbestos-removal'], ['lock', 'locksmiths'], ['skip', 'skip-hire'], ['carpet', 'carpet-cleaning'], ['remov', 'removals'], ['moving', 'removals'], ['damp', 'damp-proofing'], ['mould', 'damp-proofing'], ['pest', 'pest-control'], ['wasp', 'pest-control'], ['mice', 'pest-control'], ['rats', 'pest-control'], ['window', 'window-cleaners'], ['handy', 'handyman'], ['rubbish', 'rubbish-removal'], ['clearance', 'rubbish-removal'], ['junk', 'rubbish-removal'], ['clean', 'cleaners'], ['demoli', 'garage-removal'], ['shed', 'garage-removal']];
       for (var i = 0; i < map.length; i++) { if (q.indexOf(map[i][0]) > -1) { e.preventDefault(); location.href = '/trades/' + map[i][1] + '/'; return; } }
     });
   </script>
