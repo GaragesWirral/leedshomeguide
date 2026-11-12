@@ -1,7 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import Registers from '../components/Registers.astro';
-import { categories, icons, groups } from '../lib/data';
+import { categories, icons, groups, iconFor } from '../lib/data';
 const site = { '@context': 'https://schema.org', '@type': 'WebSite', name: 'Leeds Home Guide', url: 'https://leedshomeguide.co.uk/', inLanguage: 'en-GB' };
 const tips = [
   ['Get two or three written quotes.', 'A clear quote lists the work, the materials, waste removal and when payment is due. Be wary of anyone who wants most of the money up front.'],
@@ -39,6 +39,9 @@ const short: Record<string, string> = {
 };
 const costs = [
   { title: 'Asbestos garage roof removal', price: 'Disposal from £72.31', note: 'Leeds council disposal charges, plus what a contractor adds', href: '/guides/asbestos-garage-roof-removal-leeds/', icon: 'asbestos' },
+  { title: 'New boiler', price: '£2,500 to £4,000', note: 'Like for like combi swap, fitted (UK figures, 2026)', href: '/guides/new-boiler-cost/', icon: 'plumbers' },
+  { title: 'Locksmith', price: 'around £65 an hour', note: 'Daytime rate, with emergency and lock change prices', href: '/guides/locksmith-cost/', icon: 'locksmiths' },
+  { title: 'Skip hire in Leeds', price: '£120 to £240', note: 'Midi skip per week in the north, plus Leeds permit rules', href: '/guides/skip-hire-cost-leeds/', icon: 'skip-hire' },
 ];
 const how = [
   { t: 'Search for your job', d: 'Type the trade you need, or pick one of the popular services above.' },
@@ -77,7 +80,7 @@ const how = [
         {categories.map((c) => (
           <li><a class={`hg-svc is-${c.key}`} href={`/trades/${c.slug}/`}>
             <span class="hg-svc-art" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" set:html={icons[c.key]} /></span>
-            <span class="hg-svc-body"><span class="hg-svc-name">{c.name}</span><span class="hg-svc-line">{short[c.key]}</span></span>
+            <span class="hg-svc-body"><span class="hg-svc-name">{c.name}</span><span class="hg-svc-line">{short[c.key] || c.services_hint}</span></span>
           </a></li>
         ))}
       </ul>
@@ -110,7 +113,7 @@ const how = [
       <ul class="hg-costs">
         {costs.map((g) => {
           const inner = (<Fragment>
-            <span class="hg-cost-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" set:html={icons[g.icon]} /></span>
+            <span class="hg-cost-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" set:html={iconFor(g.icon)} /></span>
             <span class="hg-cost-t">{g.title}</span>
             <span class="hg-cost-n">{g.note}</span>
             <span class="hg-cost-p">{g.price}</span>

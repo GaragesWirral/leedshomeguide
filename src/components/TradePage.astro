@@ -23,8 +23,9 @@ const expertTips: Record<string, { body: string; by: string; src: string; url: s
   electricians: { by: 'Electrical Safety First guidance', src: 'Electrical Safety First: Part P of the Building Regulations', url: 'https://www.electricalsafetyfirst.org.uk/find-a-registered-electrician/part-p-of-the-building-regulations/',
     body: 'When a registered electrician finishes the job, you should get two documents: an Electrical Installation Certificate (or a Minor Works Certificate for smaller jobs) and a Building Regulations Compliance Certificate. Keep both with your house papers, as homeowners and landlords must be able to show the work meets the rules.' },
 };
-const tip = expertTips[c.key];
 const g: any = c as any;
+const tip = g.expert_tip || expertTips[c.key];
+const checks: string[] = g.checks || tips[c.key] || [];
 const faqs: { q: string; a: string }[] = g.faqs || [];
 const guide: { h2: string; p?: string[]; ul?: string[] }[] = g.guide || [];
 const schema: object[] = [
@@ -71,6 +72,7 @@ const seoDesc = g.seo_desc || `${c.firms.length} ${c.name.toLowerCase()} firms t
                 <p class="meta">{f.area}</p>
               </div>
             </div>
+            {f.rating && <p class="g-rating"><a href={f.rating.url} rel="noopener" target="_blank">Google rating {f.rating.score} from {f.rating.count} reviews</a></p>}
             <ul class="ticks">{f.claims.map((cl) => <li>{cl}</li>)}</ul>
             <p class="why"><b>Why they are here:</b> {f.why}</p>
             <p class="svc-line">{f.services.join(', ')}</p>
@@ -83,7 +85,7 @@ const seoDesc = g.seo_desc || `${c.firms.length} ${c.name.toLowerCase()} firms t
       </ol>
       <section class="checks-sec">
         <h2>Before you hire: three quick checks</h2>
-        <ol class="steps">{tips[c.key].map((t) => <li>{t}</li>)}</ol>
+        <ol class="steps">{checks.map((t) => <li>{t}</li>)}</ol>
       </section>
       {guide.length > 0 && (
         <section class="trade-guide">

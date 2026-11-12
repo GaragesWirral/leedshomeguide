@@ -742,3 +742,5 @@ main:has(.rel) + .site-footer,.rel + .site-footer{margin-top:0}
 .grp-col-soon{margin:0;flex:1;color:var(--grey);font-size:.875rem;line-height:1.45}
 .grp-col-soon span{display:block;font-size:.75rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-2);margin-bottom:2px}
 .lf-wrap{scroll-margin-top:96px}
+.g-rating{margin:0 0 10px;font-size:.9375rem}
+.g-rating a{color:var(--navy-ink);font-weight:600;text-decoration:none;border-bottom:1px solid currentColor}

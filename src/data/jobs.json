@@ -1,4 +1,269 @@
 {
  "_readme": "Job pages inside a trade, e.g. emergency plumber. Each entry builds /trades/<trade slug>/<slug>/ and is linked from the trade page's related links. Fields: trade (listing key, e.g. plumbers), slug, name, title, description, h1, intro, sections [{h2, p: [..]}], faqs [{q, a}].",
- "jobs": []
+ "jobs": [
+  {
+   "trade": "locksmiths",
+   "slug": "emergency-locksmith",
+   "name": "Emergency locksmith",
+   "title": "Emergency Locksmith Leeds: Locked Out? What to Do (2026)",
+   "description": "Locked out in Leeds? How an emergency locksmith works, typical night and weekend prices, how to avoid rogue firms and 3 MLA approved local locksmiths.",
+   "h1": "Emergency locksmith in Leeds: what to do if you are locked out",
+   "intro": "Need an emergency locksmith in Leeds tonight? Before you ring the first number you find, take two minutes to read this. It covers what a fair price looks like, what to ask on the phone and the MLA approved locksmiths we list in Leeds.",
+   "sections": [
+    {
+     "h2": "Locked out: what to do first",
+     "ul": [
+      "Check every door and window, and whether a neighbour, landlord or family member has a spare key.",
+      "If a child or vulnerable person is locked inside, or there is a risk to life, call 999.",
+      "If you rent, call your landlord or letting agent first. They may have a key or a locksmith they use.",
+      "Check your home insurance. Some policies include home emergency cover for lockouts."
+     ]
+    },
+    {
+     "h2": "How an emergency locksmith gets you back in",
+     "p": [
+      "Most locksmiths try non destructive entry first. On a uPVC or composite door they may open the multipoint lock without damage, so you only pay for the call out and labour. If the lock cannot be opened this way, the cylinder may need drilling or snapping and replacing. A good locksmith fits a new cylinder before leaving so your home is secure."
+     ]
+    },
+    {
+     "h2": "How much does an emergency locksmith cost in Leeds?",
+     "p": [
+      "Checkatrade's locksmith price guide (updated May 2026) gives these typical UK figures. Its own Leeds average for a locksmith job is about £149."
+     ],
+     "ul": [
+      "Out of hours call out fee: £50 to £150 (average £100)",
+      "Out of hours hourly rate: £80 to £200",
+      "Midnight to 6am: around £120 an hour",
+      "Regain entry to a property: £90 to £130",
+      "Broken key removed from a lock: £80 to £100",
+      "Emergency boarding up: around £200"
+     ]
+    },
+    {
+     "h2": "How to avoid a rogue locksmith",
+     "p": [
+      "Locksmiths are not regulated in the UK, and some firms advertise in the sponsored results at the top of a search, quote a low price, then charge far more on the doorstep. Get a total price on the phone, including VAT and any new lock. Ask for the locksmith's name and MLA licence number and check it on the <a href=\"https://www.locksmiths.co.uk/\" rel=\"noopener\" target=\"_blank\">Master Locksmiths Association website</a>. If the price changes when they arrive, you can say no."
+     ]
+    },
+    {
+     "h2": "Emergency locksmiths in Leeds we list",
+     "p": [
+      "All three locksmiths on our <a href=\"/trades/locksmiths/\">locksmiths in Leeds</a> page are MLA approved. Lemon Locksmith says it offers a 24/7 service with no call out charge. Call the firm directly and ask what hours it covers tonight."
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "How much does it cost to get a locksmith to open a door?",
+     "a": "Checkatrade's 2026 guide puts regaining entry at about £90 to £130, plus any out of hours call out fee. A new lock is extra if the old one has to be drilled."
+    },
+    {
+     "q": "How long do emergency locksmiths take to arrive?",
+     "a": "A local locksmith can often reach you within an hour in Leeds, but it depends on the time and where they are. Ask for an arrival time on the phone."
+    },
+    {
+     "q": "Will my insurance pay for an emergency locksmith?",
+     "a": "Only if your policy includes home emergency cover or lost keys cover. Check your policy documents or call your insurer before booking."
+    },
+    {
+     "q": "Can a locksmith let me into a house I rent?",
+     "a": "A good locksmith will ask for proof that you live there, such as ID with the address or a tenancy agreement, before opening the door."
+    }
+   ]
+  },
+  {
+   "trade": "locksmiths",
+   "slug": "car-locksmith",
+   "name": "Car locksmith (auto locksmith)",
+   "title": "Auto Locksmith Leeds: Lost Car Keys and Lockouts (2026)",
+   "description": "Need an auto locksmith in Leeds? What a car locksmith can do for lost keys, lockouts and fobs, when to use a main dealer instead, and local locksmiths.",
+   "h1": "Auto locksmith in Leeds: lost car keys and car lockouts",
+   "intro": "An auto locksmith in Leeds can get you back into a locked car, cut and programme a new key or fob, and replace a lost key without the car going to a main dealer. Here is what they do, what to ask, and which of the locksmiths we list in Leeds offer car work.",
+   "sections": [
+    {
+     "h2": "What a car locksmith can do",
+     "ul": [
+      "Open a locked car without damage when the keys are inside",
+      "Cut and programme a replacement key or remote fob when all keys are lost",
+      "Make a spare key from the one you have",
+      "Remove a broken key from the ignition or door lock",
+      "Repair a faulty fob, such as a broken case or worn buttons"
+     ]
+    },
+    {
+     "h2": "Auto locksmith or main dealer?",
+     "p": [
+      "A main dealer can always supply a new key, but you usually need to get the car to them, which can mean a tow if you have lost every key, and you may wait days for the part. An auto locksmith comes to the car and can often programme a key on the spot. For some newer or prestige models only the dealer can supply a key, so ask the locksmith to confirm they can do your make, model and year before they set off."
+     ]
+    },
+    {
+     "h2": "What to have ready",
+     "ul": [
+      "Your V5C logbook and photo ID, as a reputable car locksmith will want proof you own the car",
+      "The make, model, year and registration",
+      "Whether you have any working key at all, as copying a key is cheaper than starting from scratch"
+     ]
+    },
+    {
+     "h2": "Car locksmiths in Leeds we list",
+     "p": [
+      "Of the three MLA approved firms on our <a href=\"/trades/locksmiths/\">locksmiths in Leeds</a> page, Lemon Locksmith says it provides an emergency auto locksmith service, car key cutting and car lockouts. The others focus on homes and businesses, so ask before booking. Keys locked in a car with a child or pet inside is an emergency: call 999."
+     ]
+    },
+    {
+     "h2": "How to avoid paying too much",
+     "p": [
+      "Ask for a fixed price that includes the key blank, cutting, programming and call out. Prices for car keys vary widely by make and the type of key, so a firm that will not quote until it arrives is a warning sign. For home locks, see our <a href=\"/guides/locksmith-cost/\">locksmith cost guide</a>."
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "Can a locksmith make a car key without the original?",
+     "a": "Often, yes. Many auto locksmiths can cut and programme a new key from the lock or the car's computer, but it depends on the make and model."
+    },
+    {
+     "q": "Is losing all my car keys a big problem?",
+     "a": "It costs more than copying a key, because the new key has to be made and programmed from scratch and old keys removed from the car's memory. It is still usually quicker with an auto locksmith than a dealer."
+    },
+    {
+     "q": "Do I need the logbook for a new car key?",
+     "a": "A reputable locksmith will ask for the V5C logbook and ID to prove the car is yours before making a key."
+    }
+   ]
+  },
+  {
+   "trade": "locksmiths",
+   "slug": "upvc-door-lock-repair",
+   "name": "uPVC door lock repair",
+   "title": "uPVC Door Repair Leeds: Locks, Handles and Hinges (2026)",
+   "description": "uPVC door repair in Leeds: why doors drop, stick or will not lock, what a locksmith can fix, typical lock prices for 2026 and local firms we list.",
+   "h1": "uPVC door repair in Leeds: locks, handles and dropped doors",
+   "intro": "A uPVC door that will not lock, a handle that has gone floppy or a key that is hard to turn are common faults in Leeds homes. Most can be fixed by a locksmith or uPVC door repair specialist without replacing the door. Here is what usually goes wrong and what repairs cost.",
+   "sections": [
+    {
+     "h2": "Common uPVC door problems",
+     "ul": [
+      "<b>Handle floppy or will not lift</b>: the gearbox in the multipoint lock is often worn or broken.",
+      "<b>Key hard to turn</b>: the door has dropped, so the lock bolts no longer line up with the keeps in the frame.",
+      "<b>Door sticks or scrapes</b>: the hinges need adjusting, which is often a quick job.",
+      "<b>Draughts</b>: the rubber gasket seal is worn or the door is out of line.",
+      "<b>Key snapped in the lock</b>: the cylinder usually needs removing and replacing."
+     ]
+    },
+    {
+     "h2": "Repair or replace?",
+     "p": [
+      "Most uPVC door repairs cost far less than a new door. Hinges can be adjusted, the multipoint mechanism replaced and the cylinder upgraded while the door stays in place. Replacement makes sense only if the frame is warped, the door panel is damaged or the door is very old and a matching mechanism cannot be found."
+     ]
+    },
+    {
+     "h2": "How much does uPVC door lock repair cost?",
+     "p": [
+      "Checkatrade's locksmith price guide (updated May 2026) gives these typical UK figures for uPVC locks:"
+     ],
+     "ul": [
+      "Change a standard uPVC lock: £100 to £150 (average £125)",
+      "Change an anti snap uPVC lock: £125 to £175 (average £150)",
+      "Patio door lock replacement: £90 to £100"
+     ]
+    },
+    {
+     "h2": "Upgrade to an anti snap cylinder",
+     "p": [
+      "If your cylinder is being replaced anyway, ask for one rated TS007 3 star or SS312 Diamond. These are designed to resist lock snapping, a common way burglars get through uPVC doors, and some insurers ask for them."
+     ]
+    },
+    {
+     "h2": "Who fixes uPVC doors in Leeds",
+     "p": [
+      "Locksmiths can repair uPVC locks, mechanisms and cylinders. The Yorkshire Lock and Door Man, on our <a href=\"/trades/locksmiths/\">locksmiths in Leeds</a> list, works on doors as well as locks. For misted glass or a damaged frame you may need a double glazing repair firm instead."
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "Can a locksmith fix a uPVC door?",
+     "a": "Yes. Locksmiths regularly repair uPVC door locks, replace multipoint mechanisms and cylinders, and adjust hinges so the door locks smoothly again."
+    },
+    {
+     "q": "Why won't my uPVC door lock?",
+     "a": "Usually the door has dropped on its hinges, so the bolts do not meet the keeps in the frame. Adjusting the hinges or keeps often fixes it. If the handle will not lift at all, the gearbox may be broken."
+    },
+    {
+     "q": "How long does a uPVC door repair take?",
+     "a": "Many repairs, such as a cylinder change or hinge adjustment, take under an hour. Replacing a full multipoint mechanism can take longer if the part has to be ordered."
+    }
+   ]
+  },
+  {
+   "trade": "plumbers",
+   "slug": "emergency-plumber",
+   "name": "Emergency plumber",
+   "title": "Emergency Plumber Leeds: Burst Pipes and Leaks (2026)",
+   "description": "Need an emergency plumber in Leeds? What to do in the first ten minutes, who to call for gas or water mains problems, and local plumbers we list.",
+   "h1": "Emergency plumber in Leeds: burst pipes, leaks and no water",
+   "intro": "A burst pipe, water through the ceiling or a toilet that will not stop running. If you need an emergency plumber in Leeds, here is what to do while you wait, when it is not a plumber you need at all, and the local plumbing firms we list.",
+   "sections": [
+    {
+     "h2": "Is it a plumbing emergency?",
+     "p": [
+      "Call an emergency plumber for water you cannot stop: a burst or leaking pipe, a leak through a ceiling, an overflowing toilet or tank, or no water at all because of a fault inside your home. A dripping tap or slow drain can usually wait for a normal appointment, which costs less."
+     ]
+    },
+    {
+     "h2": "What to do before the plumber arrives",
+     "ul": [
+      "Turn off the water at the stop tap, usually under the kitchen sink or where the pipe enters the house.",
+      "Turn off the central heating and boiler if the leak is on the heating system.",
+      "If water is near sockets, lights or the fuse board, switch off the electrics at the consumer unit if it is safe to reach.",
+      "Open cold taps to drain the pipes, and catch drips with buckets and towels.",
+      "Take photos for your home insurance."
+     ]
+    },
+    {
+     "h2": "When it is not a plumber you need",
+     "ul": [
+      "<b>Smell of gas</b>: leave the property and call the National Gas Emergency Service on 0800 111 999.",
+      "<b>Leak in the street or before your stop tap</b>: this is usually the water company's pipe. Leeds is supplied by Yorkshire Water.",
+      "<b>Shared drain blocked outside</b>: drains shared with neighbours are usually the water company's responsibility.",
+      "<b>Council or housing association tenants</b>: report it to your landlord's emergency repairs line first."
+     ]
+    },
+    {
+     "h2": "Choosing an emergency plumber in Leeds",
+     "p": [
+      "Ask for the call out fee and hourly rate before they set off, and whether parts are extra. For anything involving a gas boiler, the engineer must be on the Gas Safe Register. See our <a href=\"/trades/plumbers/\">plumbers in Leeds</a> list for three local plumbing and heating firms, including Same Day Plumber Leeds, which offers 24/7 call outs."
+     ]
+    },
+    {
+     "h2": "Preventing the next emergency",
+     "ul": [
+      "Know where your stop tap is and check it turns.",
+      "Lag pipes in lofts, garages and outside walls before winter.",
+      "Get your boiler serviced once a year by a Gas Safe engineer.",
+      "Do not pour fat or wipes down sinks and toilets."
+     ]
+    }
+   ],
+   "faqs": [
+    {
+     "q": "How quickly can an emergency plumber get to me in Leeds?",
+     "a": "It depends on the time of day and how busy they are. Local firms can often arrive within one to two hours. Ask for a time on the phone."
+    },
+    {
+     "q": "Who do I call for a burst water main in Leeds?",
+     "a": "A leak in the road or pavement, or before your stop tap, is usually the water company's responsibility. In Leeds that is Yorkshire Water."
+    },
+    {
+     "q": "Can a plumber fix my boiler in an emergency?",
+     "a": "Only if they are a Gas Safe registered engineer qualified for boilers. Many Leeds plumbing firms offer both, but always ask."
+    },
+    {
+     "q": "Should I turn the water off if a pipe bursts?",
+     "a": "Yes. Turn off the stop tap straight away to limit the damage, then call a plumber."
+    }
+   ]
+  }
+ ]
 }

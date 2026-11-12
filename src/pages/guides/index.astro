@@ -4,7 +4,7 @@ import { getCollection } from 'astro:content';
 const all = await getCollection('articles');
 const landlord = all.filter((a) => a.data.kicker === 'Landlords');
 const costs = all.filter((a) => a.data.kicker !== 'Landlords');
-const soon = ['New boiler cost in Leeds', 'Do you need planning permission in Leeds?', 'Damp and mould in Leeds homes'];
+const soon = ['Do you need planning permission in Leeds?', 'Damp and mould in Leeds homes'];
 ---
 <Base title="Leeds home cost guides and landlord guides | Leeds Home Guide" description="Plain English guides for Leeds homeowners and landlords: real local costs and council rules, each with its official sources and the date we checked them." path="/guides/">
   <section class="page-head"><div class="wrap">
