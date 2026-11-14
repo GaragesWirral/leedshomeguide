@@ -589,6 +589,18 @@ input[type=email],input[type=search],input[type=text]{border-radius:999px}
 .hg-svc.is-plumbers .hg-svc-art{background:linear-gradient(135deg,#E3F4FF,#A9DAFF);color:#0369A1}
 .hg-svc.is-electricians .hg-svc-art{background:linear-gradient(135deg,#FFF9DB,#FFE48A);color:#A16207}
 .hg-svc.is-asbestos .hg-svc-art{background:linear-gradient(135deg,#E6F8EE,#AEE6C6);color:#15803D}
+.hg-svc.is-locksmiths .hg-svc-art{background:linear-gradient(135deg,#F1ECFF,#CDBDFF);color:#6D28D9}
+.hg-svc.is-skip-hire .hg-svc-art{background:linear-gradient(135deg,#FFEDEB,#FFC2B8);color:#C2410C}
+.hg-svc.is-carpet-cleaning .hg-svc-art{background:linear-gradient(135deg,#FDEBF5,#F7BEDD);color:#BE185D}
+.hg-svc.is-asbestos-surveys .hg-svc-art{background:linear-gradient(135deg,#E6FAF7,#A7E9DE);color:#0F766E}
+.hg-svc.is-removals .hg-svc-art{background:linear-gradient(135deg,#EEF2FF,#C3CEFF);color:#4338CA}
+.hg-svc.is-cleaners .hg-svc-art{background:linear-gradient(135deg,#E8FBF3,#AEEFD3);color:#047857}
+.hg-svc.is-damp-proofing .hg-svc-art{background:linear-gradient(135deg,#E6F6FB,#A5DDEE);color:#0E7490}
+.hg-svc.is-pest-control .hg-svc-art{background:linear-gradient(135deg,#F5F8E3,#DCE8A3);color:#4D7C0F}
+.hg-svc.is-window-cleaners .hg-svc-art{background:linear-gradient(135deg,#E8F6FF,#B3E0FF);color:#0369A1}
+.hg-svc.is-garage-removal .hg-svc-art{background:linear-gradient(135deg,#F3F1EE,#D9D2C8);color:#78350F}
+.hg-svc.is-handyman .hg-svc-art{background:linear-gradient(135deg,#FFF4E0,#FFD99A);color:#B45309}
+.hg-svc.is-rubbish-removal .hg-svc-art{background:linear-gradient(135deg,#EFF5EA,#C8DFB7);color:#3F6212}
 .hg-svc-body{display:grid;gap:2px;padding:16px 20px 20px}
 .hg-svc-name{font-weight:700;font-size:1.0625rem}
 .hg-svc-line{color:var(--grey);font-size:.9375rem}
