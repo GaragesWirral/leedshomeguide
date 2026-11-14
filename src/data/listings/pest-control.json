@@ -44,7 +44,8 @@
     "Commercial pest control"
    ],
    "why": "A Leeds branch of a regional pest control firm with strong Google reviews, offering domestic and commercial pest control and saying its technicians are BPCA members.",
-   "logo_bg": "light"
+   "logo_bg": "light",
+   "logo": "/firm-logos/thepestcompany.webp"
   },
   {
    "name": "Pestek Pest Control",
@@ -69,7 +70,8 @@
     "Insects and birds"
    ],
    "why": "A Leeds pest controller working since 2008 with more than 300 Google reviews, which says every treatment is guaranteed.",
-   "logo_bg": "light"
+   "logo_bg": "light",
+   "logo": "/firm-logos/pestek.webp"
   },
   {
    "name": "MJR Pest Control",
@@ -88,7 +90,8 @@
     "Rabbits and vermin"
    ],
    "why": "A Leeds pest control business offering same day response for wasps and urgent jobs, with technicians it says are NPTA members and City & Guilds qualified.",
-   "logo_bg": "light"
+   "logo_bg": "light",
+   "logo": "/firm-logos/mjrpestcontrol.webp"
   }
  ],
  "guide": [

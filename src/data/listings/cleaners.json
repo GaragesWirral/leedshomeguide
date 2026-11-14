@@ -38,7 +38,8 @@
     "Commercial cleaning"
    ],
    "why": "A Leeds cleaning company serving north Leeds and the city centre, which says its cleaners are directly employed rather than self employed contractors, a useful difference if you want the same reliable team.",
-   "logo_bg": "light"
+   "logo_bg": "light",
+   "logo": "/firm-logos/cleanleeds.webp"
   },
   {
    "name": "Platinum City Cleaning Services",
@@ -63,7 +64,8 @@
     "Airbnb and landlord cleans"
    ],
    "why": "A family run Leeds cleaning business with strong Google reviews that cleans homes, offices and short let properties, including early morning and late night cleans.",
-   "logo_bg": "light"
+   "logo_bg": "dark",
+   "logo": "/firm-logos/platinumcitycleaning.webp"
   },
   {
    "name": "Cleen-Bees",
@@ -87,7 +89,8 @@
     "Independent living support"
    ],
    "why": "A Leeds cleaning company based in Upper Wortley that offers domestic and commercial cleaning, and also independent living services for people who need extra help at home.",
-   "logo_bg": "light"
+   "logo_bg": "light",
+   "logo": "/firm-logos/cleenbees.webp"
   }
  ],
  "guide": [

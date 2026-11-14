@@ -38,7 +38,8 @@
     "Woodworm treatment"
    ],
    "why": "A family run Leeds damp business that also does mould surveys and testing, woodworm and dry rot treatments and basement work, covering the north of England.",
-   "logo_bg": "light"
+   "logo_bg": "light",
+   "logo": "/firm-logos/leodisdampcontrol.webp"
   },
   {
    "name": "DAMPX",
@@ -63,7 +64,8 @@
     "Basement waterproofing"
    ],
    "why": "A Leeds damp proofing and waterproofing company that covers damp surveys, condensation and mould, timber treatment and basement waterproofing, with finance available on larger jobs.",
-   "logo_bg": "light"
+   "logo_bg": "light",
+   "logo": "/firm-logos/dampx.webp"
   },
   {
    "name": "Allerton Damp Proofing",
@@ -88,7 +90,8 @@
     "Pre purchase surveys"
    ],
    "why": "A Yorkshire damp specialist trading since the 1980s that does damp and timber surveys for homebuyers as well as treatment, with insurance backed guarantees.",
-   "logo_bg": "light"
+   "logo_bg": "dark",
+   "logo": "/firm-logos/alldamp.webp"
   }
  ],
  "guide": [

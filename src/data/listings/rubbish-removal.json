@@ -38,7 +38,8 @@
     "Furniture recycling"
    ],
    "why": "A Leeds clearance company that offers free visit quotes and says it recycles unwanted furniture where it can, with a yard in south Leeds.",
-   "logo_bg": "light"
+   "logo_bg": "light",
+   "logo": "/firm-logos/orangeclearance.webp"
   },
   {
    "name": "The Waste Team",
@@ -62,7 +63,8 @@
     "Building strip outs"
    ],
    "why": "A Leeds waste removal business with more than 700 Google reviews, the most of any clearance firm we looked at. It covers household rubbish, commercial waste and building strip outs across Leeds and Wakefield.",
-   "logo_bg": "light"
+   "logo_bg": "dark",
+   "logo": "/firm-logos/thewasteteam.webp"
   },
   {
    "name": "Leeds Junk and Rubbish",
@@ -80,7 +82,8 @@
     "Shed and garage clearance"
    ],
    "why": "A Leeds rubbish removal firm offering same day collections for homes and businesses, including garden waste, shed and garage clearances, as an alternative to a skip.",
-   "logo_bg": "light"
+   "logo_bg": "light",
+   "logo": "/firm-logos/leeds-junk.webp"
   }
  ],
  "guide": [

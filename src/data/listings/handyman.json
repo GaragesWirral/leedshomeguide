@@ -61,7 +61,8 @@
     "General repairs"
    ],
    "why": "A Leeds handyman service with more than 100 Google reviews that covers flat pack assembly, small plumbing jobs and general repairs around the home.",
-   "logo_bg": "light"
+   "logo_bg": "light",
+   "logo": "/firm-logos/heyhandyman.webp"
   },
   {
    "name": "S. Bretherick Handyman Services",
@@ -85,7 +86,8 @@
     "Repairs and maintenance"
    ],
    "why": "A one person handyman business in west Leeds covering Leeds and West Yorkshire, which says no job is too small and charges no call out fee.",
-   "logo_bg": "light"
+   "logo_bg": "light",
+   "logo": "/firm-logos/sbhandymanservices.webp"
   }
  ],
  "guide": [

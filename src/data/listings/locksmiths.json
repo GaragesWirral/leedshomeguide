@@ -44,7 +44,8 @@
     "Commercial locksmith work"
    ],
    "why": "A Leeds locksmith and door specialist on Roundhay Road that works for homes and businesses within about 20 miles of Leeds. It is MLA approved and handles both lock problems and doors that drop or stick.",
-   "logo_bg": "light"
+   "logo_bg": "dark",
+   "logo": "/firm-logos/thelockanddoorman.webp"
   },
   {
    "name": "All Safe and Secure",
@@ -88,7 +89,8 @@
     "Lock replacement"
    ],
    "why": "A one person locksmith business based in Moortown that offers a 24/7 service for homes, businesses and cars across Leeds. It also does car key cutting, which most home locksmiths do not.",
-   "logo_bg": "light"
+   "logo_bg": "light",
+   "logo": "/firm-logos/lemonlocksmith.webp"
   }
  ],
  "guide": [

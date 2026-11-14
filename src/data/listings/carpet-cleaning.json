@@ -38,7 +38,8 @@
     "Rugs and curtains"
    ],
    "why": "A Headingley based carpet and upholstery cleaner with one of the largest numbers of Google reviews of any carpet cleaner in Leeds. It covers homes and businesses and also does end of tenancy and curtain cleaning.",
-   "logo_bg": "light"
+   "logo_bg": "dark",
+   "logo": "/firm-logos/thecitycleaners.webp"
   },
   {
    "name": "Trust Cleaner",
@@ -88,7 +89,8 @@
     "Hard floors and mattresses"
    ],
    "why": "A Hunslet carpet cleaning business that also cleans hard floors and mattresses, which is handy if you want several jobs done in one visit. It has an instant quote form on its website.",
-   "logo_bg": "light"
+   "logo_bg": "light",
+   "logo": "/firm-logos/scrubnbrush.webp"
   }
  ],
  "guide": [
