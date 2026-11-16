@@ -32,7 +32,8 @@
      "name": "Boiler and heating engineers"
     },
     {
-     "name": "Plasterers"
+     "name": "Plasterers",
+     "listing": "plasterers"
     },
     {
      "name": "Glaziers"
@@ -47,7 +48,8 @@
    "intro": "Trades for bigger projects that change your home: extensions, loft conversions, new kitchens and bathrooms, and decorating.",
    "trades": [
     {
-     "name": "Builders"
+     "name": "Builders",
+     "listing": "builders"
     },
     {
      "name": "Loft conversions"
@@ -59,7 +61,12 @@
      "name": "Bathroom fitters"
     },
     {
-     "name": "Painters and decorators"
+     "name": "Painters and decorators",
+     "listing": "painters-and-decorators"
+    },
+    {
+     "name": "Blinds and shutters",
+     "listing": "blinds"
     },
     {
      "name": "Joiners and carpenters"
@@ -83,7 +90,8 @@
      "name": "Landscapers"
     },
     {
-     "name": "Gardeners"
+     "name": "Gardeners",
+     "listing": "gardeners"
     },
     {
      "name": "Driveways and patios"
@@ -118,6 +126,10 @@
     {
      "name": "Removals",
      "listing": "removals"
+    },
+    {
+     "name": "Man and van",
+     "listing": "man-and-van"
     },
     {
      "name": "Skip hire",
