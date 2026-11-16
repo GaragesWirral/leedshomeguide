@@ -239,3 +239,24 @@ test('every page has a unique title and a meta description of 120 to 160 charact
     seen.set(t, f);
   }
 });
+
+test('home news: hub lists every story, each story has NewsArticle schema, dated sources and is in the sitemap, nav and homepage link to it', () => {
+  const ids = readdirSync('src/content/news').filter((f) => f.endsWith('.md')).map((f) => f.replace(/\.md$/, ''));
+  assert.ok(ids.length >= 1, 'news stories exist');
+  const hub = readFileSync(`${OUT}/news/index.html`, 'utf8');
+  const sm = readFileSync(`${OUT}/sitemap.xml`, 'utf8');
+  assert.ok(sm.includes('/news/</loc>'), 'news hub in sitemap');
+  for (const id of ids) {
+    assert.ok(hub.includes(`href="/news/${id}/"`), `${id} on hub`);
+    assert.ok(sm.includes(`/news/${id}/</loc>`), `${id} in sitemap`);
+    const h = readFileSync(`${OUT}/news/${id}/index.html`, 'utf8');
+    assert.match(h, /"@type":"NewsArticle"/, id);
+    assert.match(h, /<title>[^<]{20,60}<\/title>/, `title length on ${id}`);
+    assert.match(h, /name="description" content="[^"]{120,160}"/, `description length on ${id}`);
+    assert.match(h, /class="sources"[\s\S]*?, read \d{1,2} [A-Z][a-z]+ 20\d\d/, `dated source on ${id}`);
+    assert.ok(!/—|–/.test(h.replace(/<script[\s\S]*?<\/script>/g, '')), `long dash in ${id}`);
+  }
+  const home = readFileSync(`${OUT}/index.html`, 'utf8');
+  assert.match(home, /Latest Leeds home news/);
+  assert.match(home.split('<main')[0], /href="\/news\/"/, 'news in nav');
+});

@@ -1,0 +1,48 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection, render } from 'astro:content';
+import { categories } from '../../lib/data';
+export async function getStaticPaths() {
+  const all = await getCollection('news');
+  return all.map((n) => ({ params: { slug: n.id }, props: { n } }));
+}
+const { n } = Astro.props;
+const { Content } = await render(n);
+const d = n.data;
+const path = `/news/${n.id}/`;
+const url = `https://leedshomeguide.co.uk${path}`;
+const arts = await getCollection('articles');
+const guides = d.guides.map((g) => arts.find((a) => a.id === g)).filter(Boolean) as typeof arts;
+const rel = categories.find((c) => c.slug === d.related || c.key === d.related);
+const more = (await getCollection('news')).filter((x) => x.id !== n.id).sort((a, b) => b.data.dateISO.localeCompare(a.data.dateISO)).slice(0, 4);
+const short = (s: string) => s.replace(/\s*\|\s*Leeds Home Guide$/, '');
+const schema: object[] = [
+  { '@context': 'https://schema.org', '@type': 'NewsArticle', headline: d.h1, description: d.description, datePublished: d.dateISO, dateModified: d.dateISO, inLanguage: 'en-GB', mainEntityOfPage: url, author: { '@type': 'Organization', name: 'Leeds Home Guide', url: 'https://leedshomeguide.co.uk/' }, publisher: { '@type': 'Organization', name: 'Leeds Home Guide' } },
+  { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://leedshomeguide.co.uk/' },
+    { '@type': 'ListItem', position: 2, name: 'News', item: 'https://leedshomeguide.co.uk/news/' },
+    { '@type': 'ListItem', position: 3, name: d.h1, item: url } ] },
+];
+---
+<Base title={d.title} description={d.description} path={path} schema={schema} ogType="article">
+  <section class="page-head article-head">
+    <div class="wrap">
+      <p class="crumbs"><a href="/">Home</a> › <a href="/news/">News</a> › {d.topic}</p>
+      <h1>{d.h1}</h1>
+      <p class="byline"><span class="by-mark" aria-hidden="true">LH</span><span><b>By Leeds Home Guide</b><span class="meta">Published {d.date} · {d.topic}</span></span></p>
+    </div>
+  </section>
+  <div class="wrap with-side">
+    <article class="main-col prose">
+      <p class="news-summary"><b>In short:</b> {d.summary}</p>
+      <Content />
+      <section class="sources"><h2>Sources</h2><ul>{d.sources.map((s) => <li><a href={s.url} rel="noopener" target="_blank">{s.name}</a>, read {s.read}</li>)}</ul>
+      <p class="meta">Rules, grants and dates change. Check the official page before you act.</p></section>
+      {more.length > 0 && (<section class="news-more"><h2>More Leeds home news</h2><ul>{more.map((m) => <li><a href={`/news/${m.id}/`}>{m.data.h1}</a> <span class="meta">{m.data.date}</span></li>)}</ul><p><a href="/news/">All home news</a></p></section>)}
+    </article>
+    <aside class="side-col">
+      {rel && (<div class="side-box sticky"><h2>Find a local Leeds trade</h2><p>See our list of {rel.title.toLowerCase().replace('best ', '').replace(' leeds', ' Leeds').replace(' in leeds', ' in Leeds')}, picked on published criteria.</p><a class="btn" href={`/trades/${rel.slug}/`}>See the list</a></div>)}
+      {guides.length > 0 && (<div class="side-box"><h2>Related guides</h2><ul>{guides.map((g) => <li><a href={`/guides/${g.id}/`}>{short(g.data.h1)}</a></li>)}</ul></div>)}
+    </aside>
+  </div>
+</Base>

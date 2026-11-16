@@ -13,4 +13,16 @@ const articles = defineCollection({
     sponsored: z.boolean().default(false),
   }),
 });
-export const collections = { articles };
+const news = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/news' }),
+  schema: z.object({
+    title: z.string(), h1: z.string(), description: z.string(),
+    topic: z.enum(['Energy and EPC', 'Grants', 'Renting', 'Planning', 'Leeds council', 'Bins and waste', 'Building safety']),
+    date: z.string(), dateISO: z.string(),
+    summary: z.string(),
+    related: z.string().optional(),
+    guides: z.array(z.string()).default([]),
+    sources: z.array(z.object({ name: z.string(), url: z.string(), read: z.string() })),
+  }),
+});
+export const collections = { articles, news };
