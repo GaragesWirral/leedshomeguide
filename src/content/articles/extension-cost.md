@@ -1,5 +1,5 @@
 ---
-title: "Extension Cost UK 2026: Prices per m² and by Size"
+title: "House Extension Cost UK 2026: Extension Cost per m² and by Size"
 h1: "House extension cost in 2026: UK prices per m² and by size"
 description: "How much a house extension costs in 2026: prices per m², single and two storey extensions by size, kitchen and bathroom extras and fees, from named UK sources."
 kicker: "Costs"
@@ -36,7 +36,7 @@ faqs:
 ---
 An extension is one of the biggest jobs most homeowners take on. The best way to budget is by floor area, then add the kitchen or bathroom, fees and VAT. This guide sets out what extensions cost in 2026, using two national cost guides.
 
-## How much does an extension cost per m²?
+## House extension cost per m² in 2026
 
 | Build | Typical cost per m² | Source |
 |---|---|---|
@@ -109,6 +109,19 @@ A small rear extension on a terraced house is often at the lower end, while a wi
 ## Kitchen extension costs
 
 Most rear extensions in Leeds are built for a bigger kitchen. Budget for the extension itself and then add the kitchen: Checkatrade suggests a new kitchen adds £15,000 to £35,000 to the total cost. Moving the sink, boiler or drains adds plumbing costs, and a large steel beam is usually needed where the extension opens into the house.
+
+## Hidden costs of a house extension project
+
+The build cost is only part of the overall cost of a home extension. Budget for these as well, as they are often left out of an early price per square metre:
+
+- Drawings, structural calculations and building regulations fees
+- Party wall costs if you build next to a neighbour
+- Moving drains, gas meters or soil pipes
+- Steel beams where the extension opens into the house
+- Kitchen, flooring and decorating, which typically cost more than people expect
+- VAT on most builders' quotes
+
+The average cost of an extension in the UK varies by extension type, from a small extension or conversion, where conversion costs are usually lower, to a full two storey build. Getting a fixed quote for the whole extension project is the best way to avoid surprises.
 
 ## Getting quotes in Leeds
 

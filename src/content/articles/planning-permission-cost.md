@@ -1,5 +1,5 @@
 ---
-title: "Planning Permission Cost 2026: Leeds and England Fees"
+title: "Planning Permission Cost 2026: Planning Application Fees in Leeds"
 h1: "Planning permission cost in 2026: fees in Leeds and England"
 description: "How much planning permission costs in Leeds in 2026: the £548 householder fee, Planning Portal service charge, Leeds pre application advice and drawing costs."
 kicker: "Costs"
@@ -36,7 +36,7 @@ faqs:
 ---
 The council's fee is only part of what planning permission costs. You will usually also pay for drawings, sometimes for surveys, and possibly for advice before you apply. This guide sets out the fees for Leeds homeowners in 2026 from the Planning Portal, Leeds City Council and Checkatrade.
 
-## How much does a planning application cost?
+## Planning application fee: how much does a planning application cost?
 
 | Application in England | Fee | Source |
 |---|---|---|
@@ -75,7 +75,7 @@ Source: Leeds City Council pre application enquiry service. It is worth consider
 
 You may also need a measured survey, a tree survey if trees are nearby, or a heritage statement in a conservation area.
 
-## Do you need planning permission?
+## Do you need to apply for planning permission?
 
 Many single storey rear extensions, loft conversions and outbuildings fall under permitted development and do not need a planning application, within size limits. Two storey, side and front extensions, and most work to listed buildings or in conservation areas, usually do. If your project is permitted development and you want proof, for example for a future sale, a lawful development certificate costs half the normal fee.
 
@@ -97,6 +97,10 @@ Some larger single storey rear extensions can go through the prior approval rout
 | Listed building consent | Works to a listed building | no fee |
 
 The application fee is payable when you submit an application, and the local planning authority will not start work on an application until the correct fee is paid. Fees for planning applications are set nationally under the Town and Country Planning Act 1990 regulations, so the planning fee in Leeds is the same as anywhere else in England. Some works are exempt, for example works solely to improve access for a disabled person. If you are unsure, the Planning Portal fee calculator works out the correct fee before you apply.
+
+## Exemptions and paying the correct planning fee
+
+Local planning authorities, such as Leeds City Council, check every application to make sure the fee is correct for the type of application. If the planning fee is wrong, local authorities can treat the application as invalid until the right fees payable are paid. An exemption or reduction applies in some cases, and some types of application, such as listed building consent, have no fee at all. Prior approval applications have their own lower fees. If you are unsure what to pay when you apply for planning permission, use the Planning Portal fee calculator or ask the council before you submit. Remember that planning conditions attached to an approval may need a separate application fee to discharge.
 
 ## Next steps
 
