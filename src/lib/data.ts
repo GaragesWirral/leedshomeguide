@@ -37,6 +37,12 @@ export const icons: Record<string, string> = {
   'garage-removal': '<path d="M3 21V9l9-5 9 5v12"/><path d="M7 21v-8h10v8M7 16h10"/>',
   handyman: '<path d="M14.5 5.5a4 4 0 0 0-5.3 5.3L3 17l4 4 6.2-6.2a4 4 0 0 0 5.3-5.3l-2.5 2.5-2.5-.5-.5-2.5 2.5-2.5z"/>',
   'rubbish-removal': '<path d="M4 7h16M9 7V4h6v3M6 7l1 14h10l1-14"/>',
+  'painters-and-decorators': '<rect x="4" y="3" width="14" height="6" rx="1"/><path d="M18 6h2v5h-8v3"/><rect x="10.5" y="14" width="3" height="7" rx="1"/>',
+  gardeners: '<path d="M12 21v-8"/><path d="M12 13c0-4 3-7 8-7 0 4-3 7-8 7z"/><path d="M12 15c0-3-2.5-5.5-7-5.5 0 3 2.5 5.5 7 5.5z"/>',
+  plasterers: '<path d="M4 15h11l3-3V9H7l-3 3z"/><path d="M11 15v3a2 2 0 0 0 2 2h1"/>',
+  'man-and-van': '<path d="M2 17V7h11v10M13 10h4l4 4v3h-8"/><circle cx="6.5" cy="17.5" r="1.8"/><circle cx="17" cy="17.5" r="1.8"/>',
+  blinds: '<rect x="4" y="3" width="16" height="18" rx="1"/><path d="M4 7h16M4 11h16M4 15h16M17 15v4"/>',
+  builders: '<path d="M3 21h18M5 21V11l7-5 7 5v10"/><path d="M9 21v-6h6v6M9 11h6"/>',
 };
 // Coming soon trades, in group order, from trades.json.
 export const comingSoon: string[] = groups.flatMap((g) => g.soon);

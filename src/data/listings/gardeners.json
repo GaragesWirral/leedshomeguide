@@ -1,0 +1,146 @@
+{
+ "name": "Gardeners",
+ "title": "Best Gardeners in Leeds",
+ "slug": "gardeners",
+ "kicker": "GARDENERS AND GARDEN MAINTENANCE",
+ "intro": "Lawns that need cutting, hedges that have got away from you, or a garden that needs a full tidy before you sell. Below are 3 gardeners in Leeds, what regular garden maintenance usually covers, and how to deal with the green waste.",
+ "services_hint": "Garden maintenance, hedges, lawns, tidy ups",
+ "seo_title": "Gardeners Leeds: 3 Local Garden Maintenance Services",
+ "seo_desc": "Gardeners in Leeds: 3 local garden maintenance services for lawns, hedges and one off tidy ups, what regular visits include, and Leeds garden waste rules.",
+ "h1": "Best gardeners in Leeds: 3 local garden maintenance services",
+ "list_label": "gardeners in Leeds",
+ "checks": [
+  "Agree what each visit covers: mowing, edging, weeding, hedges, and taking the waste away.",
+  "Ask whether green waste removal is included or charged extra.",
+  "Ask about public liability insurance, especially for hedge and tree work near boundaries."
+ ],
+ "expert_tip": {
+  "by": "Leeds City Council",
+  "src": "Leeds City Council: garden waste collection booking",
+  "url": "https://www.leeds.gov.uk/residents/bins-and-recycling/garden-waste-collections",
+  "body": "If you do not get a brown bin collection, Leeds City Council lets you book a collection of up to 4 double bagged bags or 4 items of garden waste. Branches must be under 3cm across and tied in bundles. If you do have a brown bin and have extra garden waste, the council asks you to take it to a recycling site. So before you pay a gardener to take waste away, check whether your own bin or a council collection will cover it."
+ },
+ "firms": [
+  {
+   "name": "Bloom Gardening",
+   "domain": "bloom-gardening.com",
+   "url": "https://www.bloom-gardening.com/",
+   "phone": "07595 595051",
+   "area": "Chapel Allerton, Leeds LS7",
+   "rating": {
+    "score": "4.8",
+    "count": 94,
+    "url": "https://www.google.com/maps/search/?api=1&query=Bloom+Gardening+Leeds",
+    "read": "16 November 2026"
+   },
+   "claims": [
+    "Bloom Gardening Limited: Companies House 12807168, active since 2020",
+    "Fully insured"
+   ],
+   "services": [
+    "Garden maintenance",
+    "Residential gardens",
+    "Commercial grounds"
+   ],
+   "why": "A small Leeds gardening team based in Chapel Allerton that looks after residential and commercial gardens, with nearly 100 Google reviews.",
+   "logo_bg": "light"
+  },
+  {
+   "name": "Walkers Gardening and Maintenance",
+   "domain": "wgmleeds.co.uk",
+   "url": "https://wgmleeds.co.uk/",
+   "phone": "07432 592609",
+   "area": "Rothwell, Leeds LS26",
+   "rating": {
+    "score": "5.0",
+    "count": 35,
+    "url": "https://www.google.com/maps/search/?api=1&query=Walkers+Gardening+%26+Maintenance+Leeds",
+    "read": "16 November 2026"
+   },
+   "claims": [
+    "Walkers Gardening & Maintenance Limited: Companies House 15845717, active since 2024",
+    "Insured team"
+   ],
+   "services": [
+    "Garden maintenance",
+    "Fencing",
+    "Outdoor upkeep"
+   ],
+   "why": "A Rothwell based garden maintenance company that keeps gardens and grounds under control on a regular schedule, and also takes on fencing jobs.",
+   "logo_bg": "light"
+  },
+  {
+   "name": "Gardener in Leeds",
+   "domain": "gardenerinleeds.com",
+   "url": "https://www.gardenerinleeds.com/",
+   "phone": "",
+   "area": "Leeds and surrounding areas",
+   "claims": [
+    "No limited company matched on Companies House under this name",
+    "Online estimates within 24 hours from photos"
+   ],
+   "services": [
+    "Garden maintenance and hedge trimming",
+    "One off tidy ups",
+    "Tree work and jet washing"
+   ],
+   "why": "A local Leeds gardener covering regular maintenance, hedge trimming and reduction, one off tidy ups, pruning and stump grinding, who can give an estimate from photos.",
+   "logo_bg": "light"
+  }
+ ],
+ "guide": [
+  {
+   "h2": "What garden maintenance usually covers",
+   "ul": [
+    "Mowing and edging lawns",
+    "Weeding beds and borders",
+    "Hedge trimming and shrub pruning",
+    "Leaf clearing in autumn",
+    "Taking away green waste, if agreed",
+    "Jet washing patios and paths, often charged separately"
+   ]
+  },
+  {
+   "h2": "Regular visits or a one off tidy",
+   "p": [
+    "Most gardeners in Leeds offer regular visits, weekly or fortnightly in the growing season from about March to October, and fewer visits over winter. A one off tidy up suits an overgrown garden, a house you are selling, or a rented property between tenants. A one off job usually costs more per hour because there is more waste to remove."
+   ]
+  },
+  {
+   "h2": "Gardener, landscaper or tree surgeon?",
+   "p": [
+    "A gardener keeps an existing garden looking good. A landscaper builds new features such as patios, paths, raised beds and turf. Large trees, especially near houses or roads, should go to a qualified tree surgeon. Some gardeners do small tree work, so ask what they are insured for."
+   ]
+  },
+  {
+   "h2": "Garden waste in Leeds",
+   "p": [
+    "Many Leeds homes have a brown bin for garden waste. If you do not, the council offers a bookable <a href=\"https://www.leeds.gov.uk/residents/bins-and-recycling/garden-waste-collections\" rel=\"noopener\" target=\"_blank\">garden waste collection</a> of up to 4 bags or items. For bigger loads, see <a href=\"/trades/rubbish-removal/garden-waste-removal/\">garden waste removal in Leeds</a>."
+   ]
+  },
+  {
+   "h2": "Garden care across Leeds",
+   "p": [
+    "Gardening services in Leeds range from a regular garden maintenance round to one off garden clearances, hedge trimming, pruning and jet washing decks and patios. A landscape gardener can also redesign an outdoor space, but that is a bigger job than regular garden care. If a gardener takes waste away, ask whether they are registered waste carriers, which the law requires for anyone carrying waste for money. Many work across north Leeds, Horsforth, Rothwell and the rest of West Yorkshire."
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "How often should a gardener visit?",
+   "a": "Weekly or fortnightly from spring to early autumn suits most lawns, with occasional visits over winter for hedges, leaves and tidying."
+  },
+  {
+   "q": "Do gardeners take the garden waste away?",
+   "a": "Many do, but it is often an extra charge. Ask before the first visit, and check whether your brown bin can take some of it."
+  },
+  {
+   "q": "Do I need to be home when the gardener comes?",
+   "a": "Usually not, if they can get into the garden and you have agreed what to do. Leave access to an outside tap if they need water."
+  },
+  {
+   "q": "Can a gardener cut a neighbour's hedge?",
+   "a": "Only your side and up to the boundary, unless your neighbour agrees. Talk to your neighbour first if the hedge is shared."
+  }
+ ]
+}
