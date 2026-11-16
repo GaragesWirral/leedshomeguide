@@ -62,7 +62,8 @@
     "Gutter cleaning"
    ],
    "why": "The Leeds arm of a UK window cleaning franchise, with more than 400 Google reviews. Useful if you want a firm with set processes and online account management.",
-   "logo_bg": "light"
+   "logo_bg": "light",
+   "logo": "/firm-logos/preenandclean.webp"
   },
   {
    "name": "JWD Traditional Window Cleaning",
@@ -81,7 +82,8 @@
     "Gutter cleaning"
    ],
    "why": "An independent Leeds window cleaner using traditional methods, which some people prefer for older sash and leaded windows, plus gutter and conservatory cleaning.",
-   "logo_bg": "light"
+   "logo_bg": "light",
+   "logo": "/firm-logos/jwdtraditionalwindowcleaning.webp"
   }
  ],
  "guide": [

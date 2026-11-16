@@ -43,7 +43,8 @@
     "Commercial grounds"
    ],
    "why": "A small Leeds gardening team based in Chapel Allerton that looks after residential and commercial gardens, with nearly 100 Google reviews.",
-   "logo_bg": "light"
+   "logo_bg": "light",
+   "logo": "/firm-logos/bloom-gardening.webp"
   },
   {
    "name": "Walkers Gardening and Maintenance",
@@ -67,7 +68,8 @@
     "Outdoor upkeep"
    ],
    "why": "A Rothwell based garden maintenance company that keeps gardens and grounds under control on a regular schedule, and also takes on fencing jobs.",
-   "logo_bg": "light"
+   "logo_bg": "light",
+   "logo": "/firm-logos/wgmleeds.webp"
   },
   {
    "name": "Gardener in Leeds",
@@ -85,7 +87,8 @@
     "Tree work and jet washing"
    ],
    "why": "A local Leeds gardener covering regular maintenance, hedge trimming and reduction, one off tidy ups, pruning and stump grinding, who can give an estimate from photos.",
-   "logo_bg": "light"
+   "logo_bg": "light",
+   "logo": "/firm-logos/gardenerinleeds.webp"
   }
  ],
  "guide": [

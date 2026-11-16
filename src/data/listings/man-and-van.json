@@ -36,7 +36,8 @@
     "Single items"
    ],
    "why": "The best reviewed man and van we found in Leeds, with 173 five star Google reviews, for house and flat moves, single item collections and small jobs.",
-   "logo_bg": "light"
+   "logo_bg": "light",
+   "logo": "/firm-logos/vanmanleeds.webp"
   },
   {
    "name": "The Van Man Leeds",
@@ -60,7 +61,8 @@
     "Removals in Headingley"
    ],
    "why": "A Headingley man with a van that has been running for 14 years, a useful option for student moves around Headingley, Hyde Park and the universities.",
-   "logo_bg": "light"
+   "logo_bg": "light",
+   "logo": "/firm-logos/thevanmanleeds.webp"
   },
   {
    "name": "Kev's Van",
@@ -84,7 +86,8 @@
     "Clearances"
    ],
    "why": "A Guiseley based service with two large vans and a team of three, so it can take bigger loads than a single man and van, and covers north west Leeds.",
-   "logo_bg": "light"
+   "logo_bg": "light",
+   "logo": "/firm-logos/kevsvan.webp"
   }
  ],
  "guide": [

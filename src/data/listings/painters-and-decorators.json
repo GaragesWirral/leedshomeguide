@@ -37,7 +37,8 @@
     "Decorating"
    ],
    "why": "A Leeds painting and decorating company based in east Leeds with 78 five star Google reviews, covering interior and exterior work for homes across the city.",
-   "logo_bg": "light"
+   "logo_bg": "light",
+   "logo": "/firm-logos/gswailespainteranddecoratorltd.webp"
   },
   {
    "name": "Gareth Thompson Decorator",
@@ -61,7 +62,8 @@
     "Kitchen spraying"
    ],
    "why": "A North Leeds decorator with over 40 years in the trade who also specialises in hand painted and sprayed kitchens, a cheaper way to refresh a kitchen than replacing the units.",
-   "logo_bg": "light"
+   "logo_bg": "light",
+   "logo": "/firm-logos/gareththompsondecorator.webp"
   },
   {
    "name": "L.R Decorators",
@@ -84,7 +86,8 @@
     "Leeds, Harrogate and Wetherby"
    ],
    "why": "An east Leeds decorating company that covers Leeds, Harrogate, Wetherby and Shadwell, with 31 five star Google reviews.",
-   "logo_bg": "light"
+   "logo_bg": "dark",
+   "logo": "/firm-logos/lrdecoratorsltd.webp"
   }
  ],
  "guide": [

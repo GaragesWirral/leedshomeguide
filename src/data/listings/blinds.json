@@ -37,7 +37,8 @@
     "Measuring and fitting"
    ],
    "why": "A long established Leeds blinds maker on Meanwood Road with nearly 200 five star Google reviews, the most of any blinds company we looked at.",
-   "logo_bg": "light"
+   "logo_bg": "light",
+   "logo": "/firm-logos/theblindfactoryleeds.webp"
   },
   {
    "name": "M&M Blinds, Curtains and Shutters",
@@ -61,7 +62,8 @@
     "Commercial blinds"
    ],
    "why": "A Leeds showroom on Gelderd Road offering blinds, made to measure curtains and hardwood plantation shutters, with commercial blinds as well.",
-   "logo_bg": "light"
+   "logo_bg": "light",
+   "logo": "/firm-logos/mmblinds.webp"
   },
   {
    "name": "Shutters 4 Leeds",
@@ -85,7 +87,8 @@
     "Supply and fit"
    ],
    "why": "A family run Leeds and West Yorkshire specialist that only does interior window shutters, supplied and fitted to measure.",
-   "logo_bg": "light"
+   "logo_bg": "dark",
+   "logo": "/firm-logos/shutters4leeds.webp"
   }
  ],
  "guide": [

@@ -43,7 +43,8 @@
     "Design to completion"
    ],
    "why": "A Cookridge builder that specialises in home extensions across North Leeds and Harrogate, with a written workmanship guarantee.",
-   "logo_bg": "light"
+   "logo_bg": "light",
+   "logo": "/firm-logos/newtonextensionsltd.webp"
   },
   {
    "name": "TJD Building Solutions",
@@ -61,7 +62,8 @@
     "Large renovations and new builds"
    ],
    "why": "An east Leeds builder and joinery firm on the Federation of Master Builders register, which takes on extensions, loft conversions and large renovations across Leeds, Wetherby, Harrogate, York and Wakefield.",
-   "logo_bg": "light"
+   "logo_bg": "dark",
+   "logo": "/firm-logos/tjd-build.webp"
   },
   {
    "name": "Masonwood Bespoke Construction",
@@ -79,7 +81,8 @@
     "Leeds, Harrogate and York"
    ],
    "why": "A Leeds construction company on the FMB register that handles whole projects, from the structure through to kitchens, bathrooms and bespoke joinery.",
-   "logo_bg": "light"
+   "logo_bg": "light",
+   "logo": "/firm-logos/masonwood.webp"
   }
  ],
  "guide": [
