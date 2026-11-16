@@ -1,5 +1,5 @@
 ---
-title: "House Clearance Cost UK 2026: Prices by Van Load"
+title: "House Clearance Cost UK 2026: How Much Does House Clearance Cost?"
 h1: "House clearance cost in 2026: UK prices by van load and house size"
 description: "How much house clearance costs in 2026: prices by van load and by house size, extra charges for fridges and mattresses, and free Leeds council options."
 kicker: "Costs"
@@ -34,7 +34,7 @@ faqs:
 ---
 House clearance is usually priced by how much there is to take, measured in van loads, plus extra for items that cost more to dispose of. This guide sets out what clearance costs in 2026, from two national cost guides, and when the council or a skip may be cheaper.
 
-## How much does house clearance cost?
+## How much does house clearance cost in 2026?
 
 Checkatrade prices clearance by van load:
 
@@ -97,7 +97,18 @@ A full house clearance after a death, or for probate, is often the biggest job. 
 
 A garage clearance is usually charged by volume like any other clearance. MyBuilder gives £100 to £250 for a garage or shed. If the garage itself needs to come down, see our [garage demolition cost guide](/guides/garage-demolition-cost/).
 
-## Check the waste carrier licence
+## House clearances: what affects the price
+
+House clearances are priced on how much there is to take, how easy it is to reach and how much can be recycled or sold. The average house clearance cost in this guide comes from national price guides, so it is a fair guide across the UK, though house clearances in London and the South East usually cost more. Most house clearances follow the same steps: a free visit or photos, a written house clearance quote, then a team that sorts, loads and clears the property.
+
+- **Volume.** Most house clearances are priced per van load, so clearing clutter first saves money.
+- **Access.** Stairs, lifts and long carries add labour time.
+- **Disposal costs.** Fridges, mattresses and electricals cost more to dispose of legally.
+- **Recycling and resale.** A house clearance service that recycles or sells furniture may charge less.
+
+For a full property clearance, ask whether the clearance service includes sweeping up, and ask for a waste transfer note from a licensed waste carrier.
+
+## Choosing a clearance company and checking its licence
 
 If your waste is fly tipped, you can be held responsible even if you paid someone to take it. Anyone who carries waste for money must be registered with the Environment Agency, so ask for the registration number and check it before they load anything.
 

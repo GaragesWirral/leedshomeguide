@@ -1,5 +1,5 @@
 ---
-title: "Window Cleaner Cost UK 2026: Prices per Clean"
+title: "Window Cleaning Cost UK 2026: Window Cleaner Prices per Clean"
 h1: "Window cleaner cost in 2026: UK prices per clean and by house type"
 description: "How much a window cleaner costs in 2026: prices by house type, regular and one off cleans, conservatories and commercial work, from named UK sources."
 kicker: "Costs"
@@ -32,7 +32,7 @@ faqs:
 ---
 Window cleaning is one of the cheaper regular home services, and the price mostly depends on how many windows you have and how easy they are to reach. This guide sets out what window cleaners charge in 2026, using two national cost guides.
 
-## How much does a window cleaner cost?
+## Window cleaning price in 2026
 
 Checkatrade gives these starting prices for an outside clean, including frames:
 
@@ -73,13 +73,17 @@ Source: Checkatrade, October 2026. Checkatrade's average window cleaning price i
 - **Frequency.** Regular rounds are cheaper per clean than a one off visit.
 - **Extras.** Gutter clearing, fascias and conservatory roofs are usually priced separately.
 
-## Water fed poles or ladders
+## Window cleaning service: water fed poles or ladders
 
 Most window cleaners in Leeds now use water fed poles, which pump purified water up a long pole to a brush. It means they can clean upstairs windows from the ground, which is safer, and the purified water dries without smears. Ladders are still used for some windows, so ask about insurance.
 
 ## The first clean, gutters and conservatories
 
 The first clean usually costs more, because frames and sills have built up dirt. After that, a regular clean is quicker. Some window cleaners price per window, while others give a set price for the house. Gutter cleaning, conservatory roof cleaning and fascias are extra services, so ask for a price on each when you get a quote for window cleaning.
+
+## Hiring a window cleaner
+
+When hiring a window cleaner, ask whether the price covers frames, sills and doors as well as each glass pane, and whether a professional window cleaner will use a ladder or a water fed pole for upper floors. A regular window cleaning round is the cheapest option, and a fair price for a 3 bed house is usually close to the averages in this guide. Commercial window cleaning is quoted separately. Most window cleaners suggest a clean every 4 to 8 weeks, and the average cost per clean falls if you book a regular window cleaning service.
 
 ## Finding a window cleaner in Leeds
 

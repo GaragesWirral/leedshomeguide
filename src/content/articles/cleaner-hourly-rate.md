@@ -1,5 +1,5 @@
 ---
-title: "Cleaner Hourly Rate UK 2026: What Cleaners Charge"
+title: "Cleaner Hourly Rates 2026: Cleaning Cost and End of Tenancy Cleaning"
 h1: "Cleaner hourly rates in 2026: what a cleaner costs per hour"
 description: "How much a cleaner costs per hour in 2026: independent and agency rates, weekly cleaner costs, deep and end of tenancy cleans, from named UK sources."
 kicker: "Costs"
@@ -65,7 +65,7 @@ Checkatrade puts a weekly 3 hour clean at about **£75**. A regular clean usuall
 
 For more detail on deep cleans, see [deep cleaning in Leeds](/trades/cleaners/deep-cleaning/).
 
-## Cleaner hourly rates by type of cleaning
+## Cleaning service hourly rates by type of cleaning in 2026
 
 The type of cleaning makes the biggest difference to the hourly rate. Regular domestic cleaning sits at the bottom of the range, while a deep clean, an end of tenancy clean or cleaning after builders costs more per hour because it takes more effort and more cleaning products.
 
@@ -91,9 +91,13 @@ A one off clean often has a higher hourly rate or a longer minimum session than 
 
 An agency checks and insures its cleaners, finds cover when someone is off and handles complaints. An independent cleaner is often cheaper and you will usually see the same person every week. If you employ an independent cleaner directly, ask whether they are self employed and have public liability insurance.
 
-## Cleaning costs in London and across the UK
+## Cleaner rates in London and across the UK
 
 Hourly rates for cleaners are highest in London and the South East. MyBuilder gives about £15 to £20 an hour for an independent cleaner in London, against about £12 to £15 in Manchester. Cleaning companies in London often charge more again. Outside London, the rates in this guide are a fair guide to what cleaners charge in 2026, but always ask for the cleaner's own hourly rate and any minimum when you book.
+
+## What to expect to pay for a cleaning service
+
+What you can expect to pay depends on the cleaning required and the size of your home. A regular cleaning service for a small flat may only need two hours a week, while a large house can need four or more. Hourly rates in London are higher than in Leeds and the north, so national averages are a better guide than prices quoted for cleaning in London. Always ask a cleaning service for its hourly rate, its minimum visit and what is included before the first clean.
 
 ## End of tenancy cleaning, windows and carpets
 
