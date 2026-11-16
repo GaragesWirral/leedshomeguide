@@ -94,7 +94,8 @@ Each week: **3 trades, 4 job pages, 3 cost guides** (Joseph's decision 12 Nov: 3
 4. **Write** listings, jobs and guides. Add the trades to `trades.json`, icons to `data.ts`, and the homepage short line and search terms to `index.astro`. Replace any "coming in a later update" placeholders that the new guides answer.
 5. **Build and test.** Run the NeuronWriter gap check and boost until 70+ (score the PR preview URL).
 6. **Phone screenshots** to Joseph.
-7. **Branch, PR, preview**, then merge when Joseph says so.
+7. **Update sitemap dates:** `git fetch --depth=1000 origin main` (if the clone is shallow), then `npm run lastmod` and commit `src/data/lastmod.json`. The tests fail if a new page has no date.
+8. **Branch, PR, preview**, then merge when Joseph says so.
 
 ## 6. SEO standards
 

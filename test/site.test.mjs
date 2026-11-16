@@ -260,3 +260,15 @@ test('home news: hub lists every story, each story has NewsArticle schema, dated
   assert.match(home, /Latest Leeds home news/);
   assert.match(home.split('<main')[0], /href="\/news\/"/, 'news in nav');
 });
+
+test('sitemap: every URL has a real lastmod from src/data/lastmod.json (run npm run lastmod after adding pages)', () => {
+  const lm = JSON.parse(readFileSync('src/data/lastmod.json', 'utf8'));
+  const sm = readFileSync(`${OUT}/sitemap.xml`, 'utf8');
+  const urls = [...sm.matchAll(/<loc>https:\/\/leedshomeguide\.co\.uk([^<]*)<\/loc><lastmod>(\d{4}-\d\d-\d\d)<\/lastmod>/g)];
+  assert.ok(urls.length > 50, 'sitemap has URLs');
+  for (const [, path, date] of urls) {
+    assert.ok(lm[path], `${path} missing from lastmod.json: run npm run lastmod`);
+    assert.strictEqual(date, lm[path], `lastmod for ${path}`);
+  }
+  assert.strictEqual(new Set(urls.map((u) => u[1])).size, urls.length, 'no duplicate URLs');
+});
