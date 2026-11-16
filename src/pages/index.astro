@@ -15,9 +15,9 @@ const which = [
   { job: 'A leak, a blocked toilet, a boiler or radiator repair', who: 'A plumber or heating engineer (Gas Safe for any gas work)', href: '/trades/plumbers/' },
   { job: 'New sockets, lighting, a rewire, a fuse board or an EICR', who: 'An electrician', href: '/trades/electricians/' },
   { job: 'An Artex ceiling, garage roof or pipe lagging that may contain asbestos', who: 'An asbestos removal specialist', href: '/trades/asbestos-removal/' },
-  { job: 'An extension, a renovation or brickwork', who: 'A builder (not listed yet)' },
-  { job: 'Doors, shelves, a new floor and other joinery', who: 'A joiner or handyman (not listed yet)' },
-  { job: 'Plaster repairs, painting and decorating', who: 'A plasterer or a painter and decorator (not listed yet)' },
+  { job: 'An extension, a renovation or brickwork', who: 'A builder', href: '/trades/builders/' },
+  { job: 'Doors, shelves, flat pack and other odd jobs', who: 'A handyman', href: '/trades/handyman/' },
+  { job: 'Plaster repairs, painting and decorating', who: 'A plasterer or a painter and decorator', href: '/trades/plasterers/' },
   { job: 'A patio, driveway or fence', who: 'A landscaper or driveway specialist (not listed yet)' },
 ];
 const faqs = [
@@ -48,6 +48,12 @@ const short: Record<string, string> = {
   'garage-removal': 'Garage and shed demolition',
   handyman: 'Odd jobs, repairs, assembly',
   'rubbish-removal': 'House and garden clearance',
+  'painters-and-decorators': 'Interior and exterior painting',
+  gardeners: 'Lawns, hedges, tidy ups',
+  plasterers: 'Skimming, replastering, ceilings',
+  'man-and-van': 'Small moves and single items',
+  blinds: 'Blinds, shutters, curtains',
+  builders: 'Extensions and renovations',
 };
 const costs = [
   { title: 'Asbestos garage roof removal', price: 'Disposal from £72.31', note: 'Leeds council disposal charges, plus what a contractor adds', href: '/guides/asbestos-garage-roof-removal-leeds/', icon: 'asbestos' },
@@ -165,7 +171,7 @@ const how = [
   <script is:inline>
     document.getElementById('tradesearch').addEventListener('submit', function (e) {
       var q = (document.getElementById('q').value || '').toLowerCase();
-      var map = [['survey', 'asbestos-surveys'], ['window', 'window-cleaners'], ['roof', 'roofers'], ['gutter', 'roofers'], ['plumb', 'plumbers'], ['boiler', 'plumbers'], ['leak', 'plumbers'], ['heat', 'plumbers'], ['electr', 'electricians'], ['eicr', 'electricians'], ['rewir', 'electricians'], ['asbestos', 'asbestos-removal'], ['garage', 'asbestos-removal'], ['artex', 'asbestos-removal'], ['lock', 'locksmiths'], ['skip', 'skip-hire'], ['carpet', 'carpet-cleaning'], ['remov', 'removals'], ['moving', 'removals'], ['damp', 'damp-proofing'], ['mould', 'damp-proofing'], ['pest', 'pest-control'], ['wasp', 'pest-control'], ['mice', 'pest-control'], ['rats', 'pest-control'], ['window', 'window-cleaners'], ['handy', 'handyman'], ['rubbish', 'rubbish-removal'], ['clearance', 'rubbish-removal'], ['junk', 'rubbish-removal'], ['clean', 'cleaners'], ['demoli', 'garage-removal'], ['shed', 'garage-removal']];
+      var map = [['survey', 'asbestos-surveys'], ['window', 'window-cleaners'], ['roof', 'roofers'], ['gutter', 'roofers'], ['plumb', 'plumbers'], ['boiler', 'plumbers'], ['leak', 'plumbers'], ['heat', 'plumbers'], ['electr', 'electricians'], ['eicr', 'electricians'], ['rewir', 'electricians'], ['asbestos', 'asbestos-removal'], ['garage', 'asbestos-removal'], ['artex', 'asbestos-removal'], ['lock', 'locksmiths'], ['skip', 'skip-hire'], ['carpet', 'carpet-cleaning'], ['remov', 'removals'], ['moving', 'removals'], ['damp', 'damp-proofing'], ['mould', 'damp-proofing'], ['pest', 'pest-control'], ['wasp', 'pest-control'], ['mice', 'pest-control'], ['rats', 'pest-control'], ['window', 'window-cleaners'], ['handy', 'handyman'], ['rubbish', 'rubbish-removal'], ['clearance', 'rubbish-removal'], ['junk', 'rubbish-removal'], ['clean', 'cleaners'], ['demoli', 'garage-removal'], ['shed', 'garage-removal'], ['paint', 'painters-and-decorators'], ['decorat', 'painters-and-decorators'], ['garden', 'gardeners'], ['hedge', 'gardeners'], ['lawn', 'gardeners'], ['plaster', 'plasterers'], ['skim', 'plasterers'], ['van', 'man-and-van'], ['blind', 'blinds'], ['shutter', 'blinds'], ['curtain', 'blinds'], ['build', 'builders'], ['extension', 'builders'], ['planning', 'builders']];
       for (var i = 0; i < map.length; i++) { if (q.indexOf(map[i][0]) > -1) { e.preventDefault(); location.href = '/trades/' + map[i][1] + '/'; return; } }
     });
   </script>
