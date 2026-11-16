@@ -756,3 +756,13 @@ main:has(.rel) + .site-footer,.rel + .site-footer{margin-top:0}
 .lf-wrap{scroll-margin-top:96px}
 .g-rating{margin:0 0 10px;font-size:.9375rem}
 .g-rating a{color:var(--navy-ink);font-weight:600;text-decoration:none;border-bottom:1px solid currentColor}
+
+/* Home news */
+.news-summary{background:var(--soft,#f3f6fb);border-left:4px solid var(--blue);padding:14px 16px;border-radius:8px;margin:0 0 24px}
+.news-more ul{padding-left:1.1em}.news-more li{margin:.4em 0}.news-more .meta{display:block}
+.side-box ul{padding-left:1.1em;margin:0}.side-box li{margin:.35em 0}
+.hg-news{list-style:none;padding:0;margin:0;display:grid;gap:12px}
+@media (min-width:768px){.hg-news{grid-template-columns:repeat(3,1fr)}}
+.hg-news a{display:grid;gap:6px;height:100%;padding:16px;border:1px solid var(--line);border-radius:14px;background:#fff;color:var(--text);text-decoration:none}
+.hg-news .tag{justify-self:start}
+.hg-news b{color:var(--navy-ink);line-height:1.35}

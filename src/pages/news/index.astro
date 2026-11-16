@@ -1,0 +1,31 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+const items = (await getCollection('news')).sort((a, b) => b.data.dateISO.localeCompare(a.data.dateISO) || a.id.localeCompare(b.id));
+const monthOf = (iso: string) => new Date(iso + 'T12:00:00Z').toLocaleDateString('en-GB', { month: 'long', year: 'numeric', timeZone: 'UTC' });
+const months: { label: string; list: typeof items }[] = [];
+for (const n of items) { const m = monthOf(n.data.dateISO); const last = months[months.length - 1]; if (last && last.label === m) last.list.push(n); else months.push({ label: m, list: [n] }); }
+const schema = [
+  { '@context': 'https://schema.org', '@type': 'CollectionPage', name: 'Leeds home news', url: 'https://leedshomeguide.co.uk/news/', inLanguage: 'en-GB' },
+  { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://leedshomeguide.co.uk/' },
+    { '@type': 'ListItem', position: 2, name: 'News', item: 'https://leedshomeguide.co.uk/news/' } ] },
+];
+---
+<Base title="Leeds Home News: EPC, Grants, Planning and Council Updates" description="Home news for Leeds homeowners and landlords: EPC rules, energy grants, planning, renting law and Leeds City Council updates, each checked against official sources." path="/news/" schema={schema}>
+  <section class="page-head"><div class="wrap">
+    <p class="crumbs"><a href="/">Home</a> › News</p>
+    <h1>Leeds home news</h1>
+    <p class="lede">Changes that affect your home in Leeds: energy rules and EPCs, grants, planning, renting and council services. Each story links to the official source and shows the date we read it. Updated every week.</p>
+  </div></section>
+  <div class="wrap news-list">
+    {months.map((m) => (
+      <section class="guide-sec" aria-label={m.label}>
+        <h2>{m.label}</h2>
+        <div class="grid two">
+          {m.list.map((n) => (<a class="card news-card" href={`/news/${n.id}/`}><span class="tag">{n.data.topic}</span><h3 class="card-h">{n.data.h1}</h3><p>{n.data.summary}</p><p class="meta">{n.data.date}</p></a>))}
+        </div>
+      </section>
+    ))}
+  </div>
+</Base>

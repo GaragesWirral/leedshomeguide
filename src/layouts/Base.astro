@@ -7,6 +7,7 @@ const canonical = new URL(path, Astro.site).href;
 const nav = [
   { href: '/trades/', label: 'Find a trade' },
   { href: '/guides/', label: 'Cost guides' },
+  { href: '/news/', label: 'Home news' },
   { href: '/how-we-choose/', label: 'How we check' },
 ];
 const org = { '@context': 'https://schema.org', '@type': 'Organization', name: 'Leeds Home Guide', url: 'https://leedshomeguide.co.uk/', areaServed: 'Leeds' };
@@ -58,6 +59,7 @@ const org = { '@context': 'https://schema.org', '@type': 'Organization', name: '
         <ul class="foot-links">
           <li><a href="/trades/">Find a trade</a></li>
           <li><a href="/guides/">Cost guides</a></li>
+          <li><a href="/news/">Home news</a></li>
           <li><a href="/how-we-choose/">How we check</a></li>
           <li><a href="/get-listed/">Get listed</a></li>
         </ul>

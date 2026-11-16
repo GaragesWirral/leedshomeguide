@@ -66,6 +66,8 @@ const how = [
   { t: 'Compare local firms', d: 'See up to 3 Leeds firms per trade, with the register checks we have made shown on each card.' },
   { t: 'Contact them directly', d: 'Call or visit the firm yourself. It is free, with no booking fee and no middleman.' },
 ];
+import { getCollection as getNews } from 'astro:content';
+const latestNews = (await getNews('news')).sort((a, b) => b.data.dateISO.localeCompare(a.data.dateISO) || a.id.localeCompare(b.id)).slice(0, 3);
 ---
 <Base title="Tradesmen in Leeds: Find Trusted Local Tradespeople | Leeds Home Guide" description="Find a trusted local tradesperson in Leeds: roofers, plumbers, electricians and asbestos removal, with the register checks we have made shown on each card, plus tips for getting free quotes." path="/" schema={[site, faqSchema]}>
   <section class="hg-hero">
@@ -139,6 +141,13 @@ const how = [
           return g.href ? <li><a class="hg-cost" href={g.href}>{inner}</a></li> : <li><div class="hg-cost is-soon">{inner}</div></li>;
         })}
       </ul>
+    </div>
+  </section>
+
+  <section class="hg-sec">
+    <div class="wrap">
+      <div class="hg-head"><h2>Latest Leeds home news</h2><a class="hg-more" href="/news/">All home news</a></div>
+      <ul class="hg-news">{latestNews.map((n) => <li><a href={`/news/${n.id}/`}><span class="tag">{n.data.topic}</span><b>{n.data.h1}</b><span class="meta">{n.data.date}</span></a></li>)}</ul>
     </div>
   </section>
 
