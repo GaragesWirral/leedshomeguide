@@ -29,6 +29,8 @@ faqs:
     a: "Agencies usually do, and MyBuilder notes that supplies can add about £2 to £6 an hour. Independent cleaners often use your products. Agree this before the first clean."
   - q: "How much does an end of tenancy clean cost?"
     a: "Checkatrade gives £100 to £500, averaging about £300. MyBuilder gives £80 to £400. Size, condition, ovens and carpets all change the price."
+  - q: "How much should I pay a cleaner per hour in 2026?"
+    a: "Checkatrade gives about £25 per hour for an independent cleaner and £25 to £30 for a cleaning company. MyBuilder gives a wider £12 to £30 per hour for regular domestic cleaning across the UK."
 ---
 Most cleaners charge by the hour, so the hourly rate decides almost everything about what you pay. This guide sets out what cleaners charge in 2026, using two national cost guides, and what changes the price for regular, deep and end of tenancy cleans.
 
@@ -63,6 +65,20 @@ Checkatrade puts a weekly 3 hour clean at about **£75**. A regular clean usuall
 
 For more detail on deep cleans, see [deep cleaning in Leeds](/trades/cleaners/deep-cleaning/).
 
+## Cleaner hourly rates by type of cleaning
+
+The type of cleaning makes the biggest difference to the hourly rate. Regular domestic cleaning sits at the bottom of the range, while a deep clean, an end of tenancy clean or cleaning after builders costs more per hour because it takes more effort and more cleaning products.
+
+| Type of cleaning | Typical cleaning rate in 2026 | Source |
+|---|---|---|
+| Regular domestic cleaning | £12 to £30 per hour | MyBuilder |
+| Independent house cleaners | about £25 per hour | Checkatrade |
+| Cleaning companies and agencies | £25 to £30 per hour | Checkatrade |
+| Deep clean or one off thorough clean | £20 to £37 per hour | MyBuilder |
+| Cleaning after building work | £30 to £35 per hour | Checkatrade |
+
+A one off clean often has a higher hourly rate or a longer minimum session than regular cleaning, because the first visit has more to do.
+
 ## What changes the price?
 
 - **Agency or independent.** Agencies cost more but cover holidays and sickness and usually carry insurance.
@@ -82,6 +98,16 @@ Hourly rates for cleaners are highest in London and the South East. MyBuilder gi
 ## End of tenancy cleaning, windows and carpets
 
 End of tenancy cleaning is usually priced per job rather than per hour, because the cleaner has to clean to the inventory standard. Window cleaning and carpet cleaning are normally separate services. See our [window cleaner cost guide](/guides/window-cleaner-cost/) and [carpet cleaning cost guide](/guides/carpet-cleaning-cost/).
+
+## How to hire a cleaner
+
+- **Decide what each cleaning session covers.** Write a short list: kitchen, bathroom, hoovering, mopping, dusting, changing beds.
+- **Ask for the hourly rate and the minimum session.** Many cleaners and cleaning companies have a two or three hour minimum.
+- **Ask who supplies cleaning products and equipment.** Agencies usually bring their own.
+- **Ask about additional services.** Oven cleaning, inside windows, ironing and carpet cleaning are often charged on top.
+- **Check insurance and references,** especially if the cleaner will have a key.
+
+A professional cleaning service will usually agree a regular time each week or fortnight, so you see the same cleaner and the house stays tidy between deep cleans.
 
 ## Finding a cleaner in Leeds
 

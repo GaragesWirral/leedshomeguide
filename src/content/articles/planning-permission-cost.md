@@ -31,6 +31,8 @@ faqs:
     a: "Checkatrade gives £610 per new house in England, for up to 50 houses."
   - q: "Do I need planning permission for every extension?"
     a: "No. Some single storey rear extensions and loft conversions are permitted development. If you want proof, you can apply for a lawful development certificate, which costs half the normal fee."
+  - q: "Is listed building consent free?"
+    a: "Yes. There is no application fee for listed building consent in England, although you may still need a separate householder application, which has a fee, for an extension to a listed home."
 ---
 The council's fee is only part of what planning permission costs. You will usually also pay for drawings, sometimes for surveys, and possibly for advice before you apply. This guide sets out the fees for Leeds homeowners in 2026 from the Planning Portal, Leeds City Council and Checkatrade.
 
@@ -82,6 +84,19 @@ Building regulations approval is separate and is needed for almost every extensi
 ## Prior approval, outline and other applications
 
 Some larger single storey rear extensions can go through the prior approval route instead of a full householder application, which has its own lower fee. Outline planning applications are charged per 0.1 hectare of site area, and change of use applications have their own fees. The Planning Portal's fee calculator works out the correct fee for each of the application types under the Town and Country Planning rules, and the local planning authority, Leeds City Council, confirms the fee payable when you submit an application. The Planning Portal also notes a range of exemptions and reductions.
+
+## Types of planning application and their fees
+
+| Type of planning application | What it is for | Fee in England |
+|---|---|---|
+| Householder application | Extensions and alterations to one house | £548 (Planning Portal) |
+| Full planning application | A new home or larger works | £610 per new house (Checkatrade) |
+| Outline planning application | Agreeing the principle before full details | £659 per 0.1 hectare (Checkatrade) |
+| Lawful development certificate, proposed | Proof that a project is permitted development | half the normal fee |
+| Approval of conditions, householder | Discharging conditions after approval | £46 (Checkatrade) |
+| Listed building consent | Works to a listed building | no fee |
+
+The application fee is payable when you submit an application, and the local planning authority will not start work on an application until the correct fee is paid. Fees for planning applications are set nationally under the Town and Country Planning Act 1990 regulations, so the planning fee in Leeds is the same as anywhere else in England. Some works are exempt, for example works solely to improve access for a disabled person. If you are unsure, the Planning Portal fee calculator works out the correct fee before you apply.
 
 ## Next steps
 

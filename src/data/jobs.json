@@ -1067,11 +1067,11 @@
   {
    "trade": "plasterers",
    "slug": "skimming",
-   "name": "Skimming and replastering",
-   "title": "Skimming Leeds: Room Skimming and Replastering Prices (2026)",
-   "description": "Skimming in Leeds: when a skim coat is enough and when walls need replastering, 2026 room prices, drying times and local plasterers to call.",
-   "h1": "Skimming and replastering in Leeds",
-   "intro": "Walls that are cracked, patched or just rough can often be made smooth with a skim coat, a thin layer of finishing plaster. If the old plaster is loose or blown, it needs to come off first. Here is how to tell which you need, what each costs and how long it takes.",
+   "name": "Plaster skimming",
+   "title": "Skimming Plasterer Leeds: Wall and Ceiling Skimming (2026)",
+   "description": "Skimming plasterers in Leeds: when a skim coat is enough for walls and ceilings, when to replaster, 2026 room prices, drying times and local plasterers.",
+   "h1": "Plaster skimming in Leeds: walls and ceilings",
+   "intro": "Cracked, patched or uneven walls and ceilings can usually be given a smooth finish with a skim coat of plaster, without stripping everything back. A skimming plasterer applies a thin finishing coat over the old surface. Here is when skimming is enough, when a wall needs replastering, what it costs in Leeds and how long it takes to dry.",
    "sections": [
     {
      "h2": "What is skimming?",
@@ -1085,6 +1085,22 @@
       "<b>Skim</b>: the plaster is sound and firmly stuck, but the surface is rough, cracked or patchy",
       "<b>Replaster</b>: the plaster sounds hollow when tapped, crumbles or has come away from the wall",
       "<b>Boarding and skim</b>: ceilings that are sagging or badly cracked are often overboarded with plasterboard and then skimmed"
+     ]
+    },
+    {
+     "h2": "Skimming walls and ceilings",
+     "p": [
+      "Most skimming jobs in Leeds homes are interior walls and ceilings in older houses, where years of patch repairs, removed wallpaper and fine cracks leave a rough surface. A plasterer can skim one wall, a whole room or a full house. Ceilings are skimmed the same way, and badly cracked ceilings are often overboarded first. A fresh skim is one of the quickest ways to freshen up your home before decorating."
+     ]
+    },
+    {
+     "h2": "Getting a quote from a skimming plasterer",
+     "ul": [
+      "Say how many walls and ceilings need skimming and roughly how big the rooms are",
+      "Send photos so the plasterer can see cracks, damage or blown patches",
+      "Ask whether the quote includes patch repairs, beading and removing old wallpaper",
+      "Ask whether the room needs clearing and who protects the floors",
+      "Check whether the plasterer covers your area, as many work across Leeds and the surrounding areas"
      ]
     },
     {
@@ -1108,7 +1124,7 @@
     {
      "h2": "Plasterers in Leeds",
      "p": [
-      "See our list of <a href=\"/trades/plasterers/\">plasterers in Leeds</a>, with three local plasterers, and <a href=\"/trades/painters-and-decorators/\">painters and decorators</a> for after the plaster has dried."
+      "See our list of <a href=\"/trades/plasterers/\">plasterers in Leeds</a>, with three local plasterers who take on domestic and commercial plastering, including skimming, patch repairs and rendering across Leeds and West Yorkshire. After the plaster has dried, see <a href=\"/trades/painters-and-decorators/\">painters and decorators in Leeds</a>."
      ]
     }
    ],
@@ -1116,6 +1132,10 @@
     {
      "q": "How much does it cost to skim a room?",
      "a": "About £430 to £550 for a medium room of 3m by 3m, typically £480, according to Checkatrade's 2026 guide."
+    },
+    {
+     "q": "Can a plasterer skim just one wall?",
+     "a": "Yes. Many plasterers in Leeds will skim a single wall or ceiling, though there is often a minimum charge, so it can be worth grouping several walls into one visit."
     },
     {
      "q": "Can you skim over painted walls?",
