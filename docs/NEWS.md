@@ -5,6 +5,9 @@ Stories live in `src/content/news/<slug>.md`. The hub is `/news/`, each story is
 ## Front matter
 `title` (60 chars max), `h1`, `description` (140 to 155 chars), `topic` (Energy and EPC, Grants, Renting, Planning, Leeds council, Bins and waste, Building safety), `date` ("16 November 2026"), `dateISO`, `summary` (one or two sentences), `related` (trade listing key), `guides` (guide slugs), `sources` [{name, url, read}].
 
+## Before you commit
+Run `git fetch --depth=1000 origin main` if the clone is shallow, then `npm run lastmod`, so the sitemap gives each story its real date.
+
 ## Rules
 - Every fact comes from an official source read on the day: GOV.UK, the Housing Hub, Ofgem, Planning Portal, Leeds City Council (news.leeds.gov.uk, leeds.gov.uk). Trade press is for finding stories, not for facts.
 - Put the source date in the source name where it has one, and the date we read it in `read`.

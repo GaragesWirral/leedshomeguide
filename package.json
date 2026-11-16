@@ -4,7 +4,8 @@
  "type": "module",
  "scripts": {
   "build": "astro build",
-  "dev": "astro dev"
+  "dev": "astro dev",
+  "lastmod": "node scripts/lastmod.mjs"
  },
  "dependencies": {
   "astro": "^5.18.2"
