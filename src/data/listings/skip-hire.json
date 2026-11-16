@@ -44,7 +44,8 @@
     "Wait and load"
    ],
    "why": "A long running Leeds skip firm with an online booking system that checks your postcode and shows skip sizes and prices. It offers same day delivery and wait and load for jobs where a skip cannot stay on the street.",
-   "logo_bg": "light"
+   "logo_bg": "light",
+   "logo": "/firm-logos/billdysonwastemanagement.webp"
   },
   {
    "name": "Skelton Skips",
