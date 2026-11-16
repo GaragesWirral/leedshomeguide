@@ -1068,7 +1068,7 @@
    "trade": "plasterers",
    "slug": "skimming",
    "name": "Plaster skimming",
-   "title": "Skimming Plasterer Leeds: Wall and Ceiling Skimming (2026)",
+   "title": "Skimming Plasterer Leeds: Plaster Skimming Across Leeds (2026)",
    "description": "Skimming plasterers in Leeds: when a skim coat is enough for walls and ceilings, when to replaster, 2026 room prices, drying times and local plasterers.",
    "h1": "Plaster skimming in Leeds: walls and ceilings",
    "intro": "Cracked, patched or uneven walls and ceilings can usually be given a smooth finish with a skim coat of plaster, without stripping everything back. A skimming plasterer applies a thin finishing coat over the old surface. Here is when skimming is enough, when a wall needs replastering, what it costs in Leeds and how long it takes to dry.",
@@ -1122,6 +1122,12 @@
      ]
     },
     {
+     "h2": "Plastering in Leeds and the surrounding areas",
+     "p": [
+      "A skimming plasterer in Leeds usually offers a full plastering service, from skimming and plaster repairs to rendering services and lining walls with plasterboard. When you contact a plasterer in Leeds, describe the project, the size of each room and any damage that needs repair, and ask for advice on whether skimming will be enough. Professional plastering contractors should explain their workmanship guarantee, and good customer reviews are a sign of expert plastering. Most cover Leeds, the surrounding areas and the rest of Yorkshire, so a skim can often be booked within a week or two, even as part of a wider renovation."
+     ]
+    },
+    {
      "h2": "Plasterers in Leeds",
      "p": [
       "See our list of <a href=\"/trades/plasterers/\">plasterers in Leeds</a>, with three local plasterers who take on domestic and commercial plastering, including skimming, patch repairs and rendering across Leeds and West Yorkshire. After the plaster has dried, see <a href=\"/trades/painters-and-decorators/\">painters and decorators in Leeds</a>."
@@ -1155,7 +1161,7 @@
    "trade": "carpet-cleaning",
    "slug": "upholstery-cleaning",
    "name": "Upholstery cleaning",
-   "title": "Upholstery Cleaning Leeds: Sofa and Chair Cleaning (2026)",
+   "title": "Upholstery Cleaning Leeds: Sofa and Carpet Cleaning Services (2026)",
    "description": "Upholstery cleaning in Leeds: how sofa and chair cleaning works, fabric care codes to check, typical 2026 prices and local carpet and upholstery cleaners.",
    "h1": "Upholstery cleaning in Leeds",
    "intro": "A sofa with pet hair, a stained armchair or dining chairs that have seen better days. Professional upholstery cleaning can lift dirt and stains that a home vacuum cannot reach. Here is how it works, what to check on your furniture first and what it costs.",
@@ -1191,6 +1197,12 @@
      "h2": "Carpet and upholstery cleaning together",
      "p": [
       "Many carpet cleaners in Leeds offer carpet and upholstery cleaning as one service, and some add rug cleaning and curtain cleaning. Booking a sofa cleaning service at the same time as your carpets is often cheaper than two visits. Ask which cleaning method and cleaning solution they use on each fabric, the expected drying time, and whether they treat stains before the main clean. Professional upholstery cleaners should also tell you if a fabric is not safe to clean."
+     ]
+    },
+    {
+     "h2": "Upholstery and carpet cleaning across Leeds",
+     "p": [
+      "Most upholstery cleaning in Leeds is done by carpet cleaning companies that also clean sofas, armchairs and curtains. A professional carpet cleaner will use professional equipment and explain the cleaning process before starting. Many cover homes across Leeds and West Yorkshire, and some also offer commercial carpet cleaning and office carpet cleaning. If you are moving out, ask about an end of tenancy carpet and sofa clean together, which is often cheaper than a separate deep clean of each. For the living room carpet and sofa together, ask for a combined price from carpet cleaners in Leeds who are based locally."
      ]
     },
     {
@@ -1291,7 +1303,7 @@
    "trade": "roofers",
    "slug": "flat-roofing",
    "name": "Flat roofing",
-   "title": "Flat Roof Leeds: Repairs and Replacement (2026)",
+   "title": "Flat Roof Leeds: Flat Roof Repair and Roofing Services (2026)",
    "description": "Flat roofs in Leeds: felt, EPDM rubber and GRP fibreglass compared, signs a flat roof needs replacing, typical 2026 costs and local roofers to call.",
    "h1": "Flat roof repairs and replacement in Leeds",
    "intro": "Flat roofs on extensions, garages and dormers are common across Leeds, and they are usually the first part of a roof to leak. Here are the main flat roof systems, when a repair is enough and when it is time for a new roof, and what replacement costs.",
@@ -1323,9 +1335,15 @@
      ]
     },
     {
-     "h2": "Choosing the right roofing company",
+     "h2": "Choosing a roofing service for flat roof repair",
      "p": [
       "Ask each roofer in Leeds which flat roof installation systems they fit, whether felt roofing, EPDM or GRP fibreglass, and what the guarantee is. A good roofing company will inspect the deck, gutters and edge details before giving a written quotation. Many roofers also handle pitched roof repairs, guttering and roof replacement, so it can be worth getting the whole roof checked on the same visit."
+     ]
+    },
+    {
+     "h2": "Flat roofing services in Leeds",
+     "p": [
+      "Flat roofing contractors in Leeds handle everything from small repairs to installing a flat roof from scratch. A roofing specialist will check the roofing material, the deck, the pitch or fall of the roof, the gutter and the drainage, because most roof problems on flat roofs come from water that cannot run off. Ask whether the installer is approved by the manufacturer of the system they fit, such as an EPDM or fibreglass roofing system. Many roofers offer roofing services in Leeds and across West Yorkshire, from west Leeds to the city centre, and some also do commercial roofing for garages, shops and offices."
      ]
     },
     {
@@ -1358,13 +1376,13 @@
    "trade": "builders",
    "slug": "house-extensions",
    "name": "House extensions",
-   "title": "House Extension Leeds: Planning, Costs and Builders (2026)",
+   "title": "House Extensions Leeds: Planning, Costs and Builders (2026)",
    "description": "House extensions in Leeds: single storey, two storey and side extensions, planning and building regulations, 2026 costs per m² and local builders.",
    "h1": "House extensions in Leeds",
    "intro": "A bigger kitchen, an extra bedroom or a ground floor shower room. An extension is often cheaper and less disruptive than moving house. Here are the main types of extension, what permissions you need in Leeds, what they cost in 2026 and how to pick a builder.",
    "sections": [
     {
-     "h2": "Types of extension",
+     "h2": "Types of house extension",
      "ul": [
       "<b>Single storey rear</b>: the most common, usually for a kitchen diner",
       "<b>Side return</b>: fills the narrow strip beside many Victorian and Edwardian terraces",
@@ -1374,7 +1392,7 @@
      ]
     },
     {
-     "h2": "Planning permission in Leeds",
+     "h2": "Planning a house extension in Leeds",
      "p": [
       "Some single storey rear extensions are permitted development and do not need a planning application, within size limits. Two storey, side and larger extensions usually need a householder application, which costs £548 in England. Leeds City Council also offers <a href=\"https://www.leeds.gov.uk/planning/planning-permission/pre-application-enquiry-service\" rel=\"noopener\" target=\"_blank\">pre application advice</a> for house extensions at £156 including VAT. See our <a href=\"/guides/planning-permission-cost/\">planning permission cost guide</a>."
      ]
@@ -1395,6 +1413,12 @@
      "h2": "Side extensions, loft conversions and more space",
      "p": [
       "A side extension or a single storey rear extension is the most popular way to add living space to a Leeds semi or terrace. A loft conversion can be cheaper per square metre if you need bedrooms rather than kitchen space, and many loft conversions fall under permitted development. Builders who work across Leeds, Bradford and the rest of West Yorkshire will often quote for both, so ask which gives you better value. Federation of Master Builders members are listed on the FMB website."
+     ]
+    },
+    {
+     "h2": "Your house extension project in Leeds",
+     "p": [
+      "A house extension in Leeds is one of the biggest home improvement projects most homeowners take on, so plan the extension project carefully. Think about how you will use the extra space: a kitchen extension, a bigger living area, a home office or a bedroom. Double storey extensions add the most space, while a single storey extension is quicker and often more cost effective. Ask each builder for an extension quote based on the same drawings, and look for high quality, bespoke work on recent extensions they have built. Building work on an extension usually needs building control sign off, which gives you peace of mind when you come to sell. Builders working across Leeds and West Yorkshire can usually show you a new extension close to your home."
      ]
     },
     {
@@ -1569,7 +1593,7 @@
    "trade": "pest-control",
    "slug": "rat-and-mice-control",
    "name": "Rat and mice control",
-   "title": "Rat Control Leeds: Rats and Mice Treatment (2026)",
+   "title": "Rat Control Leeds: Pest Control for Rats and Mice (2026)",
    "description": "Rat control in Leeds: signs of rats and mice, how treatment works over several visits, proofing, 2026 prices and Leeds pest control firms and the council.",
    "h1": "Rat and mice control in Leeds",
    "intro": "Scratching in the loft, droppings in a kitchen cupboard or holes chewed in food packets. Rats and mice are the most common pest problem in Leeds homes, especially in autumn and winter. Here are the signs, how treatment works and what it costs.",
@@ -1606,6 +1630,12 @@
      "h2": "Other pests and the council service",
      "p": [
       "Most pest control companies in Leeds deal with more than rats and mice. A typical pest control service also covers wasp nests, fleas, bed bugs, ants and squirrels in the loft. Leeds City Council offers pest control to residents and businesses in Leeds, and private pest control experts can often come sooner. For a wasp nest, see <a href=\"/trades/pest-control/wasp-nest-removal/\">wasp nest removal in Leeds</a>. If you rent, tell your landlord about any infestation straight away."
+     ]
+    },
+    {
+     "h2": "Pest control in Leeds for rats, mice and other pests",
+     "p": [
+      "Local pest control experts in Leeds deal with every type of pest. As well as a rodent problem, a pest control company will often treat a flea, bed bug, ant or squirrel problem, and wasp nests in summer. Most offer pest control across Leeds, from the city centre to the suburbs, and many also provide commercial pest control for shops, restaurants and offices, with discreet pest management on a regular contract. A professional pest controller will aim to eradicate the problem and proof the building, which gives you peace of mind. Many firms cover the whole of West Yorkshire."
      ]
     },
     {
