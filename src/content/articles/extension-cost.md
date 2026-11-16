@@ -31,6 +31,8 @@ faqs:
     a: "Often, because the foundations and roof are shared across two floors. The total is still much higher than a single storey."
   - q: "Do extension prices include VAT?"
     a: "Checkatrade's extension figures are before VAT. Most building firms are VAT registered, so check whether a quote includes the 20%."
+  - q: "How much does a single storey rear extension cost per m²?"
+    a: "Checkatrade suggests budgeting £1,800 to £3,000 per m² before VAT, so a 20m² single storey rear extension typically costs about £40,000 to £56,000."
 ---
 An extension is one of the biggest jobs most homeowners take on. The best way to budget is by floor area, then add the kitchen or bathroom, fees and VAT. This guide sets out what extensions cost in 2026, using two national cost guides.
 
@@ -90,6 +92,23 @@ Building regulations fees, structural engineer's calculations and, for work next
 ## Rear, side and double storey extensions
 
 A single storey rear extension is the most common type in the UK, and is often built under permitted development. A side extension suits many semi detached houses with a drive at the side, while a terraced house often has a side return to fill. A double storey extension adds space on two floors for a lower cost per square metre, but nearly always needs planning permission. Labour costs and construction costs are higher in London and the South East, so expect house extension costs in London to be above these UK averages.
+
+## How much does a single storey extension cost?
+
+A single storey extension is the most common type, and the easiest way to estimate the cost is per square metre. Based on Checkatrade's 2026 figures, mostly £1,800 to £3,000 per m² before VAT:
+
+| Single storey rear extension | Typical cost before VAT |
+|---|---|
+| 15m², a small kitchen or utility | £30,000 to £42,000 |
+| 20m², a typical kitchen diner | £40,000 to £56,000 |
+| 25m², a large kitchen and family room | £45,000 to £75,000 |
+| 30m², a wide rear or wraparound | £60,000 to £84,000 |
+
+A small rear extension on a terraced house is often at the lower end, while a wide extension on a semi detached house with bifold doors and roof lanterns is usually at the top end.
+
+## Kitchen extension costs
+
+Most rear extensions in Leeds are built for a bigger kitchen. Budget for the extension itself and then add the kitchen: Checkatrade suggests a new kitchen adds £15,000 to £35,000 to the total cost. Moving the sink, boiler or drains adds plumbing costs, and a large steel beam is usually needed where the extension opens into the house.
 
 ## Getting quotes in Leeds
 
