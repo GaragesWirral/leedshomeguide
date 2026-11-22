@@ -1,0 +1,77 @@
+status,week,week_commencing,trade,group,leeds_monthly_range_kp_8nov,leeds_monthly_searches_dfs,leeds_near_me_searches_dfs,priority,main_keyword,note
+live,live,live now,Plumbers,Repairs,100–1K,720,720,High,plumber leeds,Already on the site. 
+live,live,live now,Electricians,Repairs,100–1K,480,590,High,electrician leeds,Already on the site. 
+live,live,live now,Roofers,Repairs,100–1K,590,320,High,roofers leeds,Already on the site. 
+live,live,live now,Asbestos removal,Specialist,10–100,70,10,High,asbestos removal leeds,Already on the site. 
+live,1,16 Nov 2026,Locksmiths,Repairs,1K–10K,1900,880,High,locksmith leeds,
+live,1,16 Nov 2026,Skip hire,Cleaning & Services,1K–10K,1600,260,High,skip hire leeds,
+live,1,16 Nov 2026,Carpet cleaning,Cleaning & Services,unknown,720,110,High,carpet cleaning leeds,
+live,2,23 Nov 2026,Asbestos surveys,Specialist,10–100,40,10,High,asbestos survey leeds,Pulled forward: links to YAS.
+live,2,23 Nov 2026,Removals,Cleaning & Services,100–1K,720,40,High,removals leeds,
+live,2,23 Nov 2026,Cleaners (domestic),Cleaning & Services,100–1K,480,110,High,cleaners leeds,
+live,3,30 Nov 2026,"Damp proofing (damp, mould, woodworm)",Specialist,unknown,no data,no data,High,damp proofing leeds,"Pulled forward: Leeds has a lot of old stone terraces and back-to-backs. Google gives no volume for damp terms (the 8 Nov export didn't either), so demand is unknown, not zero."
+live,3,30 Nov 2026,Pest control,Cleaning & Services,100–1K,480,110,High,pest control leeds,
+live,3,30 Nov 2026,Window cleaners,Cleaning & Services,unknown,480,70,High,window cleaners leeds,
+live,4,7 Dec 2026,Garage removal and demolition,Specialist,unknown,20,10,High,garage removal leeds,Pulled forward: links to your garage removal pages.
+live,4,7 Dec 2026,Handyman services,Repairs,unknown,390,140,High,handyman leeds,
+live,4,7 Dec 2026,Rubbish removal and house clearance,Cleaning & Services,unknown,480,40,High,rubbish removal leeds,
+live,5,14 Dec 2026,Painters and decorators,Improvements,100–1K,390,110,High,painter and decorator leeds,
+live,5,14 Dec 2026,Gardeners,Outdoor,unknown,320,170,Medium,gardeners leeds,
+live,5,14 Dec 2026,Plasterers,Improvements,100–1K,320,140,Medium,plasterer leeds,
+live,6,21 Dec 2026,Man and van,Cleaning & Services,unknown,320,110,Medium,man and van leeds,
+live,6,21 Dec 2026,Blinds and shutters,Improvements,unknown,320,90,Medium,blinds leeds,'blinds leeds' is mostly shops that fit.
+live,6,21 Dec 2026,Builders,Improvements,100–1K,260,140,Medium,builders leeds,
+todo,7,28 Dec 2026,Self storage,Cleaning & Services,1K–10K,1300,210,Medium,storage leeds,"Real demand, but big chains dominate and few will want the badge, so placed with the Medium trades."
+todo,7,28 Dec 2026,Carpet fitters,Improvements,unknown,320,70,Medium,carpet fitters leeds,"The Leeds figure includes 'carpets leeds', which is mostly carpet shops (most of them fit too)."
+todo,7,28 Dec 2026,Appliance repair,Repairs,unknown,260,90,Medium,washing machine repair leeds,
+todo,8,4 Jan 2027,Joiners and carpenters,Improvements,unknown,210,140,Medium,joiner leeds,
+todo,8,4 Jan 2027,Gas and heating engineers (boilers),Repairs,10–100,210,90,Medium,gas engineer leeds,Must be on the Gas Safe Register. The New boiler guide links here once this page is live.
+todo,8,4 Jan 2027,Landscapers,Outdoor,100–1K,260,40,Medium,landscaping leeds,
+todo,9,11 Jan 2027,Architects and architectural technicians,Improvements,unknown,210,50,Medium,architects leeds,
+todo,9,11 Jan 2027,Tree surgeons,Outdoor,unknown,170,90,Medium,tree surgeon leeds,
+todo,9,11 Jan 2027,Flooring fitters,Improvements,unknown,140,110,Medium,flooring leeds,
+todo,10,18 Jan 2027,Fencing,Outdoor,100–1K,170,50,Medium,fencing leeds,
+todo,10,18 Jan 2027,Patios and paving,Outdoor,unknown,210,10,Medium,patio leeds,
+todo,10,18 Jan 2027,Garden rooms and sheds,Outdoor,unknown,210,10,Medium,garden rooms leeds,
+todo,11,25 Jan 2027,Gutter cleaning,Cleaning & Services,100–1K,170,50,Medium,gutter cleaning leeds,
+todo,11,25 Jan 2027,Structural engineers,Specialist,unknown,170,50,Medium,structural engineer leeds,
+todo,11,25 Jan 2027,Oven cleaning,Cleaning & Services,unknown,140,70,Medium,oven cleaning leeds,
+todo,12,1 Feb 2027,Chimney sweeps,Cleaning & Services,unknown,140,70,Medium,chimney sweep leeds,
+todo,12,1 Feb 2027,Conservatories,Improvements,unknown,170,20,Medium,conservatories leeds,
+todo,12,1 Feb 2027,Garage doors,Repairs,unknown,110,70,Medium,garage doors leeds,
+todo,13,8 Feb 2027,Windows and doors (double glazing),Improvements,10–100,140,40,Medium,double glazing leeds,
+todo,13,8 Feb 2027,Fitted wardrobes,Improvements,unknown,140,30,Medium,fitted wardrobes leeds,
+todo,13,8 Feb 2027,Kitchen fitters,Improvements,100–1K,110,50,Medium,kitchen fitters leeds,
+todo,14,15 Feb 2027,Loft conversions,Improvements,100–1K,140,20,Medium,loft conversion leeds,
+todo,14,15 Feb 2027,Tilers,Improvements,unknown,90,50,Low,tiler leeds,
+todo,14,15 Feb 2027,Drainage and blocked drains,Repairs,unknown,90,40,Low,blocked drains leeds,
+todo,15,22 Feb 2027,Scaffolding,Specialist,unknown,90,40,Low,scaffolding leeds,
+todo,15,22 Feb 2027,"Driveways (block paving, resin, tarmac)",Outdoor,100–1K,110,10,Low,driveway leeds,
+todo,15,22 Feb 2027,Guttering repair,Repairs,unknown,70,40,Low,guttering leeds,
+todo,16,1 Mar 2027,Solar panel installers,Improvements,10–100,90,10,Low,solar panels leeds,
+todo,16,1 Mar 2027,Artificial grass,Outdoor,unknown,90,10,Low,artificial grass leeds,
+todo,16,1 Mar 2027,Turfing and lawn care,Outdoor,unknown,90,10,Low,lawn care leeds,
+todo,17,8 Mar 2027,Pressure washing and driveway cleaning,Cleaning & Services,unknown,90,10,Low,driveway cleaning leeds,
+todo,17,8 Mar 2027,Glaziers and window repair,Repairs,unknown,70,20,Low,glazier leeds,
+todo,17,8 Mar 2027,Burglar alarms and CCTV,Improvements,unknown,70,20,Low,burglar alarm leeds,
+todo,18,15 Mar 2027,Bathroom fitters,Improvements,100–1K,30,50,Low,bathroom fitters leeds,
+todo,18,15 Mar 2027,Insulation installers,Improvements,unknown,70,10,Low,insulation leeds,
+todo,18,15 Mar 2027,End of tenancy cleaning,Cleaning & Services,unknown,70,10,Low,end of tenancy cleaning leeds,
+todo,19,22 Mar 2027,Bricklayers,Improvements,unknown,40,20,Low,bricklayer leeds,
+todo,19,22 Mar 2027,EV charger installers,Improvements,unknown,40,20,Low,ev charger installation leeds,
+todo,19,22 Mar 2027,Kitchen worktops,Improvements,unknown,30,30,Low,kitchen worktops leeds,
+todo,20,29 Mar 2027,EPC assessors,Specialist,unknown,50,10,Low,epc leeds,
+todo,20,29 Mar 2027,Repointing and stone cleaning,Specialist,unknown,50,10,Low,repointing leeds,
+todo,20,29 Mar 2027,Garage conversions,Improvements,10–100,30,10,Low,garage conversion leeds,
+todo,21,5 Apr 2027,Decking,Outdoor,unknown,30,10,Low,decking leeds,
+todo,21,5 Apr 2027,TV aerial installers,Cleaning & Services,unknown,30,10,Low,aerial installation leeds,
+todo,21,5 Apr 2027,Building surveyors (RICS),Specialist,unknown,20,10,Low,building surveyor leeds,
+todo,22,12 Apr 2027,Cellar and basement conversions,Specialist,unknown,20,10,Low,cellar conversion leeds,
+todo,22,12 Apr 2027,Chimney repair,Repairs,unknown,10,10,Low,chimney repair leeds,
+todo,22,12 Apr 2027,Rendering,Improvements,unknown,no data,20,Low,rendering leeds,"Google merges 'rendering leeds' with other meanings, so the figure is from 'near me' only."
+todo,23,19 Apr 2027,Heat pump installers,Improvements,10–100,10,10,Low,heat pump leeds,
+todo,23,19 Apr 2027,Japanese knotweed removal,Specialist,unknown,10,10,Low,japanese knotweed removal leeds,
+todo,23,19 Apr 2027,Party wall surveyors,Specialist,unknown,10,10,Low,party wall surveyor leeds,
+todo,24,26 Apr 2027,Sash window repair,Specialist,unknown,10,10,Low,sash windows leeds,
+todo,24,26 Apr 2027,Waterproofing and tanking,Specialist,unknown,10,10,Low,tanking leeds,
+todo,24,26 Apr 2027,Septic tanks and cesspits,Specialist,unknown,unknown,unknown,Low,septic tank emptying leeds,Added 22 Nov 2026 at Joseph's request. Demand mainly rural Leeds (homes off mains sewer). Volume not checked yet.
