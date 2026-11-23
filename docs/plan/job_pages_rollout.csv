@@ -23,10 +23,10 @@ live,6,21 Dec 2026,House extensions,Builders,21 Dec 2026,10–100,260,High,house
 live,6,21 Dec 2026,EICR and landlord electrical certificates,Electricians,live now,unknown,20,Low,eicr leeds,
 live,6,21 Dec 2026,Deep cleaning,Cleaners (domestic),23 Nov 2026,unknown,20,Low,deep cleaning leeds,
 live,6,21 Dec 2026,Rat and mice control,Pest control,30 Nov 2026,unknown,20,Low,rat control leeds,
-todo,7,28 Dec 2026,Leak repair,Plumbers,live now,unknown,20,Low,leak detection leeds,
-todo,7,28 Dec 2026,Lock change / lock replacement,Locksmiths,16 Nov 2026,unknown,20,Low,lock change leeds,
-todo,7,28 Dec 2026,Hedge cutting,Gardeners,14 Dec 2026,unknown,20,Low,hedge cutting leeds,
-todo,7,28 Dec 2026,Asbestos garage roof removal,Asbestos removal,live now,10–100,10,High,asbestos garage roof removal leeds,We already have a cost guide for this (/guides/asbestos-garage-roof-removal-leeds/). Link the two pages together.
+live,7,28 Dec 2026,Leak repair,Plumbers,live now,unknown,20,Low,leak detection leeds,
+live,7,28 Dec 2026,Lock change / lock replacement,Locksmiths,16 Nov 2026,unknown,20,Low,lock change leeds,
+live,7,28 Dec 2026,Hedge cutting,Gardeners,14 Dec 2026,unknown,20,Low,hedge cutting leeds,
+live,7,28 Dec 2026,Asbestos garage roof removal,Asbestos removal,live now,10–100,10,High,asbestos garage roof removal leeds,We already have a cost guide for this (/guides/asbestos-garage-roof-removal-leeds/). Link the two pages together.
 todo,8,4 Jan 2027,Boiler service,Gas and heating engineers (boilers),4 Jan 2027,unknown,210,High,boiler service leeds,
 todo,8,4 Jan 2027,Boiler repair,Gas and heating engineers (boilers),4 Jan 2027,unknown,110,Medium,boiler repair leeds,
 todo,8,4 Jan 2027,Boiler installation,Gas and heating engineers (boilers),4 Jan 2027,10–100,70,Medium,boiler installation leeds,

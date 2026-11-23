@@ -36,6 +36,10 @@
      "listing": "plasterers"
     },
     {
+     "name": "Appliance repair",
+     "listing": "appliance-repair"
+    },
+    {
      "name": "Glaziers"
     }
    ]
@@ -67,6 +71,10 @@
     {
      "name": "Blinds and shutters",
      "listing": "blinds"
+    },
+    {
+     "name": "Carpet fitters",
+     "listing": "carpet-fitters"
     },
     {
      "name": "Joiners and carpenters"
@@ -142,6 +150,10 @@
     {
      "name": "Pest control",
      "listing": "pest-control"
+    },
+    {
+     "name": "Self storage",
+     "listing": "self-storage"
     },
     {
      "name": "Gutter cleaning"
