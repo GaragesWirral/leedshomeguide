@@ -1,5 +1,5 @@
 ---
-title: "Storage Unit Cost Leeds 2026: Self Storage Prices by Size"
+title: "Storage Unit Cost 2026: Self Storage Prices in the UK and Leeds"
 h1: "Storage unit cost in Leeds: self storage prices for 2026"
 description: "How much a storage unit costs in 2026: weekly, monthly and yearly prices by size, Leeds store offers, hidden extras and how to pick the right size of unit."
 kicker: "Costs"
@@ -36,7 +36,7 @@ faqs:
 ---
 Self storage is priced by the size of the unit and how long you need it. This guide sets out what each size costs in 2026, what Leeds stores are offering and the extras that are easy to miss.
 
-## How much does a storage unit cost?
+## How much does a storage unit cost? Self storage prices by unit size
 
 | Unit size | Per week | Per month | Per year | Roughly holds |
 |---|---|---|---|---|
@@ -47,7 +47,7 @@ Self storage is priced by the size of the unit and how long you need it. This gu
 
 Figures are UK averages from Checkatrade's self storage cost guide, updated April 2026. Checkatrade notes that London costs more than the North of England.
 
-## Storage unit prices in Leeds
+## Self storage prices in Leeds
 
 Leeds has big national stores and local firms, and most run a deal for new customers. When we read the store pages in November 2026, Safestore York Road offered the first month for £1 or 50% off for 8 weeks, and The Store Room in Millshaw offered 50% off for 12 weeks, plus single item storage from £1.25 a week. Offers change often, so compare the price you will pay once the offer ends, not just the first month.
 
@@ -59,13 +59,25 @@ Leeds has big national stores and local firms, and most run a deal for new custo
 - **Notice period.** Check how much notice you need to give before you move out.
 - **Access hours.** Out of hours access may cost more or need booking.
 
-## How to pick the right size
+## Choosing the right storage unit size
 
 Measure your largest items first, such as a sofa, wardrobe or bed frame. Many stores have a size guide or will suggest a size on the phone. A unit that is too small means paying to move up, while one too big wastes money every week, so it is worth asking whether you can change size without a fee.
 
-## What the industry figures say
+## Average self storage prices across the UK
 
 The Self Storage Association UK's annual report with Cushman & Wakefield puts UK self storage turnover at about £1.3 billion, with average revenue of about £27.40 per square foot a year before VAT and occupancy of about 74.5%. Household customers now make up about three quarters of users, often during a house move or to free up a spare room.
+
+## Why storage prices vary
+
+Self storage prices vary for a handful of reasons, so two quotes for the same unit size can be quite different:
+
+- **Location.** Checkatrade notes that storage in London costs more than in the North, and prices also differ between stores in the same city.
+- **Unit size.** A larger unit costs more in total, but the price per square foot can be lower, so ask for both when you compare.
+- **Length of stay.** Some storage providers offer a better monthly rate for longer stays, so say how long you need the unit.
+- **Type of storage.** Business storage, student storage over the summer and single item storage are often priced differently from a standard room.
+- **Extras.** Insurance, padlocks and access outside normal hours all add to the monthly cost.
+
+The best way to compare storage facilities is to get a self storage quote from two or three Leeds stores for the same unit size and length of stay, and to ask for the price once any offer ends. Being clear about your storage needs and the items in storage stops you paying for space you do not use.
 
 ## Moving your things into storage
 
